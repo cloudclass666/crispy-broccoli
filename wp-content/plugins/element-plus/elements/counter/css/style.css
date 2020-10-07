@@ -1,0 +1,372 @@
+/**
+ * Element Name: Counter
+ */
+.counter-number {
+    padding-bottom: 0;
+}
+
+/**
+ * Style 1
+ */
+.eplus-counter-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.eplus-counter-1 .counter-col {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%
+}
+
+.eplus-counter-1 .counter-single {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.eplus-counter-1 .counter-single i {
+    font-size: 60px;
+    line-height: 1;
+    color: #444;
+    display: inline-block;
+    margin-bottom: 18px;
+}
+
+.eplus-counter-1 .counter-number {
+    font-size: 46px;
+    line-height: 1.4;
+    color: #F1C40F;
+    margin-bottom: 13px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.eplus-counter-1 .counter-title {
+    font-size: 22px;
+    line-height: 1.4;
+    color: #999;
+    margin-bottom: 0;
+    letter-spacing: 0;
+}
+
+/**
+* Style 2
+*/
+
+.eplus-counter-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.eplus-counter-2 .counter-col {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%
+}
+
+.eplus-counter-2 .counter-single {
+    text-align: center;
+    padding: 40px 30px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.eplus-counter-2 .counter-col:nth-child(even) .counter-single {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.eplus-counter-2 .counter-col:first-child .counter-single {
+    border-radius: 8px 0 0 8px;
+}
+
+.eplus-counter-2 .counter-col:last-child .counter-single {
+    border-radius: 0 8px 8px 0;
+}
+
+.eplus-counter-2 .counter-single i {
+    font-size: 52px;
+    line-height: 1;
+    color: #444;
+    display: inline-block;
+    margin-bottom: 17px;
+}
+
+.eplus-counter-2 .counter-number {
+    font-size: 40px;
+    line-height: 1.4;
+    color: #E91E63;
+    margin-bottom: 9px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.eplus-counter-2 .counter-title {
+    font-size: 22px;
+    line-height: 1.4;
+    color: #999;
+    margin-bottom: 0;
+    letter-spacing: 0;
+}
+
+/**
+* Style 3
+*/
+
+.eplus-counter-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.eplus-counter-3 .counter-col {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.eplus-counter-3 .counter-single {
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    padding: 24%;
+}
+
+.eplus-counter-3 .counter-single > svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.eplus-counter-3 .counter-single i {
+    font-size: 52px;
+    line-height: 1;
+    color: #222;
+    display: inline-block;
+    margin-bottom: 17px;
+}
+
+.eplus-counter-3 .counter-number {
+    font-size: 40px;
+    line-height: 1.4;
+    color: #444;
+    margin-bottom: 9px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.eplus-counter-3 .counter-title {
+    font-size: 22px;
+    line-height: 1.4;
+    color: #444;
+    margin-bottom: 0;
+    letter-spacing: 0;
+}
+
+
+/**
+* Style 4
+*/
+
+.eplus-counter-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.eplus-counter-4 .counter-col {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.eplus-counter-4 .counter-single {
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    padding: 27%;
+}
+
+.eplus-counter-4 .counter-single > svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.eplus-counter-4 .counter-single i {
+    font-size: 52px;
+    line-height: 1;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 17px;
+}
+
+.eplus-counter-4 .counter-number {
+    font-size: 40px;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 9px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.eplus-counter-4 .counter-title {
+    font-size: 22px;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 0;
+    letter-spacing: 0;
+}
+
+
+/**
+* Style 5
+*/
+
+.eplus-counter-5 .counter-single {
+    margin-bottom: 30px;
+}
+
+.eplus-counter-5 .has-icon {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.eplus-counter-5 .has-icon .counter-icon {
+    position: relative;
+    margin-right: 15px;
+    top: 6px;
+    left: -10px;
+}
+
+.eplus-counter-5 .has-icon .counter-icon > i {
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 16px);
+    font-size: 40px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.eplus-counter-5 .counter-number {
+    font-size: 40px;
+    line-height: 1.4;
+    color: #444;
+    margin-bottom: 9px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.eplus-counter-5 .counter-title {
+    font-size: 22px;
+    line-height: 1.4;
+    color: #444;
+    margin-bottom: 0;
+    letter-spacing: 0;
+}
+
+
+/**
+* Style 6
+*/
+
+.eplus-counter-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.eplus-counter-6 .counter-col {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.eplus-counter-6 .counter-single {
+    border-radius: 5%;
+    margin: 15px 15px;
+}
+
+.eplus-counter-6 .counter-single {
+    text-align: center;
+    padding: 15px 0 10px 0 ;
+}
+
+.eplus-counter-6 .counter-single i {
+    font-size: 52px;
+    line-height: 1.8;
+    color: #444;
+    display: inline-block;
+}
+
+.eplus-counter-6 .counter-icon {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.eplus-counter-6 .counter-number {
+    font-size: 40px;
+    line-height: 1.4;
+    color: #E91E63;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.eplus-counter-6 .counter-title {
+    font-size: 22px;
+    line-height: 1.4;
+    color: #999;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+
+/**
+* Responsive
+*/
+
+@media ( max-width: 991px ) {
+    .eplus-counter-3 .counter-col,
+    .eplus-counter-4 .counter-col {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media ( max-width: 560px ) {
+    .eplus-counter-3 .counter-col,
+    .eplus-counter-4 .counter-col {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

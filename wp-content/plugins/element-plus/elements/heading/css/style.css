@@ -1,0 +1,48 @@
+/**
+ * Element Name: Heading
+ */
+
+.eplus-heading-1 {
+    margin-bottom: 30px;
+}
+
+.eplus-heading-1 .eplus-sub-title {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #999;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+
+.eplus-heading-1 .eplus-title {
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin-bottom: 11px;
+}
+
+
+.eplus-heading-1 .eplus-short-desc {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #999;
+    max-width: 600px;
+}
+
+.eplus-heading-center {
+    text-align: center;
+}
+
+.eplus-heading-center .eplus-short-desc {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.eplus-heading-right {
+    text-align: right;
+}
+
+.eplus-heading-right .eplus-short-desc {
+    margin-left: auto;
+}

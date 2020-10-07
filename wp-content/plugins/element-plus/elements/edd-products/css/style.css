@@ -1,0 +1,234 @@
+/**
+ * Element Name: Product Grid
+ */
+
+[class*="eplus-edd-products"] .edd-product-title {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+[class*="eplus-edd-products"] .edd_price {
+    background: #000;
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 19px;
+    position: absolute;
+    z-index: 1;
+    top: -18px;
+    right: 18px;
+    overflow: hidden;
+}
+
+[class*="eplus-edd-products"] .edd-product-content {
+    margin-bottom: 20px;
+}
+
+[class*="eplus-edd-products"] .edd-product-content > p:last-child {
+    margin-bottom: 0;
+}
+
+[class*="eplus-edd-products"] .edd-product-item.no-product-thumb {
+    margin-top: 17px;
+}
+
+[class*="eplus-edd-products"] .edd-product-item .edd-submit.button {
+    border: 0;
+    padding: 13px 18px;
+    line-height: 1;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    min-width: 136px;
+}
+
+[class*="eplus-edd-products"] .edd_download_purchase_form .edd_price_options {
+    margin: 0 0 30px;
+}
+
+[class*="eplus-edd-products"] .edd_download_purchase_form .edd_price_options li + li {
+    margin-top: 10px;
+}
+
+[class*="eplus-edd-products"] .edd_price_options ul li > label {
+    padding: 0 0 0 20px;
+}
+
+[class*="eplus-edd-products"] .edd_price_options input {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+[class*="eplus-edd-products"] .edd_price_options input:before {
+    content: '';
+    left: 0;
+    top: 12px;
+    position: absolute;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #d2d8dd;
+    transition: 0.3s;
+}
+
+[class*="eplus-edd-products"] .edd_price_options input[type="radio"]:before {
+    border-radius: 50%;
+}
+
+[class*="eplus-edd-products"] .edd_price_options input:hover:before,
+[class*="eplus-edd-products"] .edd_price_options input:checked:before {
+    background: #0586ec;
+    border-color: #0586ec;
+}
+
+[class*="eplus-edd-products"] .edd_price_options input:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    width: 5px;
+    height: 8px;
+    border: solid white;
+    z-index: 1;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg) translateY(-50%);
+    transform: rotate(45deg) translateY(-50%);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+[class*="eplus-edd-products"] .edd_price_options input:checked:after {
+    opacity: 1;
+}
+
+[class*="eplus-edd-products"] .edd-cart-added-alert {
+    margin: 15px 0 -7px;
+    position: relative;
+}
+
+/**
+* Style 1
+*/
+
+.eplus-edd-products-1 .edd-product-item {
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 30px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.eplus-edd-products-1 .edd-product-body {
+    position: relative;
+    padding: 20px 30px 30px;
+}
+
+.eplus-edd-products-1 .product-button > a {
+    margin-top: 20px;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    background: #f4524d;
+    padding: 13px 18px;
+    color: #fff;
+    transition: 0.6s;
+    position: relative;
+}
+
+.eplus-edd-products-1 .product-button > a > svg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0.1;
+}
+
+.eplus-edd-products-1 .edd-product-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+
+/**
+* Style 2
+*/
+
+.eplus-edd-products-2 .edd-product-item {
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 30px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.eplus-edd-products-2 .edd-product-body {
+    position: relative;
+    padding: 25px 30px 30px;
+}
+
+.eplus-edd-products-2 .edd_download_purchase_form .edd_price_options li {
+    display: inline-block;
+    padding: 0;
+    margin: 0 15px 5px 0;
+    text-align: left;
+    min-width: 45%;
+}
+
+.eplus-edd-products-2 .edd-product-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+/**
+* Style 3
+*/
+
+.eplus-edd-products-3 .edd-product-item {
+    background: #fff;
+    margin-bottom: 50px;
+    position: relative;
+    transition: 0.3s;
+    border: 4px solid #e6e6e6;
+    padding: 15px;
+}
+
+.eplus-edd-products-3 .edd-product-item .edd-product-image {
+    margin: -15px -15px 0;
+}
+
+.eplus-edd-products-3 .edd-product-body {
+    position: relative;
+    padding: 15px 20px 10px 10px;
+}
+
+.eplus-edd-products-3 .edd-product-body:before {
+    position: absolute;
+    left: 50%;
+    top: -36px;
+    content: '';
+    border: 20px solid transparent;
+    border-bottom-color: #fff;
+    transform: translateX(-50%);
+}
+
+.eplus-edd-products-3 .no-product-thumb .edd_price {
+    top: -36px;
+}
+
+.eplus-edd-products-3 .no-product-thumb .edd-product-body {
+    padding-top: 0;
+}
+
+.eplus-edd-products-3 .no-product-thumb .edd-product-body:before {
+    display: none;
+}
+
+.eplus-edd-products-3 .edd-product-item:hover {
+    transform: translateY(-6px);
+}

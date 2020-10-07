@@ -1,0 +1,774 @@
+/**
+ * Element Name: Info Box
+ */
+
+.eplus-info-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.eplus-info-box .eplus-info-title {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    letter-spacing: 0;
+    padding: 0;
+}
+
+.eplus-info-desc > p {
+    margin-bottom: 0 !important;
+}
+
+.margin-bottom-remove {
+    margin-bottom: 0 !important;
+}
+
+.icon-wrap > i {
+    display: inline-block;
+}
+
+/**
+ * Style 1
+ */
+
+.eplus-info-box-1 {
+    text-align: center;
+}
+
+.eplus-info-box-1 .icon-wrap {
+    margin-bottom: 20px;
+}
+
+.eplus-info-box-1 .icon-wrap > i {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 32px;
+    text-align: center;
+    color: #E91E63;
+    background-color: rgba(233, 30, 99, 0.1);
+    border-radius: 50%;
+}
+
+.eplus-info-box-1 .eplus-info-btn {
+    display: inline-block;
+    background-color: #eee;
+    color: #777;
+    padding: 4px 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.eplus-info-box-1 .eplus-info-btn:hover {
+    background-color: rgba(233, 30, 99, 0.1);
+    color: #E91E63;
+}
+
+
+/**
+ * Style 2
+ */
+
+.eplus-info-box-2 {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.eplus-info-box-2.has-info-box-link {
+    padding: 30px 30px 40px;
+}
+
+.eplus-info-box-2 .icon-wrap {
+    margin-bottom: 20px;
+    margin-top: -60px;
+}
+
+.eplus-info-box-2 .icon-wrap > i {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    line-height: 62px;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(253, 121, 168);
+    border-radius: 5px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 1px #fd79a8;
+    transition: 0.3s;
+}
+
+.eplus-info-box-2 .eplus-info-btn {
+    position: absolute;
+    bottom: -25px;
+    left: 45%;
+    transform: translateX(-50%);
+    display: inline-block;
+    background-color: #FD79A8;
+    height: 50px;
+    width: 50px;
+    line-height: 54px;
+    border-radius: 50%;
+    margin-top: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.eplus-info-box-2:hover,
+.eplus-info-box-2.eplus-featured {
+    box-shadow: 0 0 25px rgba(253, 121, 168, 0.08);
+    background-color: #fff;
+}
+
+.eplus-info-box-2:hover .icon-wrap > i,
+.eplus-info-box-2.eplus-featured .icon-wrap > i {
+    background-color: rgb(253, 121, 168);
+    border-radius: 50%;
+}
+
+.eplus-info-box-2:hover .eplus-info-btn,
+.eplus-info-box-2.eplus-featured .eplus-info-btn {
+    opacity: 1;
+    left: 50%;
+}
+
+
+/**
+ * Style 3
+ */
+
+.eplus-info-box-3 {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.eplus-info-box-3.has-info-box-link {
+    padding: 30px 30px 40px;
+}
+
+.eplus-info-box-3 .icon-wrap {
+    margin-bottom: 30px;
+    margin-top: -60px;
+}
+
+.eplus-info-box-3 .icon-wrap > i {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    text-align: center;
+    color: #757575;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    transition: 0.3s;
+    transform: rotate(45deg);
+}
+
+.eplus-info-box-3 .icon-wrap > i:before {
+    transform: rotate(-45deg);
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.eplus-info-box-3 .eplus-info-btn {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    height: 50px;
+    width: 50px;
+    line-height: 52px;
+    border-radius: 50%;
+    margin-top: 0;
+    transition: 0.3s;
+}
+
+.eplus-info-box-3 .eplus-info-btn > svg path {
+    fill: #757575;
+}
+
+
+.eplus-info-box-3:hover .eplus-info-btn > svg {
+    animation: animIbtn linear 0.35s infinite;
+    animation-direction: alternate-reverse;
+}
+
+.eplus-info-box-3:hover .icon-wrap > i:before {
+    animation: ifb3Icon 0.5s infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes animIbtn {
+    from {
+        position: relative;
+        left: -6px;
+        opacity: 0.4;
+    }
+    to {
+        position: relative;
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes ifb3Icon {
+    0% {
+        transform: scale(0.8) rotate(-45deg);
+    }
+    100% {
+        transform: scale(1.05) rotate(-45deg);
+    }
+}
+
+
+.eplus-info-box-3 .typcn:before {
+    height: auto;
+}
+
+/**
+ * Style 4
+ */
+
+.eplus-info-box-4 {
+    text-align: center;
+    padding: 120px 30px;
+    background-color: #fff;
+    border-radius: 500px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.05);
+    transition: 0.4s;
+}
+.eplus-info-box-4 .icon-wrap {
+    margin-bottom: 20px;
+}
+.eplus-info-box-4 .icon-wrap > i {
+    display: inline-block;
+    font-size: 54px;
+    line-height: 64px;
+    text-align: center;
+    color: #5a5a5a;
+}
+.eplus-info-box-4 .icon-wrap > i:before {
+    display: inline-block;
+}
+.eplus-info-box-4 .eplus-info-btn {
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    width: 60px;
+    line-height: 65px;
+    border-radius: 50%;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.eplus-info-box-4 .eplus-info-btn > svg path {
+    fill: #757575;
+}
+
+.eplus-info-box-4 .eplus-info-btn:hover > svg path {
+    fill: #70A1FF;
+}
+
+.eplus-info-box-4:hover {
+    background-color: #70A1FF;
+}
+.eplus-info-box-4:hover *,
+.eplus-info-box-4:hover .icon-wrap > i {
+    color: #fff;
+}
+
+
+/**
+ * Style 5
+ */
+
+.eplus-info-box-5 {
+    text-align: center;
+    padding: 40px 70px;
+    background-color: #9C88FF;
+    border-radius: 500px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.05);
+    transition: 0.4s;
+}
+.eplus-info-box-5 .eplus-info-title,
+.eplus-info-box-5 .eplus-info-desc p {
+    color: #fff;
+}
+.eplus-info-box-5 .icon-wrap {
+    margin-bottom: 20px;
+}
+.eplus-info-box-5 .icon-wrap > i {
+    display: inline-block;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #fff;
+}
+.eplus-info-box-5 .eplus-info-btn {
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    width: 60px;
+    line-height: 65px;
+    border-radius: 50%;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.eplus-info-box-5 .eplus-info-btn > svg path {
+    fill: #757575;
+}
+
+.eplus-info-box-5 .eplus-info-btn:hover > svg path {
+    fill: #9C88FF;
+}
+
+/**
+ * Style 6
+ */
+
+.eplus-info-box-6 {
+    position: relative;
+    text-align: center;
+    padding: 50px 30px 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.05);
+    transition: 0.4s;
+}
+
+.eplus-info-box-6 .info-count {
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 26px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+.eplus-info-box-6 .icon-wrap {
+    margin-bottom: 20px;
+}
+.eplus-info-box-6 .icon-wrap > i {
+    display: inline-block;
+    font-size: 54px;
+    line-height: 64px;
+    text-align: center;
+    color: #5a5a5a;
+}
+.eplus-info-box-6 .eplus-info-btn {
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    width: 60px;
+    line-height: 65px;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.eplus-info-box-6 .eplus-info-btn > svg path {
+    fill: #757575;
+}
+
+.eplus-info-box-6 .eplus-info-btn:hover > svg path {
+    fill: #70A1FF;
+}
+
+.eplus-info-box-6:hover {
+    box-shadow: 0 20px 60px -5px rgba(9, 30, 66, .3);
+    transform: translateY(-4px);
+}
+
+/**
+ * Style 7
+ */
+
+.eplus-info-box-7 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.eplus-info-box-7 .icon-wrap {
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+
+.eplus-info-box-7 .icon-wrap > i {
+    font-size: 42px;
+    text-align: center;
+    color: #FF9800;
+    line-height: 40px;
+}
+
+.eplus-info-box-7 .eplus-info-btn {
+    display: inline-block;
+    background-color: #eee;
+    color: #777;
+    padding: 5px 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.eplus-info-box-7 .eplus-info-btn:hover {
+    background-color: #FF9800;
+    color: #fff;
+}
+
+
+/**
+ * Style 8
+ */
+
+.eplus-info-box-8 {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.eplus-info-box-8.has-info-box-link {
+    padding: 30px 30px 60px;
+}
+
+.eplus-info-box-8 .icon-wrap {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.eplus-info-box-8 .icon-wrap > i {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-size: 28px;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+}
+
+.eplus-info-box-8 .eplus-info-btn {
+    position: absolute;
+    bottom: -25px;
+    left: 45%;
+    transform: translateX(-50%);
+    display: inline-block;
+    background-color: #43d6e0;
+    height: 50px;
+    width: 50px;
+    line-height: 54px;
+    border-radius: 50%;
+    margin-top: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.eplus-info-box-8:hover,
+.eplus-info-box-8.eplus-featured {
+    box-shadow: 0 0 25px rgba(253, 121, 168, 0.08);
+    background-color: #fff;
+}
+
+.eplus-info-box-8:hover .eplus-info-btn,
+.eplus-info-box-8.eplus-featured .eplus-info-btn {
+    opacity: 1;
+    left: 50%;
+}
+
+
+/**
+ * Style 9
+ */
+
+.eplus-info-box-9 {
+    background-color: #fff;
+    position: relative;
+    padding: 60px 30px 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+}
+
+.eplus-info-box-9.has-info-box-link {
+    padding-bottom: 60px;
+}
+
+.eplus-info-box-9 .icon-wrap {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 25px;
+    z-index: 10;
+}
+
+.eplus-info-box-9 .icon-wrap:before {
+    content: '';
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    width: 54px;
+    height: 54px;
+    background: #00d8ff;
+    z-index: -1;
+    border-radius: 4px;
+    transform: rotate(18deg);
+    opacity: 0.15;
+}
+
+.eplus-info-box-9 .icon-wrap > i {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 4px;
+    font-size: 24px;
+    color: #fff;
+    background-image: linear-gradient( -130deg, #44C9E1 27.9%, #ACE8F3 84.2% );
+}
+
+.eplus-info-box-9 .eplus-info-btn {
+    position: absolute;
+    bottom: -25px;
+    right: 40px;
+    text-align: center;
+    display: inline-block;
+    background-color: #43d6e0;
+    height: 50px;
+    width: 50px;
+    line-height: 54px;
+    border-radius: 50%;
+    margin-top: 0;
+}
+
+
+/**
+ * Style 10
+ */
+
+.eplus-info-box-10 {
+    background-color: #fff;
+    position: relative;
+    padding: 40px 30px;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.eplus-info-box-10 .curve-shape {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    z-index: -1;
+}
+
+.eplus-info-box-10 .icon-wrap {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 45px;
+    z-index: 10;
+    margin-left: 20px;
+}
+
+.eplus-info-box-10 .icon-wrap:before {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    background: #FFA1FC;
+    z-index: -1;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+
+.eplus-info-box-10 .icon-wrap > i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 6px;
+    font-size: 31px;
+    color: #FFA1FC;
+    background-color: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.eplus-info-box-10 .eplus-info-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #444;
+}
+
+.eplus-info-box-10 .eplus-info-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin-top: 0;
+}
+
+.eplus-info-box-10 .eplus-info-btn svg path {
+    fill: #444;
+}
+
+
+
+/**
+ * Style 11
+ */
+
+.eplus-info-box-11 {
+    position: relative;
+    text-align: center;
+    padding: 40px 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+    transition: 0.4s;
+    display: block;
+}
+
+.eplus-info-box-11 .info-count {
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 26px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+.eplus-info-box-11 .icon-wrap {
+    margin-bottom: 20px;
+}
+.eplus-info-box-11 .icon-wrap > i {
+    display: inline-block;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #5a5a5a;
+}
+.eplus-info-box-11 .eplus-info-btn {
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    width: 60px;
+    line-height: 65px;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.eplus-info-box-11 .eplus-info-btn > svg path {
+    fill: #757575;
+}
+
+.eplus-info-box-11 .eplus-info-btn:hover > svg path {
+    fill: #70A1FF;
+}
+
+.eplus-info-box-11:hover {
+    box-shadow: 0 5px 40px -5px rgba(9, 30, 66, .3);
+    transform: translateY(-4px);
+}
+
+/**
+ * Style 12
+ */
+.eplus-info-box-12 {
+    text-align: center;
+    border: 1px solid #5050506b;
+    padding: 48px 30px;
+    border-radius: 40px;
+}
+
+.eplus-info-box-12 .icon-wrap {
+    margin-bottom: 20px;
+}
+
+.eplus-info-box-12 i {
+    font-size: 54px;
+}
+
+.eplus-info-box-12 h3.eplus-info-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #3a3a3a;
+}
+
+.eplus-info-box-12 .eplus-info-desc p {
+    font-size: 16px;
+    font-weight: 500;
+    color: darkgray;
+}
+
+
+/**
+ * Style 12
+ */
+
+
+.eplus-info-box-13 {
+    text-align: center;
+    padding: 30px 30px 20px 30px;
+    background-color: white;
+    box-shadow: 0 5px 40px -5px rgba(9, 30, 66, .1);
+    border-radius: 10px;
+}
+.eplus-info-box-13 i {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.eplus-info-box-13 h3.eplus-info-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #3a3a3a;
+
+}
+.eplus-info-box-13 .eplus-info-desc p {
+    font-size: 16px;
+    font-weight: 500;
+    color: darkgray;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,450 @@
+/**
+ * Element Name: Team
+ */
+
+.eplus-team-img img {
+    vertical-align: bottom;
+}
+
+.eplus-team-social {
+    margin: 4px 0 0;
+    padding: 0;
+    list-style: none;
+}
+.eplus-team-social > li,
+#content .eplus-team-social > li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.eplus-team-social > li > a {
+    display: inline-block;
+    padding: 5px;
+    line-height: 1;
+}
+
+
+/**
+* Style 1
+*/
+
+.eplus-team-1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.eplus-team-1 .eplus-team-info {
+    padding: 20px 20px 0;
+}
+
+.eplus-team-1 .eplus-team-title {
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+.eplus-team-1 .eplus-team-designation {
+    font-size: 14px;
+    color: #999;
+}
+
+
+/**
+* Style 2
+*/
+
+.eplus-team-2 {
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 3px 40px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.eplus-team-2 .eplus-team-img {
+    position: relative;
+}
+
+.eplus-team-2 .eplus-team-img:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.eplus-team-2 .eplus-team-title-wrap {
+    position: relative;
+    margin-bottom: 18px;
+    padding-bottom: 12px;
+}
+
+.eplus-team-2 .eplus-team-title-wrap:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background-color: #D2D2D2;
+    transition: 0.3s;
+}
+
+.eplus-team-2 .eplus-team-title {
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+.eplus-team-2 .eplus-team-contact {
+    margin-bottom: 15px;
+}
+
+.eplus-team-2 .eplus-team-contact > a {
+    font-weight: 500;
+    color: #222;
+}
+
+.eplus-team-2 .eplus-team-designation {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.eplus-team-2 .eplus-team-info {
+    padding: 25px;
+}
+
+.eplus-team-2 .eplus-team-info .eplus-team-short-desc {
+    margin-bottom: 0 !important;
+}
+
+.eplus-team-2 .eplus-team-social {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.eplus-team-2 .eplus-team-social > li > a {
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    line-height: 32px !important;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    transition: opacity 0.4s ease, 0.5s transform ease, background 0.2s;
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.eplus-team-2 .eplus-team-social > li:last-child > a {
+    margin-right: 0;
+}
+
+.eplus-team-2 .eplus-team-social > li:first-child > a {
+    transition-delay: 0.05s;
+}
+
+.eplus-team-2 .eplus-team-social > li:nth-child(n + 2) > a {
+    transition-delay: 0.1s;
+}
+
+.eplus-team-2 .eplus-team-social > li:nth-child(n + 3) > a {
+    transition-delay: 0.15s;
+}
+
+.eplus-team-2 .eplus-team-social > li:nth-child(n + 4) > a {
+    transition-delay: 0.2s;
+}
+
+.eplus-team-2 .eplus-team-social > li:nth-child(n + 5) > a {
+    transition-delay: 0.25s;
+}
+
+.eplus-team-2 .eplus-team-social > li:nth-child(n + 6) > a {
+    transition-delay: 0.3s;
+}
+
+.eplus-team-2 .eplus-team-social > li:nth-child(n + 7) > a {
+    transition-delay: 0.35s;
+}
+
+
+.eplus-team-2:hover .eplus-team-social > li > a {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.eplus-team-2:hover .eplus-team-title-wrap:before {
+    width: 70px;
+}
+
+.eplus-team-2:hover .eplus-team-img:before {
+    opacity: 1;
+}
+
+.eplus-team-2 .eplus-team-social > li > a:hover {
+    background: #fff;
+    color: #999;
+}
+
+.eplus-team-2:hover {
+    box-shadow: 0 20px 60px -5px rgba(9, 30, 66, .3);
+    transform: translateY(-4px);
+}
+
+
+/**
+* Style 3
+*/
+
+.eplus-team-3 {
+    position: relative;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.eplus-team-3 .eplus-team-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.eplus-team-3 .eplus-team-title {
+    margin-bottom: 0;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 1.1;
+    color: #fff;
+}
+
+.eplus-team-3 .eplus-team-designation {
+    font-size: 13px;
+    color: #fff;
+}
+
+.eplus-team-3 .eplus-shape {
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    z-index: -1;
+    width: 100%;
+}
+
+.eplus-team-3 .eplus-team-social > li > a {
+    color: #fff;
+}
+
+.eplus-team-3:hover {
+    box-shadow: 0 20px 60px -5px rgba(9, 30, 66, .3);
+    transform: translateY(-4px);
+}
+
+
+/**
+* Style 4
+*/
+
+.eplus-team-4 {
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 3px 40px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.eplus-team-4 .eplus-team-img {
+    position: relative;
+}
+
+.eplus-team-4 .eplus-team-title-wrap {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    z-index: 10;
+    padding: 22px 35px;
+    text-align: center;
+}
+
+.eplus-team-4 .eplus-team-title {
+    margin-bottom: 0;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 1.1;
+    color: #fff;
+}
+
+.eplus-team-4 .eplus-team-designation {
+    font-size: 13px;
+    color: #fff;
+}
+
+.eplus-team-4 .eplus-shape {
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    z-index: -1;
+    width: 100%;
+}
+
+.eplus-team-4 .eplus-team-social {
+    margin-top: 0;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.eplus-team-4:hover {
+    box-shadow: 0 20px 60px -5px rgba(9, 30, 66, .3);
+    transform: translateY(-4px);
+}
+
+/**
+* Style 5
+*/
+
+.eplus-team-5 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.eplus-team-5 .eplus-team-info {
+    padding: 20px 20px 0;
+}
+
+.eplus-team-5 .eplus-team-img {
+    position: relative;
+    line-height: 0;
+}
+
+.eplus-team-5 .eplus-team-img > svg {
+    transition: 0.3s;
+}
+
+.eplus-team-5 .eplus-team-title {
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+.eplus-team-5 .eplus-team-designation {
+    font-size: 14px;
+    color: #999;
+}
+
+.eplus-team-5:hover .eplus-team-img > svg {
+    transform: translateY(-8px) scale(1.03);
+}
+
+
+/**
+* Style 6
+*/
+
+.eplus-team-6 {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 10px 30px -5px rgba(9, 30, 66, .1);
+    padding: 40px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.eplus-team-6 .eplus-team-info {
+    padding: 20px 20px 0;
+}
+
+.eplus-team-6 .eplus-team-img {
+    position: relative;
+    line-height: 0;
+}
+
+.eplus-team-6 .eplus-team-img img {
+    vertical-align: bottom;
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+.eplus-team-6 .eplus-team-img > svg {
+    transition: 0.3s;
+}
+
+.eplus-team-6 .eplus-team-title {
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+.eplus-team-6 .eplus-team-designation {
+    font-size: 14px;
+    color: #999;
+}
+
+.eplus-team-6:hover {
+    box-shadow: 0 20px 60px -5px rgba(9, 30, 66, .3);
+    transform: translateY(-4px);
+}
+
+/**
+* Style 7
+*/
+
+.eplus-team-7 {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.eplus-team-7 .eplus-team-img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.eplus-team-7 .eplus-team-img img {
+    transition: 0.3s;
+}
+
+.eplus-team-7 .eplus-team-info {
+    position: absolute;
+    bottom: -40px;
+    background: #fff;
+    width: calc(100% - 60px);
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    border-radius: 15px;
+    box-shadow: 8px 8px 30px 0 rgba(42,67,113,.15);
+    padding: 20px;
+}
+
+.eplus-team-7 .eplus-team-info .eplus-team-title {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.eplus-team-7:hover .eplus-team-img img {
+    transform: scale(1.06) translateY(6px);
+}

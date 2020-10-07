@@ -1,0 +1,182 @@
+/**
+ * Element Name: Newsticker
+ */
+
+.eplus-newsticker * {
+    letter-spacing: 0;
+}
+
+.eplus-newsticker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.eplus-newsticker .owl-carousel .owl-dots {
+    display: none;
+}
+
+.eplus-newsticker-wrap {
+    width: 84%;
+}
+
+.eplus-newsticker .eplus-newsticker-single {
+    line-height: normal;
+    transition: 0.3s;
+    margin-bottom: 0;
+}
+
+.eplus-newsticker .eplus-newsticker-label {
+    width: 14%;
+    text-align: center;
+    display: block;
+}
+
+
+/**
+* Style 1
+*/
+
+
+.eplus-newsticker-1 .eplus-newsticker-single {
+    font-size: 19px;
+}
+
+.eplus-newsticker-1 .eplus-newsticker-label {
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: #E91E63;
+    color: #fff;
+    font-weight: 600;
+    background-image: linear-gradient( 120deg, #9C27B0 9.6%, #fd0157 96.1% );
+    border-radius: 3px;
+}
+
+/**
+* Style 2
+*/
+
+.eplus-newsticker-2 {
+    border: 1px solid #eee;
+}
+
+.eplus-newsticker-2 .eplus-newsticker-single {
+    font-size: 20px;
+}
+
+.eplus-newsticker-2 .eplus-newsticker-label {
+    font-size: 19px;
+    padding: 10px 17px;
+    background: #F44336;
+    color: #fff;
+    font-weight: 600;
+    margin: -1px 20px -1px -1px;
+}
+
+
+/**
+* Style 3
+*/
+
+.eplus-newsticker-3 {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 800px;
+}
+
+.eplus-newsticker-3 .eplus-newsticker-single {
+    font-size: 20px;
+}
+
+.eplus-newsticker-3 .eplus-newsticker-label {
+    font-size: 18px;
+    padding: 10px 17px;
+    box-shadow: 0 5px 20px rgba(255, 17, 0, 0.12);
+    color: #f44336;
+    font-weight: 600;
+    margin: -1px 20px -1px -1px;
+    border-radius: 50px;
+}
+
+
+/**
+* Style 4
+*/
+
+
+.eplus-newsticker-4 .eplus-newsticker-single {
+    font-size: 18px;
+}
+
+.eplus-newsticker-4 .eplus-newsticker-label {
+    font-size: 20px;
+    padding: 8px 16px;
+    border-left: 6px solid #f44336;
+    font-weight: 600;
+    color: #f44336;
+}
+
+
+/**
+* Style 5
+*/
+
+.eplus-newsticker-5 {
+    background-color: #f44336;
+    padding: 15px;
+    background-image: linear-gradient( 30deg, #9C27B0 9.6%, #fd0157 96.1% );
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.eplus-newsticker-5 .eplus-newsticker-single a {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.eplus-newsticker-5 .eplus-newsticker-label {
+    font-size: 21px;
+    color: #fff;
+    font-weight: 600;
+    margin: -1px 20px -1px -1px;
+    border-radius: 50px;
+}
+
+
+
+@media ( max-width: 1170px ) and (min-width: 768px) {
+    .eplus-newsticker-wrap {
+        width: 78%;
+    }
+
+    .eplus-newsticker .eplus-newsticker-label {
+        width: 18%;
+    }
+}
+
+@media ( max-width: 767px ) {
+    .eplus-newsticker-wrap {
+        width: 100%;
+        text-align: center;
+    }
+
+    .eplus-newsticker-3 {
+        border-radius: 4px;
+    }
+
+    .eplus-newsticker .eplus-newsticker-label {
+        width: 100%;
+        margin: 0 0 14px;
+    }
+    .eplus-newsticker-2 {
+        padding: 12px;
+    }
+
+    .eplus-newsticker-4 .eplus-newsticker-label {
+        border-width: 0 6px;
+        border-style: solid;
+        background: #fff;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    }
+}

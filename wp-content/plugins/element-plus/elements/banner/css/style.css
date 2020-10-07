@@ -1,0 +1,167 @@
+/**
+ * Element Name: Banner
+ */
+
+.banner-center {
+    text-align: center;
+}
+
+.banner-center .short-desc {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-right {
+    text-align: right;
+}
+.banner-right .short-desc {
+    margin-left: auto;
+}
+
+.banner-sub-title {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+.banner-title {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #fff;
+}
+
+[class*="eplus-banner-"] .short-desc {
+    font-size: 18px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    margin-bottom: 40px;
+    max-width: 850px;
+}
+
+.banner-img {
+    text-align: center;
+}
+
+.banner-btns > a {
+    display: inline-block;
+    padding: 13px 15px;
+    min-width: 170px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 0 25px 25px 0;
+    border: 2px solid #fff;
+    background-color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    color: #7a7a7a;
+    transition: 0.3s;
+}
+
+.banner-btns > .banner-btn-2 {
+    background: transparent;
+    color: #fff;
+    margin-right: 0;
+}
+
+.banner-btns > a:hover,
+.banner-btns > a:focus {
+    color: #5a5a5a;
+    background-color: #fff;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.2);
+}
+
+.eplus-banner-1,
+.eplus-banner-2 {
+    padding: 230px 0 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+/**
+* Style 1
+*/
+.eplus-banner-1 {
+    background-image: url('../img/shape-1.svg');
+}
+
+/**
+* Style 2
+*/
+.eplus-banner-2 {
+    background-image: url('../img/shape-2.svg');
+}
+
+/**
+* Style 3
+*/
+.eplus-banner-3 {
+    padding: 200px 0;
+    background-color: #0c164c;
+    background-position: center center;
+}
+
+.eplus-banner-3.eplus-banner-img-left .pb-row {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.eplus-banner-3 {
+    position: relative;
+    z-index: 1;
+}
+
+.eplus-banner-circle:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: -400px;
+    width: 850px;
+    height: 850px;
+    border: 90px solid rgba(255, 107, 0, 0.4);
+    border-radius: 50%;
+}
+
+/**
+* Style 4
+*/
+.eplus-banner-4 {
+    padding: 200px 0;
+    background-color: #efefef;
+}
+
+.eplus-banner-4 .banner-sub-title,
+.eplus-banner-4 .banner-title {
+    color: #4a4a4a;
+}
+
+.eplus-banner-4 .short-desc {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.eplus-banner-4 .banner-img {
+    text-align: center;
+}
+
+.eplus-banner-4 .banner-btns > a {
+    border-color: #E91E63;
+    background-color: #E91E63;
+    color: #fff;
+}
+
+.eplus-banner-4 .banner-btns > .banner-btn-2 {
+    color: #E91E63;
+    background: transparent;
+}
+
+
+.eplus-banner-4 .banner-btns > a:hover,
+.eplus-banner-4 .banner-btns > a:focus {
+    color: #fff;
+    background-color: #E91E63;
+}
+

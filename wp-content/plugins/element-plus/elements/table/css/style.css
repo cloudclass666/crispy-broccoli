@@ -1,0 +1,61 @@
+/**
+ * Element Name: Table
+ */
+
+
+.eplus-table .dataTables_filter,
+.eplus-table .dataTables_length {
+    margin-bottom: 24px;
+}
+
+.eplus-table select,
+.eplus-table input[type="search"] {
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.eplus-table select {
+    padding: 7px 28px 8px 15px;
+    background-position: 87% 50%;
+    background-size: 22px auto;
+}
+
+.eplus-table label {
+    font-weight: 600;
+    font-size: 16px;
+    text-shadow: none;
+}
+
+.eplus-table .dataTables_info {
+    margin: 23px 0 0;
+    font-size: 15px;
+    color: #444;
+}
+
+.eplus-table .dataTables_paginate {
+    padding: 0 15px;
+}
+
+.eplus-table .tablepress .sorting:after, .eplus-table .tablepress .sorting_asc:after, .eplus-table .tablepress .sorting_desc:after {
+    right: 13px;
+}
+
+.eplus-table .tablepress td, .eplus-table .tablepress th {
+    padding: 14px;
+}
+
+.eplus-table .tablepress tfoot th, .eplus-table .tablepress thead th {
+    background-color: #232323;
+    font-weight: 600;
+    color: #fff;
+}
+
+.eplus-table .tablepress .sorting:hover, .eplus-table .tablepress .sorting_asc, .eplus-table .tablepress .sorting_desc {
+    color: #fff;
+    background-color: #0273aa;
+}
+.eplus-table .paging_simple .paginate_button.next:after, .eplus-table .paging_simple .paginate_button.previous:before {
+    text-shadow: none;
+    color: #444;
+}

@@ -1,0 +1,196 @@
+/**
+ * Element Name: Schedules
+ */
+
+.eplus-schedules {
+    max-width: 360px;
+    font-size: 19px;
+}
+
+.eplus-schedules .eplus-status-img {
+   padding: 20px 0;
+}
+
+.entry-content .eplus-schedules img,
+.eplus-schedules img {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.eplus-status-img {
+    text-align: center;
+}
+
+
+.eplus-schedules .eplus-schedule.current.shop-close {
+    background: rgba(248, 0, 19, 0.17);
+}
+
+.eplus-schedules .eplus-schedule.current.shop-open {
+    background: rgba(76, 175, 80, 0.17);
+}
+
+.eplus-schedules .eplus-schedule:last-child{
+    border-bottom: none;
+}
+
+.eplus-schedules .eplus-schedule .eplus-day-name {
+    position: relative;
+    cursor: pointer;
+    padding: 12px 20px;
+    line-height: normal;
+}
+
+.eplus-schedules .eplus-schedule .eplus-arrow-icon {
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    right: 20px;
+    top: 18px;
+}
+
+.eplus-schedules .eplus-schedule .eplus-arrow-icon:before,
+.eplus-schedules .eplus-schedule .eplus-arrow-icon:after {
+    content: '';
+    position: absolute;
+    background: #2a2a2a;
+    transition: 0.3s;
+}
+
+.eplus-schedules .eplus-schedule .eplus-arrow-icon:before {
+    width: 2px;
+    height: 14px;
+    right: 7px;
+}
+
+.eplus-schedules .eplus-schedule .eplus-arrow-icon:after {
+    width: 14px;
+    height: 2px;
+    right: 1px;
+    top: 6px;
+}
+
+.eplus-schedules .eplus-schedule.opened .eplus-arrow-icon:before {
+    transform: rotate(90deg);
+}
+
+
+.eplus-schedules .eplus-schedule .eplus-day-schedules {
+    display: none;
+    padding: 0 0 10px 40px;
+    font-size: 15px;
+    line-height: normal;
+}
+
+.eplus-schedules .eplus-schedule.current .eplus-day-schedules {
+    display: block;
+}
+
+.eplus-schedules .eplus-schedule .eplus-day-schedules .eplus-day-schedule {
+    width: 100%;
+    display: block;
+}
+
+.eplus-day-schedules .eplus-day-schedule + .eplus-day-schedule {
+    margin-top: 7px;
+}
+
+/**
+* Style 2
+*/
+
+.eplus-schedules-style-2 .eplus-schedules .eplus-schedule {
+    border-color: #e5e5e5;
+}
+
+.eplus-schedules-style-2 .eplus-schedules .eplus-status-img {
+    border: 0;
+    box-shadow: 0 5px 37px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+
+.eplus-schedules-style-2 .eplus-schedules .eplus-schedule.current.shop-close {
+    background-color: #e52729;
+    color: #ffffff;
+}
+
+.eplus-schedules-style-2 .eplus-schedules .eplus-schedule.current.shop-open {
+    background: #4caf50;
+    color: #fff;
+}
+
+.eplus-schedules-style-2 .eplus-schedule.current .eplus-arrow-icon:before,
+.eplus-schedules-style-2 .eplus-schedule.current .eplus-arrow-icon:after {
+    background: #fff;
+}
+
+
+/**
+* Style 3
+*/
+
+.eplus-schedules-style-3 .eplus-schedules {
+    box-shadow: 0 5px 37px rgba(0, 0, 0, 0.15);
+}
+
+.eplus-schedules-style-3 .eplus-schedules .eplus-schedule {
+    border-color: #e5e5e5;
+    color: #fff;
+}
+
+.eplus-schedules-style-3 .eplus-schedules {
+    background-color: #4caf50;
+}
+
+.eplus-schedules-style-3 .eplus-schedules .eplus-status-img {
+    border: 0;
+    background-color: #fff;
+}
+
+.eplus-schedules-style-3 .eplus-schedule .eplus-arrow-icon:before,
+.eplus-schedules-style-3 .eplus-schedule .eplus-arrow-icon:after {
+    background: #fff;
+}
+
+/**
+* Style 4
+*/
+
+.eplus-schedules-style-4 .eplus-schedules {
+    border: 1px dashed #dedede;
+}
+
+.eplus-schedules-style-4 .eplus-schedules > div + div {
+    border-top: 1px dashed #dedede;
+}
+
+/**
+* Style 5
+*/
+
+.eplus-schedules-style-5 .eplus-status-img {
+    border: 1px solid #e5e5e5;
+}
+
+.eplus-schedules-style-5 .eplus-schedules .eplus-schedule {
+    background: rgba(158, 158, 158, 0.17);
+}
+
+.eplus-schedules-style-5 .eplus-schedules .eplus-schedule + .eplus-schedule {
+    border-top: 1px solid #d2d2d2;
+}
+
+.eplus-schedules-style-5 .eplus-schedules .eplus-schedule.current.shop-close .eplus-day-name {
+    background: rgba(248, 0, 19, 0.17);
+}
+
+.eplus-schedules-style-5 .eplus-schedules .eplus-schedule.current.shop-open .eplus-day-name {
+    background: rgba(76, 175, 80, 0.17);
+}
+
+.eplus-schedules-style-5 .eplus-schedules .eplus-schedule .eplus-day-schedules {
+    padding: 20px 0 20px 40px;
+}
+
+

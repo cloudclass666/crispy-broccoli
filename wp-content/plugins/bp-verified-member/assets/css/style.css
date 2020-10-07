@@ -1,0 +1,63 @@
+/**
+ *
+ * Allows admins to specify verified accounts. Adds a badge to verified members.
+ */
+.bp-verified-badge,
+.bp-verified-member .member-name-item > a:after,
+.bp-verified-member .item-title > a:after,
+.bp-verified-member > .author > a:after,
+.bp-verified-member .member-name > a:after {
+  display: inline-block;
+  position: relative;
+  top: -.05em;
+  margin-left: .2em;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  border-radius: 100%;
+  background: #1DA1F2 url("../images/verified-check.svg") no-repeat center center;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.activity .bp-verified-badge, .activity
+.bp-verified-member .member-name-item > a:after, .activity
+.bp-verified-member .item-title > a:after, .activity
+.bp-verified-member > .author > a:after, .activity
+.bp-verified-member .member-name > a:after {
+  margin-right: .2em;
+}
+
+#item-header-content .bp-verified-badge,
+#profile-header .bp-verified-badge {
+  width: 24px;
+  height: 24px;
+  background-size: 12px;
+  margin-left: .3em;
+}
+
+.bp-verified-member .item-title > a,
+.bp-verified-member .member-name > a,
+.bp-verified-member > .author > a,
+.bp-verified-member .member-name-item > a {
+  display: inline-block;
+}
+
+.bp-verified-member .item-title > a:after,
+.bp-verified-member .member-name > a:after,
+.bp-verified-member > .author > a:after,
+.bp-verified-member .member-name-item > a:after {
+  content: '';
+}
+
+.bp-verified-member .item-title > a ~ span.bp-verified-badge,
+.bp-verified-member .member-name > a ~ span.bp-verified-badge,
+.bp-verified-member > .author > a ~ span.bp-verified-badge,
+.bp-verified-member .member-name-item > a ~ span.bp-verified-badge {
+  display: none !important;
+}
+
+/*# sourceMappingURL=style.css.map */

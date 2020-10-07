@@ -1,0 +1,10 @@
+
+/**
+* Single Item
+*/
+
+[class*="eplus-logo-carousel-"] .logo-single-link {
+    display: block;
+    color: #fff;
+    text-align: center;
+}

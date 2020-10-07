@@ -1,0 +1,209 @@
+/**
+ * Element Name: Product Grid
+ */
+
+[class*="eplus-products-grid"] .product-title {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+[class*="eplus-products-grid"] .price-wrap {
+    font-size: 19px;
+}
+
+[class*="eplus-products-grid"] .price-wrap del {
+    color: #aaa;
+    margin-right: 7px;
+}
+
+[class*="eplus-products-grid"] .price-wrap ins {
+    text-decoration: none;
+}
+
+[class*="eplus-products-grid"] .short-desc {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+
+/**
+* Style 1
+*/
+
+.eplus-products-grid-1 .eplus-product-item {
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.eplus-products-grid-1 .product-body {
+    position: relative;
+    padding: 20px 30px 30px;
+}
+
+.eplus-products-grid-1 .product-button > a {
+    margin-top: 20px;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    background: #f4524d;
+    padding: 13px 18px;
+    color: #fff;
+    transition: 0.6s;
+    position: relative;
+}
+
+.eplus-products-grid-1 .product-button > a > svg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0.1;
+}
+
+.eplus-products-grid-1 .eplus-product-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+.eplus-products-grid-1 .product-button > a:hover {
+    border-radius: 40px;
+}
+
+
+/**
+* Style 2
+*/
+
+.eplus-products-grid-2 .eplus-product-item {
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.eplus-products-grid-2 .product-body {
+    position: relative;
+    padding: 30px 30px 40px;
+}
+
+.eplus-products-grid-2 .product-button > a {
+    position: absolute;
+    display: inline-block;
+    height: 70px;
+    width: 80px;
+    line-height: 96px;
+    background-color: #ff4c92;
+    background-image: radial-gradient( circle farthest-corner at 3.1% 6.8%,  #ff4c92 0%, #ff4a3d 130% );
+    text-align: center;
+    bottom: -15px;
+    right: -10px;
+    opacity: 0;
+    border-radius: 100% 0 0;
+    transition: 0.4s;
+}
+
+.eplus-products-grid-2 .cart-tooltip {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 112px;
+    width: 100%;
+    line-height: 1;
+    right: 12px;
+    top: 29%;
+    background: #333;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.eplus-products-grid-2 .product-button > a > svg {
+    margin-left: 19px;
+}
+
+.eplus-products-grid-2 .product-button > a:hover .cart-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.eplus-products-grid-2 .eplus-product-item:hover .product-button > a {
+    opacity: 1;
+    right: 0;
+    bottom: 0;
+}
+
+.eplus-products-grid-2 .eplus-product-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+/**
+* Style 3
+*/
+
+.eplus-products-grid-3 .eplus-product-item {
+    background: #fff;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 50px;
+    position: relative;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.eplus-products-grid-3 .product-body {
+    position: relative;
+    padding: 25px 30px 45px 30px;
+}
+
+.eplus-products-grid-3 .product-body:before {
+    position: absolute;
+    left: 50%;
+    top: -36px;
+    content: '';
+    border: 20px solid transparent;
+    border-bottom-color: #fff;
+    transform: translateX(-50%);
+}
+
+.eplus-products-grid-3 .product-button > a {
+    margin-top: 20px;
+    font-size: 16px;
+    display: inline-block;
+    min-width: 140px;
+    text-align: center;
+    background: #1a1a1a;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    transition: 0.6s;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -21px;
+    transform: translateX(-50%);
+}
+
+.eplus-products-grid-3 .product-button > a > svg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0.1;
+}
+
+.eplus-products-grid-3 .eplus-product-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.eplus-products-grid-3 .product-button > a:hover {
+    border-radius: 40px;
+}

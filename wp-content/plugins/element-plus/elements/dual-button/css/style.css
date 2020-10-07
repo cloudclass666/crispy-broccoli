@@ -1,0 +1,37 @@
+/**
+ * Element Name: Dual Button
+ */
+
+[class*="dual-btn"] {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 25px;
+    line-height: normal;
+    min-width: 90px;
+    text-align: center;
+    background: #3742FA;
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+.eplus-dual-btn-stroke {
+    border: 2px solid #3742FA;
+    color: #3742FA;
+    background: transparent;
+}
+
+[class*="dual-btn"]:not(.eplus-dual-btn-stroke):hover,
+[class*="dual-btn"]:not(.eplus-dual-btn-stroke):focus,
+[class*="dual-btn"]:not(.eplus-dual-btn-stroke):active {
+    background: #6C757D;
+    color: #fff;
+}
+
+.eplus-dual-btn-stroke:hover,
+.eplus-dual-btn-stroke:focus,
+.eplus-dual-btn-stroke:active {
+    background: #3742FA;
+    color: #fff;
+}

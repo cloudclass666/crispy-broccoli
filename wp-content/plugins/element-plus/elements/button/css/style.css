@@ -1,0 +1,42 @@
+/**
+ * Element Name: Button
+ */
+
+.eplus-btn {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 25px;
+    line-height: normal;
+    min-width: 90px;
+    text-align: center;
+    background: #3742FA;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.eplus-btn-fullwidth {
+    width: 100%;
+}
+
+.eplus-btn-stroke {
+    border: 2px solid #3742FA;
+    color: #3742FA;
+    background: transparent;
+}
+
+.eplus-btn:not(.eplus-btn-stroke):hover,
+.eplus-btn:not(.eplus-btn-stroke):focus,
+.eplus-btn:not(.eplus-btn-stroke):active {
+    background: #6C757D;
+    color: #fff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.eplus-btn-stroke:hover,
+.eplus-btn-stroke:focus,
+.eplus-btn-stroke:active {
+    background: #3742FA;
+    color: #fff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}

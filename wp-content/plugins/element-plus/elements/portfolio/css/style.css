@@ -1,0 +1,239 @@
+/**
+ * Element Name: Portfolio
+ */
+
+.eplus-portfolio-item {
+    margin-bottom: 30px;
+}
+
+.eplus-portfolio-1 .eplus-portfolio-item {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.16);
+}
+
+.eplus-portfolio-1 .image-wrap {
+    position: relative;
+}
+
+.eplus-portfolio-1 .p-category {
+    position: absolute;
+    top: 30px;
+    font-size: 16px;
+    line-height: normal;
+    left: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 12px 21px;
+    border-radius: 3px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.eplus-portfolio-1 .p-footer {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eplus-portfolio-1 .p-info {
+    padding: 30px;
+}
+
+.eplus-portfolio-1 .p-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.eplus-portfolio-1 .p-title a {
+    color: #232323;
+}
+
+.eplus-portfolio-1 .p-title a:hover,
+.eplus-portfolio-1 .p-title a:focus {
+    color: #E91E63;
+}
+
+.btn-hire {
+    display: inline-block;
+    padding: 10px 20px;
+    min-width: 94px;
+    font-size: 16px;
+    line-height: normal;
+    background-color: #E9E9E9;
+    color: #718093;
+    border-radius: 4px;
+}
+
+.btn-hire:hover, .btn-hire:focus {
+    background-color: #E91E63;
+    color: #fff;
+}
+
+.eplus-p-social {
+    margin: 4px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.eplus-p-social > li,
+#content .eplus-p-social > li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.eplus-p-social > li > a {
+    display: inline-block;
+    padding: 8px;
+    line-height: 1;
+    font-size: 22px;
+}
+
+
+/**
+* Style 2
+*/
+
+.eplus-portfolio-2 .eplus-portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.eplus-portfolio-2 .p-info {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    padding: 30px;
+}
+
+.eplus-portfolio-2 .p-title-wrap {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.3s;
+}
+
+.eplus-portfolio-2 .p-title {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+.eplus-portfolio-2 .p-category {
+    margin-bottom: 9px;
+    display: block;
+    color: #F9CA24;
+    font-size: 18px;
+}
+
+.eplus-portfolio-2 .p-title a {
+    color: #fff;
+}
+
+.eplus-portfolio-2 .p-title a:hover,
+.eplus-portfolio-2 .p-title a:focus {
+    color: #F9CA24;
+}
+
+.eplus-portfolio-2 .eplus-shape {
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    z-index: -1;
+    width: 100%;
+    opacity: 0;
+    transition: 0.3s;
+    transform: translateY(15px);
+}
+
+.eplus-portfolio-2 .eplus-portfolio-item:hover .eplus-shape,
+.eplus-portfolio-2 .eplus-portfolio-item:hover .p-title-wrap {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/**
+* Style 3
+*/
+
+.eplus-portfolio-3 .eplus-portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.eplus-portfolio-3 .eplus-portfolio-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(233, 30, 99, 0.8901960784313725);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.eplus-portfolio-3 .p-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.eplus-portfolio-3 .p-link {
+    display: inline-block;
+    font-size: 20px;
+    color: #E91E63;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 54px;
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: 0.3s;
+}
+
+.eplus-portfolio-3 .p-category {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: 0.3s;
+}
+
+.eplus-portfolio-3 .p-title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.3s;
+}
+
+.eplus-portfolio-3 .p-title a {
+    color: #fff;
+}
+
+.eplus-portfolio-3 .p-title a:hover,
+.eplus-portfolio-3 .p-title a:focus {
+    color: rgba(255,255,255,0.7);
+}
+
+.eplus-portfolio-3 .eplus-portfolio-item:hover .p-category,
+.eplus-portfolio-3 .eplus-portfolio-item:hover .p-title {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.eplus-portfolio-3 .eplus-portfolio-item:hover .p-link {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.eplus-portfolio-3 .eplus-portfolio-item:hover:before {
+    opacity: 1;
+}

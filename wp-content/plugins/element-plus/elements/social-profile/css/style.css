@@ -1,0 +1,181 @@
+/**
+ * Element Name: Social Profile
+ */
+
+.eplus-social-profile-1 > a {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+    margin: 0 15px 15px 0;
+    transition: 0.3s;
+}
+
+.eplus-social-profile-1 > a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 17px;
+    text-align: center;
+    background-color: #3B579D;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.eplus-social-profile-1 > a:hover {
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+/**
+* Style 2
+*/
+
+.eplus-social-profile-2 .eplus-social-profile-inner {
+    display: inline-block;
+    background-color: #A29BFE;
+    border-radius: 50px;
+}
+
+.eplus-social-profile-2 a {
+    display: inline-block;
+    margin: 15px 15px 15px 0;
+}
+.eplus-social-profile-2 a:first-child {
+    margin-left: 15px;
+}
+
+.eplus-social-profile-2 a i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+    background-color: #fff;
+    color: #A29BFE;
+    transition: 0.3s;
+}
+
+.eplus-social-profile-2 a:hover i {
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+/**
+* Style 3
+*/
+
+.eplus-social-profile-3 > a {
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+    margin: 10px 25px 25px 10px;
+}
+
+.eplus-social-profile-3 > a i {
+    display: inline-block;
+    border-radius: 6px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #3B579D;
+    color: #fff;
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+
+.eplus-social-profile-3 > a:last-child i {
+    margin-right: 0;
+}
+
+.eplus-social-profile-3 > a i:before {
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+
+.eplus-social-profile-3 > a:hover i {
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+/**
+* Style 4
+*/
+
+.eplus-social-profile-4 > a {
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    transition: 0.3s;
+    margin: 0 15px 15px 0;
+    text-align: center;
+}
+
+.eplus-social-profile-4 > a svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.eplus-social-profile-4 > a i {
+    font-size: 28px;
+    text-indent: 13px;
+    color: #fff;
+}
+
+.eplus-social-profile-4 > a:last-child {
+    margin-right: 0;
+}
+
+/**
+* Style 5
+*/
+
+.eplus-social-profile-5 > a {
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+    margin: 0 15px 15px 0;
+    transition: 0.3s;
+    border-radius: 40px;
+}
+
+.eplus-social-profile-5 .eplus-sp-label {
+    margin-left: 42px;
+}
+
+.eplus-social-profile-5 > a i {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 17px;
+    text-align: center;
+    background-color: #3B579D;
+    color: #fff;
+    transform: translateY(-50%);
+}
+
+.eplus-social-profile-5 > a:hover {
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+}

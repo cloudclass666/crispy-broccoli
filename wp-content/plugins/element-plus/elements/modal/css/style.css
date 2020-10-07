@@ -1,0 +1,41 @@
+/**
+ * Element Name: Modal
+ */
+.eplus-modal-1 {
+    position: relative;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.eplus-modal-close {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #F44336 !important;
+    color: #fff;
+}
+
+.eplus-modal-1 > .eplus-modal-close {
+    color: #fff;
+    right: -20px !important;
+    top: -20px !important;
+}
+
+.eplus-modal-close:before, .eplus-modal-close:after {
+    display: none !important;
+}
+
+.mfp-wrap > .eplus-modal-close {
+    right: 50px;
+    top: 50px;
+}
+
+.eplus-modal-1 .eplus-modal-title {
+    padding: 20px 30px;
+    background: #eee;
+    margin: -30px -30px 30px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,543 @@
+/**
+ * Element Name: Testimonial Slider
+ */
+
+.owl-carousel .eplus-testi-img > img {
+    display: inline-block;
+}
+
+.eplus-testimonial-slider-1 .eplus-testi-desc {
+    position: relative;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.eplus-testimonial-slider-1 .eplus-testi-rating {
+    margin-top: 20px;
+}
+
+.eplus-testimonial-slider-1 .eplus-testi-desc:after {
+    content: '';
+    position: absolute;
+    height: 35px;
+    width: 55px;
+    background: #fff;
+    bottom: -11px;
+    left: 50px;
+    transform: rotate(45deg);
+    z-index: -30;
+    border: 1px solid #eee;
+}
+
+.eplus-testimonial-slider-1 .eplus-testi-desc:before {
+    content: '';
+    position: absolute;
+    height: 35px;
+    width: 55px;
+    background: #fff;
+    bottom: -9px;
+    left: 50px;
+    transform: rotate(45deg);
+}
+
+.eplus-testimonial-slider-1 .eplus-testi-footer {
+    display: flex !important;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.eplus-testimonial-slider-1 .eplus-testi-img {
+    margin-right: 15px;
+}
+
+.eplus-testimonial-slider-1 .eplus-testi-img > img {
+    max-width: 60px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+
+/**
+* Style 2
+*/
+
+.eplus-testimonial-slider-2 .eplus-testimonial-item {
+    position: relative;
+    z-index: 10;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    display: flex;
+}
+
+.eplus-testimonial-slider-2 .eplus-testi-info {
+    margin-bottom: 15px;
+}
+
+.eplus-testimonial-slider-2 .eplus-testi-title {
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 3px;
+    letter-spacing: 0;
+}
+
+.eplus-testimonial-slider-2 .eplus-testi-rating {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #dedede;
+    clear: both;
+}
+
+.eplus-testimonial-slider-2 .eplus-testi-rating-text {
+    float: right;
+    font-size: 15px;
+    color: #7a7a7a;
+}
+
+.eplus-testimonial-slider-2 .eplus-testi-img {
+    margin-right: 20px;
+}
+
+.eplus-testimonial-slider-2 .eplus-testi-img > img {
+    max-width: 80px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+
+
+/**
+* Style 3
+*/
+
+.eplus-testimonial-slider-3 {
+    text-align: center;
+}
+
+.eplus-testimonial-slider-3 .eplus-testi-title {
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 3px;
+    letter-spacing: 0;
+}
+
+.eplus-testimonial-slider-3 .eplus-testi-img {
+    margin-bottom: 15px;
+}
+
+.eplus-testimonial-slider-3 .eplus-testi-desc {
+    max-width: 460px;
+    margin: 15px auto 0;
+}
+
+.eplus-testimonial-slider-3 .eplus-testi-desc > p {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.eplus-testimonial-slider-3 .eplus-testi-rating {
+    margin-top: 10px;
+}
+
+.eplus-testimonial-slider-3 .eplus-testi-img > img {
+    max-width: 90px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+
+
+/**
+* Style 4
+*/
+
+.eplus-testimonial-slider-4 .eplus-testimonial-item {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.eplus-testimonial-slider-4 .eplus-testi-img {
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    display: inline-block !important;
+    border-radius: 50%;
+}
+
+.eplus-testimonial-slider-4 .eplus-testi-img > img {
+    border-radius: 50%;
+    vertical-align: middle;
+    max-width: 100px;
+}
+
+.eplus-testimonial-slider-4 .eplus-testi-desc {
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.eplus-testimonial-slider-4 .eplus-testi-desc > p {
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+.eplus-testimonial-slider-4 .eplus-testi-info {
+    margin-top: 20px;
+}
+
+.eplus-testimonial-slider-4 .eplus-testi-title {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 3px;
+    letter-spacing: 0;
+}
+
+.eplus-testimonial-slider-4 .eplus-testi-rating {
+    margin-top: 10px;
+}
+
+.eplus-testimonial-slider-4 svg {
+    position: absolute;
+    left: -60px;
+    bottom: -15px;
+    transform: rotate(35deg) scale(1.2);
+}
+
+
+/**
+* Style 5
+*/
+
+.eplus-testimonial-slider-5 .eplus-testimonial-item {
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 10;
+    margin-bottom: 30px;
+}
+
+.eplus-testimonial-slider-5 .eplus-testimonial-item:after {
+    content: '';
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background: #fff;
+    bottom: -90px;
+    right: -90px;
+    border-radius: 50%;
+    border: 50px solid #000;
+    opacity: 0.15;
+    z-index: -1;
+}
+
+.eplus-testimonial-slider-5 .eplus-testi-img {
+    padding: 8px;
+    margin-bottom: 25px;
+    background-color: #fff;
+    display: inline-block !important;
+    border-radius: 50% 50% 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.eplus-testimonial-slider-5 .eplus-testi-img > img {
+    border-radius: 50%;
+    vertical-align: middle;
+    max-width: 100px;
+}
+
+.eplus-testimonial-slider-5 .eplus-testi-desc {
+    position: relative;
+    max-width: 460px;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+.eplus-testimonial-slider-5 .eplus-testi-desc > i.eplus-quote {
+    position: absolute;
+    font-size: 101px;
+    line-height: 1;
+    top: -137px;
+    left: 0;
+    color: #000;
+    opacity: 0.1;
+    z-index: -1;
+    transform: rotate(-180deg);
+}
+
+.eplus-testimonial-slider-5 .eplus-testi-desc > p {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.eplus-testimonial-slider-5 .eplus-testi-info {
+    margin-top: 15px;
+}
+
+.eplus-testimonial-slider-5 .eplus-testi-title {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 0;
+    letter-spacing: 0;
+}
+
+.eplus-testimonial-slider-5 .eplus-testi-rating {
+    margin-top: 5px;
+}
+
+/**
+* Style 6
+*/
+
+.eplus-testimonial-slider-6 .eplus-testimonial-item {
+    position: relative;
+    padding: 35px 40px 60px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.07);
+    margin-bottom: 30px;
+}
+
+.eplus-testimonial-slider-6 .eplus-testi-footer {
+    text-align: center;
+}
+
+.eplus-testimonial-slider-6 .eplus-testi-img > img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.eplus-testimonial-slider-6 .eplus-testi-desc > p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #8a8a8a;
+}
+
+.eplus-testimonial-slider-6 .eplus-testi-designation {
+    font-size: 15px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.eplus-testimonial-slider-6 .eplus-testi-desc {
+    margin-bottom: 30px;
+}
+
+.eplus-testimonial-slider-6 .eplus-testi-rating {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.eplus-testimonial-slider-6 .eplus-testi-rating > i {
+    font-size: 18px;
+}
+
+.eplus-testimonial-slider-6 .eplus-testi-img {
+    margin-bottom: 14px;
+}
+
+.eplus-testimonial-slider-6 .eplus-testi-title {
+    font-size: 20px;
+}
+
+/**
+* Style 7
+*/
+
+.eplus-testimonial-slider-7 .owl-nav {
+    position: inherit;
+    opacity: 1;
+    display: block;
+    margin-top: 20px;
+}
+.eplus-testimonial-slider-7 .owl-carousel .owl-nav button {
+    background: none;
+    color: #ffffff;
+}
+.eplus-testimonial-slider-7 .owl-carousel .owl-nav button:hover {
+    background: none;
+}
+
+
+
+.eplus-testimonial-slider-7 .eplus-testimonial-item {
+    z-index: 10;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.eplus-testimonial-slider-7 .eplus-testi-info {
+    margin-top: 20px;
+}
+
+.eplus-testimonial-slider-7 .eplus-testi-title {
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+.eplus-testimonial-slider-7 .eplus-testi-rating {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #dedede;
+    clear: both;
+}
+
+.eplus-testimonial-slider-7 .eplus-testi-rating-text {
+    float: right;
+    font-size: 15px;
+    color: #7a7a7a;
+}
+
+.eplus-testimonial-slider-7 .eplus-testi-img {
+    margin-right: 20px;
+}
+
+.eplus-testimonial-slider-7 .eplus-testi-img > img {
+    max-width: 80px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+
+
+/**
+* Style 8
+*/
+
+.eplus-testimonial-slider-8 .eplus-testimonial-item {
+    background-color: #9befef;
+    text-align: center;
+    padding: 50px 50px;
+    width: 70%;
+    transform: translate(20%);
+    border-radius: 20px;
+}
+.eplus-testimonial-slider-8 .eplus-testi-img img {
+    border-radius: 50%;
+    vertical-align: middle;
+    max-width: 100px;
+    border: 2px solid #ffffff;
+    margin: 0 0 -100px 0;
+    margin-top: 20px;
+}
+
+.eplus-testimonial-slider-8 .owl-stage-outer {
+    overflow: inherit;
+}
+.eplus-testimonial-slider-8 .owl-dots {
+    margin-top: 50px;
+}
+
+.eplus-testimonial-slider-8 svg path {
+    fill: white;
+}
+.eplus-testimonial-slider-8 p {
+    color: white;
+    margin-top: 20px;
+}
+
+.eplus-testimonial-slider-8 .eplus-testi-rating i {
+    color: white;
+    margin-top: 50px;
+}
+
+.eplus-testimonial-slider-8 .owl-carousel .owl-dots .active {
+    background: white;
+}
+.eplus-testimonial-slider-8 .owl-carousel .owl-dots .owl-dot:hover {
+    background: white;
+}
+
+
+
+
+/**
+* Style 9
+*/
+.eplus-testimonial-slider-9 {
+    background-color: white;
+    -webkit-box-shadow: 2px 1px 15px -7px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 1px 15px -7px rgba(0,0,0,1);
+    box-shadow: 2px 1px 15px -7px rgba(0,0,0,1);
+}
+.eplus-testimonial-slider-9 svg {
+    position: absolute;
+    top: -15px;
+    right: 0;
+    padding: 0 30px 0 0;
+}
+.eplus-testimonial-slider-9 .eplus-testi-img {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 16%;
+}
+.eplus-testimonial-slider-9 .eplus-testi-img::before {
+    position: absolute;
+    content: '';
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin: -5px 0 0 -5px;
+    z-index: -1;
+}
+.eplus-testimonial-slider-9 .eplus-testi-img img {
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.eplus-testimonial-slider-9 .eplus-testi-rating {
+    right: 0;
+    position: absolute;
+    top: 36px;
+    padding: 0 30px 0 0;
+
+}
+
+.eplus-testimonial-slider-9 .eplus-testi-info {
+    display: block;
+}
+.eplus-testimonial-slider-9 .eplus-testi-title {
+    display: block;
+    margin: 25px 0 0 110px;
+    top: 0;
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.eplus-testimonial-slider-9 span.eplus-testi-designation {
+    position: absolute;
+    margin: -25px 110px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #6363639e;
+}
+
+.eplus-testimonial-slider-9 .eplus-testi-desc {
+    padding: 20px 30px;
+    line-height: 0.5rem;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+/**
+ * Element Name: Promotion Banner
+ */
+
+.eplus-promo-img img {
+    vertical-align: middle;
+    transition: 0.3s;
+}
+
+.eplus-promo-1 {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background: #ffeeec;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.eplus-promo-1.image-alignment-right {
+    flex-direction: row-reverse;
+}
+
+.eplus-promo-1 .eplus-promo-sub-title {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 6px;
+}
+
+.eplus-promo-1 .eplus-promo-title {
+    font-size: 28px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.eplus-promo-1 .eplus-promo-info {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.eplus-promo-1 .promo-btn {
+    display: inline-block;
+    width: fit-content;
+    padding: 8px 18px;
+    background: #000;
+    color: #fff;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.eplus-promo-1 .promo-btn:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.eplus-promo-1:hover .eplus-promo-img img {
+    transform: scale(1.03);
+}
+
+
+/*
+    Style - 2
+*/
+
+.eplus-promo-2 {
+    display: flex;
+}
+
+.eplus-promo-2 .eplus-promo-info {
+    padding: 80px;
+    text-align: center;
+}
+.eplus-promo-2 .eplus-promo-sub-title {
+    font-weight: 700;
+    font-size: 16px;
+}
+.eplus-promo-2 .eplus-promo-title {
+    font-weight: 800;
+    font-size: 35px;
+    margin-top: -10px;
+}
+
+.eplus-promo-2 .eplus-promo-info .promo-btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 24px;
+    border-radius: 40px;
+}
+
+.eplus-promo-2 .promo-btn:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+
+@media ( max-width: 650px ) {
+    .eplus-promo-1 {
+        display: block;
+    }
+
+    .eplus-promo-img img {
+        margin-bottom: 30px;
+    }
+}
+

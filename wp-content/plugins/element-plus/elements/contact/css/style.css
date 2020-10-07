@@ -1,0 +1,40 @@
+/**
+ * Element Name: Contact
+*/
+
+.eplus-cf7-wrapper .wpcf7-submit {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 147px;
+    padding: 14px 20px;
+    background-color: #2966ad;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid transparent;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all ease .3s;
+    transition: all ease .3s;
+}
+
+.eplus-cf7-wrapper .wpcf7-form-control-wrap {
+    display: block;
+}
+
+.eplus-cf7-center .wpcf7-submit {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.eplus-cf7-right .wpcf7-submit {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}

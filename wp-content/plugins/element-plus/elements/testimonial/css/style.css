@@ -1,0 +1,368 @@
+/**
+ * Element Name: Testimonial
+ */
+
+[class*="eplus-testimonial-"] .eplus-testi-title {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 0;
+    letter-spacing: 0;
+}
+
+[class*="eplus-testimonial-"] .eplus-testi-desc p {
+    margin-bottom: 0 !important;
+}
+
+.eplus-testi-designation {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.eplus-testi-rating i {
+    color: #ffbf00;
+    font-size: 19px;
+    line-height: 1;
+    margin-right: 2px;
+}
+
+.eplus-testi-rating i:last-child {
+    margin-right: 0;
+}
+
+
+/**
+* Style 1
+*/
+
+.eplus-testimonial-1 .eplus-testi-desc {
+    position: relative;
+    z-index: 10;
+    padding: 35px;
+    background-color: #fff;
+    box-shadow: 0 10px 70px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.eplus-testimonial-1 .eplus-testi-rating {
+    margin-top: 20px;
+}
+
+.eplus-testimonial-1 .eplus-testi-desc:after {
+    content: '';
+    position: absolute;
+    height: 35px;
+    width: 55px;
+    background: #fff;
+    bottom: -11px;
+    left: 50px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.eplus-testimonial-1 .eplus-testi-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.eplus-testimonial-1 .eplus-testi-img {
+    margin-right: 15px;
+}
+
+.eplus-testimonial-1 .eplus-testi-img > img {
+    max-width: 60px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+
+/**
+* Style 2
+*/
+
+.eplus-testimonial-2 {
+    position: relative;
+    z-index: 10;
+    padding: 35px;
+    background-color: #fff;
+    box-shadow: 0 10px 70px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+
+}
+
+.eplus-testimonial-2 .eplus-testi-info {
+    margin-bottom: 15px;
+}
+
+.eplus-testimonial-2 .eplus-testi-title {
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 3px;
+    letter-spacing: 0;
+}
+
+.eplus-testimonial-2 .eplus-testi-rating {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #dedede;
+    clear: both;
+}
+
+.eplus-testimonial-2 .eplus-testi-rating-text {
+    float: right;
+    font-size: 15px;
+    color: #7a7a7a;
+}
+
+.eplus-testimonial-2 .eplus-testi-img {
+    margin-right: 25px;
+}
+
+.eplus-testimonial-2 .eplus-testi-img > img {
+    max-width: 80px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+
+
+/**
+* Style 3
+*/
+
+.eplus-testimonial-3 {
+    text-align: center;
+}
+
+.eplus-testimonial-3 .eplus-testi-title {
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 3px;
+    letter-spacing: 0;
+}
+
+.eplus-testimonial-3 .eplus-testi-img {
+    margin-bottom: 15px;
+}
+
+.eplus-testimonial-3 .eplus-testi-desc {
+    max-width: 460px;
+    margin: 15px auto 0;
+}
+
+.eplus-testimonial-3 .eplus-testi-desc > p {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.eplus-testimonial-3 .eplus-testi-rating {
+    margin-top: 10px;
+}
+
+.eplus-testimonial-3 .eplus-testi-img > img {
+    max-width: 90px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+
+
+/**
+* Style 4
+*/
+
+.eplus-testimonial-4 {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.eplus-testimonial-4 .eplus-testi-img {
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.eplus-testimonial-4 .eplus-testi-img > img {
+    border-radius: 50%;
+    vertical-align: middle;
+    max-width: 100px;
+}
+
+.eplus-testimonial-4 .eplus-testi-desc {
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.eplus-testimonial-4 .eplus-testi-desc > p {
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+.eplus-testimonial-4 .eplus-testi-info {
+    margin-top: 20px;
+}
+
+.eplus-testimonial-4 .eplus-testi-title {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 3px;
+    letter-spacing: 0;
+}
+
+.eplus-testimonial-4 .eplus-testi-rating {
+    margin-top: 10px;
+}
+
+.eplus-testimonial-4 svg {
+    position: absolute;
+    left: -60px;
+    bottom: -15px;
+    transform: rotate(35deg) scale(1.2);
+}
+
+
+/**
+* Style 5
+*/
+
+.eplus-testimonial-5 {
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 10;
+    margin-bottom: 30px;
+}
+
+.eplus-testimonial-5:after {
+    content: '';
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background: #fff;
+    bottom: -90px;
+    right: -90px;
+    border-radius: 50%;
+    border: 50px solid #000;
+    opacity: 0.15;
+    z-index: -1;
+}
+
+.eplus-testimonial-5 .eplus-testi-img {
+    padding: 8px;
+    margin-bottom: 25px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50% 50% 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.eplus-testimonial-5 .eplus-testi-img > img {
+    border-radius: 50%;
+    vertical-align: middle;
+    max-width: 100px;
+}
+
+.eplus-testimonial-5 .eplus-testi-desc {
+    position: relative;
+    max-width: 460px;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+.eplus-testimonial-5 .eplus-testi-desc > i.eplus-quote {
+    position: absolute;
+    font-size: 101px;
+    line-height: 1;
+    top: -137px;
+    left: 0;
+    color: #000;
+    opacity: 0.1;
+    z-index: -1;
+    transform: rotate(-180deg);
+}
+
+.eplus-testimonial-5 .eplus-testi-desc > p {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.eplus-testimonial-5 .eplus-testi-info {
+    margin-top: 15px;
+}
+
+.eplus-testimonial-5 .eplus-testi-title {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 0;
+    letter-spacing: 0;
+}
+
+.eplus-testimonial-5 .eplus-testi-rating {
+    margin-top: 5px;
+}
+
+/**
+* Style 6
+*/
+
+.eplus-testimonial-6 {
+    position: relative;
+    padding: 35px 40px 60px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.07);
+    margin-bottom: 30px;
+}
+
+.eplus-testimonial-6 .eplus-testi-footer {
+    text-align: center;
+}
+
+.eplus-testimonial-6 .eplus-testi-img > img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.eplus-testimonial-6 .eplus-testi-desc > p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #8a8a8a;
+}
+
+.eplus-testimonial-6 .eplus-testi-designation {
+    font-size: 15px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.eplus-testimonial-6 .eplus-testi-desc {
+    margin-bottom: 30px;
+}
+
+.eplus-testimonial-6 .eplus-testi-rating {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.eplus-testimonial-6 .eplus-testi-rating > i {
+    font-size: 18px;
+}
+
+.eplus-testimonial-6 .eplus-testi-img {
+    margin-bottom: 14px;
+}
+
+.eplus-testimonial-6 .eplus-testi-title {
+    font-size: 20px;
+}

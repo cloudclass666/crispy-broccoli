@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+
+/**
+* Normalize CSS
+*/
+
+:after, :before, * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+[class*="eplus"] ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+[class*="eplus"] ul li:before {
+    display: none;
+}
+
+
+/**
+* Owl Dots
+*/
+
+[class*="eplus-"].owl-carousel .owl-dots,
+[class*="eplus-"] .owl-carousel .owl-dots {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+}
+
+[class*="eplus-"].owl-carousel .owl-dots .owl-dot,
+[class*="eplus-"] .owl-carousel .owl-dots .owl-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    outline: none;
+    background: #dedede;
+    transition: 0.3s;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+[class*="eplus-"].owl-carousel .owl-dots .owl-dot:hover,
+[class*="eplus-"] .owl-carousel .owl-dots .owl-dot:hover {
+    background: #3a3a3a;
+}
+
+[class*="eplus-"].owl-carousel .owl-dots .active,
+[class*="eplus-"] .owl-carousel .owl-dots .active {
+    width: 26px;
+    background: #3a3a3a;
+}
+
+/**
+* Owl Nav
+*/
+[class*="eplus-"].owl-nav button:before,
+[class*="eplus-"] .owl-nav button:before {
+    display: none;
+}
+
+[class*="eplus-"].owl-nav,
+[class*="eplus-"] .owl-nav {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    opacity: 0;
+    transition: 0.3s;
+    padding: 0 15px;
+    pointer-events: none;
+}
+
+[class*="eplus-"].owl-carousel .owl-nav button,
+[class*="eplus-"] .owl-carousel .owl-nav button {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    line-height: 38px;
+    text-align: center;
+    background: #ddd;
+    color: #999;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+    pointer-events: auto;
+}
+
+[class*="eplus-"].owl-carousel .owl-nav button i,
+[class*="eplus-"] .owl-carousel .owl-nav button i {
+    font-size: 24px;
+    line-height: inherit;
+}
+
+[class*="eplus-"].owl-carousel:hover .owl-nav,
+[class*="eplus-"] .owl-carousel:hover .owl-nav {
+    opacity: 1;
+}
+
+[class*="eplus-"].owl-carousel .owl-nav button:hover,
+[class*="eplus-"] .owl-carousel .owl-nav button:hover {
+    background: #3a3a3a;
+    color: #fff;
+}
+
+
+.eplus-pagination {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.eplus-pagination:empty {
+    display: none;
+}
+
+.page-links .post-page-numbers,
+.eplus-pagination .page-numbers {
+    background: #ddd;
+    margin: 0 2px 8px;
+    height: 40px;
+    text-decoration: none;
+    color: #7a7a7a;
+    border-radius: 2px;
+    display: inline-block;
+    min-width: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    padding: 0 20px;
+    transition: 0.3s;
+}
+
+.page-links .current,
+.page-links > *:hover,
+.eplus-pagination .current,
+.eplus-pagination > *:hover {
+    background: #232323;
+    color: #fff;
+}
