@@ -1284,6 +1284,7 @@ li.bbp-body div.topic {
 
 #buddypress div#item-header div#latest-update {
     font-size: 1em;
+    max-width: calc(100% - 2em);
 }
 
 #buddypress table.messages-notices#message-threads tr td.thread-from span.from, #buddypress table.messages-notices#message-threads tr td.thread-from span.to {
@@ -1723,7 +1724,8 @@ ul.mesage-item > li.read {
 /*****---------- 3.19 new buddypress header section ----------*****/
 
 body.buddypress div#item-header #header-cover-image {
-    height: 58%;
+    height: 13.5rem;
+    background-color: var(--success);
 }
 
 #buddypress div#item-header {
@@ -1759,7 +1761,7 @@ div#item-header-content {
 #buddypress div#item-header div#item-buttons {
     float: none;
     position: absolute;
-    top: 4rem;
+    top: 2rem;
     width: auto;
     right: 0;
     margin: 0 2em 0 0;
@@ -1805,8 +1807,7 @@ margin-left:0;
 }
 
 #buddypress div#item-header .profile-cover-inner {
-    /* height: 58%; */
-    display: none;
+    height: 13.5rem;
 }
 #buddypress div#object-nav.item-list-tabs ul li i {
     margin-right: 0.2em;
@@ -1817,6 +1818,22 @@ margin-left:0;
 }
 
 #buddypress div#item-header div#item-actions {
+    position:  absolute;
+    top: 5rem;
+    right: 2rem;
+    display:  flex;
+    flex-direction:  row;
+}
+
+#buddypress div#item-header div#item-actions .group-admins,
+#buddypress div#item-header div#item-actions .group-mods{
+    float: initial;
+    width:  initial;
+    margin: 0 0 0 0.5em;
+}
+
+#buddypress div#item-header div#item-actions h3 {
+    margin:  0 0 0.5em;
 }
 
 #buddypress div#item-header div.generic-button a {
