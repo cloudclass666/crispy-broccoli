@@ -1,26 +1,42 @@
 .file {
-    position: relative;
     display: inline-block;
-    background: #D0EEFF;
-    border: 1px solid #99D3F5;
-    border-radius: 4px;
+    position: relative;
     padding: 4px 12px;
-    overflow: hidden;
+    border: 1px solid #99D3F5;
+    background: #D0EEFF;
+    line-height: 20px;
     color: #1E88C7;
     text-decoration: none;
     text-indent: 0;
-    line-height: 20px;
+    border-radius: 4px;
+    overflow: hidden;
 }
+
 .file input {
     position: absolute;
-    font-size: 100px;
-    right: 0;
     top: 0;
+    right: 0;
+    font-size: 100px;
     opacity: 0;
 }
+
 .file:hover {
-    background: #AADFFD;
     border-color: #78C3F3;
+    background: #AADFFD;
     color: #004974;
     text-decoration: none;
+}
+
+#bbpress-forums .wp-media-buttons a#toggleModal,
+#bbpress-forums .wp-media-buttons .file {
+    height: 2em !important;
+    margin: 4px !important;
+    padding: .4em !important;
+    border-color: transparent!important;
+    background: #45AAF2!important;
+    line-height: initial;
+    color: var(--light)!important;
+    font-size: 1em !important;
+    vertical-align: middle;
+    min-height: unset;
 }
