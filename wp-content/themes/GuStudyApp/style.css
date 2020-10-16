@@ -1725,7 +1725,7 @@ ul.mesage-item > li.read {
 
 body.buddypress div#item-header #header-cover-image {
     height: 13.5rem;
-    background-color: var(--success);
+    background-color: var(--gray);
 }
 
 #buddypress div#item-header {
