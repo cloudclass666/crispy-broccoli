@@ -1061,7 +1061,7 @@ body.bbpress.bbp-view-topics-freshness h2.entry-title{
     #bbpress-forums blockquote,#bbpress-forums blockquote blockquote {
     border-bottom: 1px solid var(--primary);
         padding: 0.3em;
-        rgba(223, 228, 234, 0.3);
+        /*background:rgba(223, 228, 234, 0.3); */
 }
 }
 
@@ -1469,11 +1469,9 @@ width:100%;
 
 #buddypress #whats-new-form #whats-new-options #whats-new-post-in-box {
 	padding: 1.4em 0;
-	margin-top: -2em;
 }
 
 #buddypress form#whats-new-form #whats-new-content.active #whats-new-options[style] #whats-new-post-in-box {
-	margin-top: -2em;
 }
 
 /*****---------- 3.7 Remove bp header section ----------*****/
@@ -2014,16 +2012,18 @@ span[id^="more-"] {
     color:var(--dark);
 }
 
-
-
 .header-scrolled .mobile-logo {
     transform: translateY(-100%);
 }
 
-
-
 .header-scrolled .mobile-page-title {
     transform: translateY(-100%);
+}
+@keyframes loader-pulsate{0%{opacity:0.5}50%{opacity:1.0}100%{opacity:0.5}}
+
+a.button.loading, input.loading, button.loading{
+    animation: loader-pulsate 0.5s infinite ease-in-out alternate;
+    cursor: not-allowed;
 }
 
 /* pretty print */
