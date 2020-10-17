@@ -1502,13 +1502,12 @@ width:100%;
     border: none;
     border-bottom: 1px solid rgba(0,0,0,0.08);
 }
-div.activity{
-    max-width: 900px;
-    margin: auto;
-}
+#buddypress form#whats-new-form, 
+div.activity, 
 div.activity-type-tabs{
     max-width: 1000px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media only screen and (max-width: 767px) {
 #activity-filter-select{
