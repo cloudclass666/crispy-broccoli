@@ -1330,8 +1330,13 @@ li.bbp-body div.topic {
     top: 0.33em;
 }
 
+#buddypress div#item-header div#item-meta {
+    width: calc(100% - 2em);
+}
+
 #buddypress div#item-header div#item-meta p {
-    font-size: 1.1em;
+    font-size: 1em;
+    
 }
 
 #buddypress div#item-header div.generic-button, #buddypress div#item-header div.generic-button a, #buddypress div#item-header a.button {
@@ -1385,6 +1390,7 @@ div.item-cover div.item-avatar img.avatar {
     font-size: 1.5em;
     opacity: 0.9;
     width: auto;
+    max-width: 33vw;
     background: rgba(255, 255, 255, 0.75);
     border-radius: 0.5rem;
     display: inline-block;
@@ -1759,14 +1765,13 @@ div#item-header-content {
 }
 
 #buddypress div#item-header div#item-buttons {
-    float: none;
-    position: absolute;
-    top: 2rem;
+    float: unset;
     width: auto;
-    right: 0;
-    margin: 0 2em 0 0;
+    max-width: 66vw;
+    margin: 0;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 @media (min-width: 992px) {

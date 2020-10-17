@@ -105,5 +105,4 @@ jQuery(document).ready(function($) {
             }  
         }  
     });
-    $('button#insert-media-button').remove()；
 })
