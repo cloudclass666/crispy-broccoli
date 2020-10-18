@@ -1647,8 +1647,13 @@ position: relative;
     display:  inline-block;
     position:  absolute;
 }
+/*
 .bulk-select-check {
     display: inline;
+}
+*/
+#buddypress table.notifications tbody tr td.bulk-select-check {
+    display: table-cell;
 }
 .thread-post-date {
     float:  right;
@@ -1657,8 +1662,13 @@ position: relative;
 .thread-options {
     text-align:  right;
 }
+/*
 .thread-star {
     display: inline;
+}
+*/
+#buddypress table.messages-notices#message-threads tr th.thread-star {
+    display: table-cell;
 }
 .thread-info p {
     margin: 6px 0;
