@@ -1698,17 +1698,29 @@ ul.mesage-item > li.read {
     margin: 0;
 }
 #message-thread .sent-by-me .message-content {
-    text-align: right;
+    float: right;
 }
-#message-thread .message-content p {
+#message-thread .message-content {
     display: inline-block;
     padding: 0.2em 0.6em;
     background: #f1f2f6;
     border-radius:  0.5em;
     margin:  0;
 }
-#message-thread .sent-by-me .message-content p{
+#message-thread .sent-by-me .message-content{
     background: rgba(30, 144, 255, 0.2);
+}
+#message-thread div.message-box .message-content blockquote {
+    padding: 0 0.5em;
+    text-align: initial;
+}
+
+#send-reply .message-content {
+    display: inherit;
+}
+
+#message-thread div.message-box .message-content p {
+    margin: 0.25em 0 0 0;
 }
 
 #message-thread .sent-by-me .message-star-actions {
