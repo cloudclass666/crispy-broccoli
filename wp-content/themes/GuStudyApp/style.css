@@ -1449,6 +1449,7 @@ width:100%;
 }
 #buddypress #whats-new-form #whats-new-options {
     height: 100%!important;
+    padding-top: 1em;
 }
 @media only screen and (min-width: 768px) {
 #buddypress #whats-new-form #whats-new-options #whats-new-submit>input {
