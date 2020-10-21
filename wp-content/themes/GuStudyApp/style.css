@@ -1473,6 +1473,7 @@ width:100%;
 }
 
 #buddypress form#whats-new-form #whats-new-content.active #whats-new-options[style] #whats-new-post-in-box {
+	margin-top: -2em;
 }
 
 /*****---------- 3.7 Remove bp header section ----------*****/
