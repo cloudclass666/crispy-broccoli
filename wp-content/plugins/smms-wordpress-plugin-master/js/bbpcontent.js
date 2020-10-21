@@ -12,8 +12,8 @@ jQuery(document).ready(function($) {
                 contentType: false,
                 data: formData,
                 success: function(res) {
-                    $('textarea[name="content"]').insertAtCaret('<img class="aligncenter" src="' + res.data.url + '" />');
-                    $("html").find("iframe").contents().find("body").append('<img class="aligncenter" src="'+res.data.url+'" />'); 
+                    $('textarea.bbp-the-content.wp-editor-area').insertAtCaret('<img src="' + res.data.url + '" />');
+                    $("html").find("iframe").contents().find("body").append('<img src="'+ res.data.url +'" />'); 
                 }
             })
         }
@@ -75,8 +75,8 @@ jQuery(document).ready(function($) {
 
     //插入图片
     $("#img_list").on('click','img',function(e){
-        $('textarea.bbp-the-content.wp-editor-area').insertAtCaret('<img class="aligncenter" src="' + e.target.src + '" />');
-        $("html").find("iframe").contents().find("body").append('<img class="aligncenter" src="'+ e.target.src +'" />'); 
+        $('textarea.bbp-the-content.wp-editor-area').insertAtCaret('<img src="' + e.target.src + '" />');
+        $("html").find("iframe").contents().find("body").append('<img src="'+ e.target.src +'" />'); 
     }) 
 
     $.fn.extend({  
