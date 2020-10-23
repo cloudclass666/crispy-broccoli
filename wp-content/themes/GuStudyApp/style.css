@@ -1574,17 +1574,17 @@ div.activity-type-tabs{
 }
 .bdblog.post-content:before {
     content: "";
-    border-left:0 solid 0; 
-border-right:2em solid #fff; 
-border-top:0 solid #fff; 
-border-bottom:2em solid var(--gray); 
-position: relative;
-    bottom: 16px;
-    background: #fafafa;
+    border-left:0 solid var(--white); 
+    border-right:2em solid var(--white); 
+    border-top:0 solid var(--white); 
+    border-bottom:2em solid var(--gray); 
+    position: relative;
+    bottom: 1rem;
+    background: var(--light);
     display: inline-block;
     width: 0;
-    left: 16px;
-    float: right
+    left: 1rem;
+    float: right;
 }
 
 .bdblog h2.entry-title {
@@ -1592,18 +1592,28 @@ position: relative;
     padding-bottom: 0px;
 }
 
+.bdblog .entry-image {
+    float:  none;
+    width: 95%;
+}
+
 .bdblog .post-actions {
-    text-align: right;
+    display:  flex;
+    justify-content:  space-around;
 }
 
 .bdblog .entry-meta {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 .simple-post-taxonomies-box {
     margin: 1em 0;
 }
+#wp-bp_simple_post_text-wrap.wp-editor-wrap button {
+    padding: 4px 6px;
+}
+
 #wp-bp_simple_post_text-wrap {
-	z-index: 8192;
+	z-index: 100000;
 }
 
 /*****---------- 3.11 rtMedia ----------*****/
