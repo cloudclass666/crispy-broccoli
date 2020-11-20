@@ -1131,14 +1131,13 @@ li.bbp-body div.topic {
 .bbp-topic-meta{
     display: inline-block;
 }
-.bbp-topic-freshness{
-    float: right;
-    text-align: right;
-    font-size: 80%;
-}
 .bbp-topic-meta, .bbp-topic-freshness{
-    font-size: 14px;
+    font-size: 0.85em;
     opacity: 0.75;
+}
+.bbp-topic-freshness{
+    display: inline-block;
+    margin-left: 0.5em;
 }
 .bbp-topic-post-date ,.bbp-topic-reply-count, .bbp-topic-views-count{
     padding: 0 3px;
