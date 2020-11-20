@@ -207,96 +207,6 @@ border:none;
     font-size: initial!important;
 }
 
-/* ****---------- 2.9 bbPress - Topic List - Reload ----------**** */
-.bbp-topic-author-container {
-    display: inline-block;
-    float: left;
-    margin-left: .25em;
-}
-
-.bbp-topic-container {
-    display: block;
-    position: relative;
-    padding: 0 .5em 0 3.95em;
-}
-
-li.bbp-body div.hentry {
-    padding: 12px 0px;
-}
-
-li.bbp-body div.topic {
-    padding: 6px 0;
-}
-
-.bbp-topic-title {
-    display: block;
-    padding-bottom: 2px;
-    font-size: 1.2em;
-}
-
-.bbp-topic-title a:link {
-    color: #333;
-}
-
-.bbp-topic-meta {
-    display: inline-block;
-}
-
-.bbp-topic-freshness {
-    float: right;
-    font-size: 80%;
-    text-align: right;
-}
-
-.bbp-topic-meta,
-.bbp-topic-freshness {
-    font-size: 14px;
-    opacity: .75;
-}
-
-.bbp-topic-post-date,
-.bbp-topic-reply-count,
-.bbp-topic-views-count {
-    padding: 0 3px;
-}
-
-.bbp-topic-post-date i:before,
-.bbp-topic-reply-count i:before,
-.bbp-topic-views-count i:before,
-.bbp-topic-freshness i:before {
-    padding-right: 2px;
-}
-
-.bbp-body .sticky {
-    position: relative;
-    border-left: 3px solid #14A8FF;
-}
-
-.bbp-body .super-sticky {
-    border-bottom: 2px dashed rgba(25,25,25,.25);
-    border-left: 5px solid #22BEAC;
-}
-
-.bbp-author-avatar img {
-    width: 3em;
-    border-radius: 50%;
-}
-
-.bbp-body div.hentry {
-    padding: 10px 8px;
-}
-
-@media only screen and (max-width:768px) {
-    .bbp-topic-post-date {
-        display: none;
-    }
-}
-
-#bbpress-forums div.even,
-#bbpress-forums ul.even {
-    background-color: rgba(250,250,250,.5);
-}
-
 /*  */
 span.bbp-admin-links a {
     font-size: initial;
@@ -1174,12 +1084,13 @@ body.bbpress.bbp-view-topics-freshness h2.entry-title{
 
 .bbp-topic-author-container{
     display: inline-block;
-    float: left;
+    /*float: left;*/
 }
 
 .bbp-topic-container{
     display: block;
-    padding: 0 0.5em 0 3.95em;
+    /*padding: 0 0.5em 0 3.95em;*/
+    padding: 0 0.5em;
     position: relative;
 }
 li.bbp-body div.hentry {
@@ -1223,7 +1134,9 @@ li.bbp-body div.topic {
     border-left: 3px solid var(--primary);
 }
 .bbp-author-avatar img {
-    width: 48px;
+    /*width: 48px;*/
+    width: 2em; 
+    margin-right: 0.5em;
     border-radius: 50%;
 }
 .bbp-body div.hentry {
