@@ -1145,7 +1145,7 @@ li.bbp-body div.topic {
 }
 .bbp-topic-meta, .bbp-topic-freshness{
     font-size: 0.85em;
-    opacity: 0.75;
+    opacity: 0.9;
 }
 .bbp-topic-freshness{
     display: inline-block;
@@ -1190,7 +1190,11 @@ li.bbp-body div.topic {
     background-position:  center;
     background-size:  cover;
     background-repeat:  no-repeat;
+    background-color: var(--light);
+    border-radius: 0.4em;
 }
+
+
 
 .bbp-topic-excerpt-container {
     display:  flex;
