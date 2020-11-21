@@ -1,13 +1,13 @@
 /*
-Theme Name: CloudClass Custom theme
-Theme URI: https://www.cloudclass.ml/
+Theme Name: GuStudy Custom theme
+Theme URI: https://www.gustudy.club/
 Description: Various Tweaks for better vistual appealing.
-Author: CloudClass Team
-Author URI: 
+Author: GuStudy Team
+Author URI: https://www.gustudy.club/
 Template: buddyapp
 Tags: buddypress
 License: GNU General Public License
-Copyright: Copyright (C) 2020 Geticer
+Copyright: Copyright © 2020 GuStudy Team
 Note: Only this child theme is licensed under the GNU General Public License, the parent theme is copyrighted.
 */
 
@@ -52,6 +52,8 @@ Note: Only this child theme is licensed under the GNU General Public License, th
     --pre-very-pink:#C839F1;
     --pre-orange:#D2876D;
     --pre-light-orange:#dc967f;
+
+    --font-family-monospace: "等距更纱黑体 SC","Sarasa Fixed SC","Sarasa Mono SC","Sarasa Term SC",Inconsolata,Monaco,Consolas,"Courier New",monospace;
 }
 
 @media (min-width:767px) {
@@ -539,6 +541,10 @@ li.bbp-forum-reply-count:before {
 }
 
 /*************** 1. Layout optimization ***************/
+
+pre, code {
+    font-family: var(--font-family-monospace);
+}
 
 ul.entry-meta li {
 	font-family: inherit;
