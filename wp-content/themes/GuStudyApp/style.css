@@ -575,7 +575,7 @@ ul.entry-meta li {
     vertical-align: bottom;
 }
 .blog-full#page-title .container-fluid ol.breadcrumb {
-    display: none;
+    display: none!important;
 }
 
 .comment-form-author, .comment-form-email, .comment-form-url {
@@ -616,6 +616,12 @@ header#header {
 
 /*****---------- 1.6 Post content ----------*****/
 
+#content .entry-content {
+    font-size:  16px;
+    max-width: 56em;
+    margin-left:  auto;
+    margin-right:  auto;
+}
 .entry-content > p {
     text-indent: 2em;
 }
@@ -1124,7 +1130,7 @@ li.bbp-body div.hentry {
     padding:12px 8px;
 }
 li.bbp-body div.topic {
-    padding: 6px 0;
+    padding: 0.75em 0;
 }
 .bbp-topic-title{
     display: block;
