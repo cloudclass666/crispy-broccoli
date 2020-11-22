@@ -616,7 +616,7 @@ header#header {
 
 /*****---------- 1.6 Post content ----------*****/
 
-#content .entry-content {
+body.single-post #content .entry-content {
     font-size:  16px;
     max-width: 56em;
     margin-left:  auto;
