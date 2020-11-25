@@ -1478,6 +1478,9 @@ div.item-cover div.item-avatar img.avatar {
     box-shadow: 0 3px 23px rgba(0,0,0,0.15);
 }
 /*****---------- 3.14 activity whats new textarea ----------*****/
+#buddypress #whats-new-textarea {
+    margin-bottom: 0;
+}
 div#whats-new-textarea textarea{
     overflow: auto;
 }
@@ -1512,7 +1515,8 @@ width:100%;
 }
 
 #buddypress #whats-new-form #whats-new-options .rtmedia-plupload-container .rtm-upload-button-wrapper {
-	margin-bottom: 0;
+    margin-bottom: 0;
+    display:none;
 }
 
 #buddypress #whats-new-form #whats-new-options #whats-new-post-in-box select#whats-new-post-in {
@@ -1522,11 +1526,14 @@ width:100%;
 #buddypress #whats-new-form #whats-new-options #whats-new-post-in-box {
 	padding: 1.4em 0;
 }
-
+/*
 #buddypress form#whats-new-form #whats-new-content.active #whats-new-options[style] #whats-new-post-in-box {
 	margin-top: -2em;
 }
-
+*/
+#buddypress form#whats-new-form #whats-new-content #whats-new-options #whats-new-post-in-box {
+	margin-top: -2em;
+}
 /*****---------- 3.7 Remove bp header section ----------*****/
 
 .bp-title-section {
@@ -1675,7 +1682,7 @@ div.activity-type-tabs{
 }
 #rtSelectPrivacy {
     display: inline-block!important;
-    width: 79.5%!important;
+    width: 100%!important;
 }
 .rtmedia-plupload-container {
     height: 4em;
