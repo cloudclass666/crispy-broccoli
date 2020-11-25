@@ -1893,6 +1893,9 @@ margin-left:0;
     background: var(--light);
     color: var(--primary);
 }
+#buddypress div#item-header div.generic-button a.add {
+    color: var(--light);
+}
 
 /*************** 4. Outher ***************/
 
