@@ -1213,24 +1213,26 @@ form.bbr-form-topic-resolution {
     display:  flex;
     justify-content: flex-start;
     flex-wrap: nowrap;
+    margin-bottom: 0;
 }
 select.bbr-resolutions-dropdown {
     width: auto;
     display:  inline-block;
 }
 
+.bbr-form-topic-resolution select,.bbr-form-topic-resolution input[type=submit] {
+    margin-bottom: 0.5em;
+}
+
 .bbr-resolution-sticker {
     display: inline-flex;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
     align-items: center;
-    background: #F8F8F8;
+    background: var(--light);
     text-decoration: none;
     margin-right: .25rem;
-    color: #333;
-    background: #F8F8F8;
-    padding: .3125rem .6rem;
-    font-size: .875em;
+    color: var(--dark);
+    padding: .3em .6em;
+    font-size: .75em;
     line-height: 1.2;
     border-radius: 1rem;
 }
