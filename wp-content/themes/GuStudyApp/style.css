@@ -1207,7 +1207,22 @@ li.bbp-body div.topic {
 }
 
 /* bbresolution */
+#bbpress-forums div.bbp-search-form, #bbpress-forums div.bbp-topic-tags {
+    float: left;
+}
 
+span#favorite-toggle {
+    float: right;
+}
+
+#bbpress-forums #favorite-toggle a {
+    margin: 0;
+}
+.bbr-form-wrapper {
+    display: inline-block;
+    float: left;
+    margin-right: 1em;
+}
 form.bbr-form-topic-resolution {
     display:  flex;
     justify-content: flex-start;
