@@ -239,7 +239,8 @@ span.bbp-admin-links a {
 
 .bbp-reply-header-meta {
     margin: -0.2rem 0 0 0;
-    text-indent: calc(3.5rem + 0.67vw);
+    /*text-indent: calc(3.5rem + 0.67vw);*/
+    padding-left: calc(3.5rem + 0.67vw);
     position: relative;
     z-index: 0;
 }
@@ -1194,8 +1195,6 @@ li.bbp-body div.topic {
     border-radius: 0.4em;
 }
 
-
-
 .bbp-topic-excerpt-container {
     display:  flex;
 }
@@ -1251,6 +1250,14 @@ select.bbr-resolutions-dropdown {
 .bbr-resolution-sticker.bbr-resolution-exp-sticker {
     color: #04bbf1;
     background-color: rgba(4,187,241,0.1);
+}
+
+/* tupic tags */
+.bbp-topic-tags a[rel=tag] {
+    padding: 0.2em 0.2em 0.2em 0.4em;
+    background:var(--light);
+    border: 1px solid var(--primary);
+    border-radius: 0.2em;
 }
 /* favorite button */
 #bbpress-forums #favorite-toggle a {
@@ -1532,7 +1539,7 @@ width:100%;
 }
 */
 #buddypress form#whats-new-form #whats-new-content #whats-new-options #whats-new-post-in-box {
-	margin-top: -2em;
+	margin-top: -2em!important;
 }
 /*****---------- 3.7 Remove bp header section ----------*****/
 
@@ -1551,6 +1558,32 @@ width:100%;
 
 .basic-menu .has-submenu.kleo-messages-nav .submenu li.kleo-submenu-item .message-from a, .basic-menu .has-submenu.kleo-messages-nav .submenu li.kleo-submenu-item .message-body a, .basic-menu .has-submenu.kleo-notifications-nav .submenu .kleo-submenu-item > span {
     color: #222!important;
+}
+
+#achtung-overlay {
+    z-index:8192;
+    bottom: 1vmax;
+    left: unset;
+    right: 1vmax;
+}
+
+.achtung {
+    box-shadow: 0 0.2em 0.2em rgba(0,0,0,0.2);
+    background: var(--light);
+    color: var(--dark);
+    padding: 1em;
+    width: auto;
+    max-width: 50vw;
+    border-left: 3px solid var(--info);
+}
+
+.achtung .achtung-message a {
+    color: inherit;
+}
+
+.achtung .ui-icon.achtung-close-button {
+    font-weight: lighter;
+    line-height: 1;
 }
 /*****---------- 3.8 more simple activity ----------*****/
 
