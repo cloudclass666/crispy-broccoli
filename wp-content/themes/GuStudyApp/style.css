@@ -397,6 +397,7 @@ body.single-topic li.bbp-body div.hentry {
 .bbp-reply-header-meta > ul {
     display: inline-flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .bbp-reply-header-meta > ul > li {
