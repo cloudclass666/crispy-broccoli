@@ -1312,11 +1312,9 @@ body.bbpress.bbp-view-topics-freshness h2.entry-title{
     padding: 0 0.5em;
     position: relative;
 }
-li.bbp-body div.hentry {
-    padding:12px 8px;
-}
+li.bbp-body div.hentry,
 li.bbp-body div.topic {
-    padding: 1.75em 0;
+    padding: 1.75em 8px 0 8px;
 }
 .bbp-topic-title{
     display: block;
