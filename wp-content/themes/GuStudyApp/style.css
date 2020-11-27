@@ -813,7 +813,9 @@ header#header {
     line-height: 1.25em;
     letter-spacing: 1px;
 }
-
+.forum-archive #page-title h1, .members #page-title h1 {
+    padding-right: unset;
+}
 /*****---------- 1.6 Post content ----------*****/
 
 body.single-post #content .entry-content {
