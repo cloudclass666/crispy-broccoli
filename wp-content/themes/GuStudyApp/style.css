@@ -2355,18 +2355,18 @@ a.button.loading, input.loading, button.loading{
 
 /* pretty print */
 #bbpress-forums div.bbp-reply-content pre, #bbpress-forums div.bbp-topic-content pre, .container pre.prettyprinted, 
-.container pre { background-color: #282C34; background-color: var(--pre-very-dark-gray);} /* background */
+.main pre { background-color: #282C34; background-color: var(--pre-very-dark-gray);} /* background */
 
-.container pre.prettyprinted, .container pre, #bbpress-forums div.bbp-reply-content pre, #bbpress-forums div.bbp-topic-content pre,
-.container pre .pln { color: #DADEE5; color: var(--pre-white); } /* plaintext */
+.main pre.prettyprinted, .main pre, #bbpress-forums div.bbp-reply-content pre, #bbpress-forums div.bbp-topic-content pre,
+.main pre .pln { color: #DADEE5; color: var(--pre-white); } /* plaintext */
 
-.container pre .str { color:#86b464; color: var(--pre-green); } /* string */
-.container pre .kwd { color:#C473DC; color: var(--pre-pink); } /* keyword */
-.container pre .com { color:#545B68; } /* comment */
-.container pre .typ { color:#D2876D; color: var(--pre-orange); } /* type */
-.container pre .dec { color:#dc967f; color: var(--pre-light-orange); } /* decimal */
-.container pre .lit { color:#5CAEF2; color: var(--pre-blue); } /* literal */
-.container pre .pun { color:#AAB1BF; color: var(--pre-gray); } /* punctuation */
-.container pre .tag { color:#D8676F; color: var(--pre-red); } /* html/xml tag */
-.container pre .atn { color:#D2876D; color: var(--pre-orange); } /* html/xml attribute name */
-.container pre .atv { color:#90BB71; color: var(--pre-light-green); } /* html/xml attribute value */
+.main pre .str { color:#86b464; color: var(--pre-green); } /* string */
+.main pre .kwd { color:#C473DC; color: var(--pre-pink); } /* keyword */
+.main pre .com { color:#545B68; } /* comment */
+.main pre .typ { color:#D2876D; color: var(--pre-orange); } /* type */
+.main pre .dec { color:#dc967f; color: var(--pre-light-orange); } /* decimal */
+.main pre .lit { color:#5CAEF2; color: var(--pre-blue); } /* literal */
+.main pre .pun { color:#AAB1BF; color: var(--pre-gray); } /* punctuation */
+.main pre .tag { color:#D8676F; color: var(--pre-red); } /* html/xml tag */
+.main pre .atn { color:#D2876D; color: var(--pre-orange); } /* html/xml attribute name */
+.main pre .atv { color:#90BB71; color: var(--pre-light-green); } /* html/xml attribute value */
