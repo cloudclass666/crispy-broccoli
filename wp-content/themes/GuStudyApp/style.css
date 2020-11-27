@@ -702,10 +702,10 @@ body.single-forum #bbpress-forums {
 }
 
 li.bbp-forum-reply-count:before {
-    content: "\e91a";
+    content: "\ea2b";
     margin-right: 0.25em;
-    color: #13c2c2;
-    font-family: 'icon' !important;
+    color: var(--primary);
+    font-family: 'icomoon' !important;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
