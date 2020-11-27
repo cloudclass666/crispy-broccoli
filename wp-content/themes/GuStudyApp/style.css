@@ -144,8 +144,14 @@ border:none;
     float: left;
 }
 
-.bbp-template-notice .bbp-topic-description {
+.bbp-template-notice .bbp-topic-description,
+.bbp-template-notice .bbp-forum-description {
     display: none;
+}
+.bbp-no-reply .button,
+.bbp-no-topic .button {
+    display: inline-block;
+    margin: 0 0.4em;
 }
 #bbpress-forums .bbp-forums .bbp-body ul.topic li.bbp-topic-title .bbp-topic-meta .bbp-topic-started-by {
     font-size: 13px;
