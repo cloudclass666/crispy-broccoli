@@ -1201,6 +1201,7 @@ body.bbpress.bbp-view-topics-freshness h2.entry-title{
 
 #bbpress-forums .bbp-reply-form fieldset.bbp-form>div p, #bbpress-forums .bbp-topic-form fieldset.bbp-form>div p {
     display: inline-block;
+    vertical-align: top;
 }
 
 
