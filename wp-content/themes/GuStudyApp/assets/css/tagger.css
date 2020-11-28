@@ -4,7 +4,7 @@
  * Released under the MIT license
  */
 .tagger {
-     border-bottom: 1px solid var(--light);
+     border-bottom: 1px solid var(--gray);
 }
  .tagger input[type="hidden"] {
     /* fix for bootsrap */
@@ -15,17 +15,20 @@
      width: 100%;
      align-items: center;
      padding: 0.2em 0.3em;
-     justify-content: space-between;
      box-sizing: border-box;
      height: max-content;
      justify-content: flex-start;
+     flex-wrap: wrap;
 }
  .tagger ul {
      margin: 0;
      list-style: none;
 }
+.tagger ul > li {
+     width: max-content;
+ }
  .tagger > ul > li:not(.tagger-new) + li {
-     padding-left: 0.625em;
+     padding-left: 0.6em;
 }
  .tagger > ul > li:not(.tagger-new) a, .tagger > ul > li:not(.tagger-new) a:visited, .tagger-new ul a, .tagger-new ul a:visited {
      color: black;
@@ -47,7 +50,7 @@
      line-height: 1em;
 }
  .tagger li a.close:hover {
-     color: var(--white);
+     color: var(--red);
 }
  .tagger li:not(.tagger-new) a {
      text-decoration: none;
