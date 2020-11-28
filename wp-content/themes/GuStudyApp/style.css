@@ -2240,50 +2240,32 @@ label {
 
 /*****---------- 4.2 spoiler ----------*****/
 
-div.spoiler-wrap {
-    background-color: #fafafa;
-    border: 1px solid #eee;
-    border-radius: 1em;
-    clear: both;
-    display: block;
-    margin: 6px auto;
-    padding: 0;
-    width: 95%;
-    box-shadow: 0 3px 3px rgba(0,0,0,0.05);
-}
-
-div.spoiler-head {
-    color: #666;
+.spoiler-head {
+    padding: 0.25rem;
     cursor: pointer;
-    display: block;
-    font-weight: bold;
-    line-height: 1.5em;
-    margin-left: 6px;
-    padding: 0.3em 1em;
-}
-div.spoiler-head.collapsed:before, div.spoiler-head.expanded:before{
-    display: inline-block;
-}
-div.spoiler-head.collapsed:before {
-    content: "+";
-    padding-right: 1em;
 }
 
-div.spoiler-head.expanded:before {
-    content: "-";
-    padding-right: 1em;
+.spoiler-head.folded {
+    border-radius: 0.5rem;
 }
 
-div.spoiler-head.collapsed.no-icon, div.spoiler-head.expanded.no-icon {
-    background: none;
-    cursor: auto;
-    padding: 0 6px 0 6px;
+.spoiler-head.unfolded {
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
-div.spoiler-body {
-background: #f7f7f7;
-border-top: 1px solid #f0f0f0;
-    padding: 2px 6px;
+.folded:before {
+    content: "＋";
+    margin: 0 0.25rem;
+}
+
+.unfolded:before {
+    content: "－";
+    margin: 0 0.25rem;
+}
+
+.spoiler-body {
+    padding: 0.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
 }
 /*****---------- 4.3 more ----------*****/
 
