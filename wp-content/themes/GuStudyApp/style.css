@@ -2197,7 +2197,7 @@ div#page-wrapper {
     opacity: 1!important;
 }
 
-input#group-status-hidden, ul#hidden-group-description {
+input#group-status-hidden, ul#hidden-group-description, label[for="group-status-hidden"] {
     display: none;
 }
 
