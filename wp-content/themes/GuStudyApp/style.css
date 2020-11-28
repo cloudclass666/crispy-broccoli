@@ -2350,7 +2350,7 @@ span[id^="more-"] {
 }
 @keyframes loader-pulsate{0%{opacity:0.5}50%{opacity:1.0}100%{opacity:0.5}}
 
-a.button.loading, input.loading, button.loading{
+.loading{
     animation: loader-pulsate 0.5s infinite ease-in-out alternate;
     cursor: not-allowed;
 }

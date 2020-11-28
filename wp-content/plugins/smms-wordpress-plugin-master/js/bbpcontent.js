@@ -1,6 +1,7 @@
 var pages = 2
 jQuery(document).ready(function($) {
     $('#admin-img-file').change(function() {
+        $('.wp-media-buttons a.file').addClass('loading');
         for (var i = 0; i < this.files.length; i++) {
             var f = this.files[i];
             var formData = new FormData();
@@ -12,6 +13,7 @@ jQuery(document).ready(function($) {
                 contentType: false,
                 data: formData,
                 success: function(res) {
+                    $('.wp-media-buttons a.file').removeClass('loading');
                     $('textarea.bbp-the-content.wp-editor-area').insertAtCaret('<img src="' + res.data.url + '" />');
                     $("html").find("iframe").contents().find("body").append('<img src="'+ res.data.url +'" />'); 
                 }
