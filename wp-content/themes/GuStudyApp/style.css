@@ -1456,10 +1456,59 @@ select.bbr-resolutions-dropdown {
 /* tupic tags */
 .bbp-topic-tags a[rel=tag] {
     padding: 0.2em 0.2em 0.2em 0.4em;
-    background:var(--light);
-    border: 1px solid var(--primary);
+    background:var(--gray-dark);
+    color:var(--white);
     border-radius: 0.2em;
 }
+.bbp-topic-tags a[rel=tag]:nth-child(9n), 
+.tag-cloud-link:nth-child(9n){
+    background-color: var(--cyan);
+}
+.bbp-topic-tags a[rel=tag]:nth-child(9n+1), 
+.tag-cloud-link:nth-child(9n+1){
+    background-color: var(--blue);
+}
+.bbp-topic-tags a[rel=tag]:nth-child(9n+2), 
+.tag-cloud-link:nth-child(9n+2){
+    background-color: var(--indigo);
+}
+.bbp-topic-tags a[rel=tag]:nth-child(9n+3), 
+.tag-cloud-link:nth-child(9n+3){
+    background-color: var(--purple);
+}
+.bbp-topic-tags a[rel=tag]:nth-child(9n+4), 
+.tag-cloud-link:nth-child(9n+4){
+    background-color: var(--pink);
+}
+.bbp-topic-tags a[rel=tag]:nth-child(9n+5), 
+.tag-cloud-link:nth-child(9n+5){
+    background-color: var(--red);
+}
+.bbp-topic-tags a[rel=tag]:nth-child(9n+6), 
+.tag-cloud-link:nth-child(9n+6){
+    background-color: var(--orange);
+}
+.bbp-topic-tags a[rel=tag]:nth-child(9n+7), 
+.tag-cloud-link:nth-child(9n+7){
+    background-color: var(--yellow);
+}
+.bbp-topic-tags a[rel=tag]:nth-child(9n+8), 
+.tag-cloud-link:nth-child(9n+8){
+    background-color: var(--gree);
+}
+
+#bbp-topic-hot-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.tag-cloud-link {
+    border:1px solid var(--gray);
+    padding: 0.2em;
+    margin: 0 0.2em 0.2em 0;
+}
+
 /* favorite button */
 #bbpress-forums #favorite-toggle a {
     margin: 20px 0;
