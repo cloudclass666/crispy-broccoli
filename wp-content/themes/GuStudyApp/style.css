@@ -1729,8 +1729,7 @@ div.item-cover div.item-avatar img.avatar {
     margin-left: -0.25em;
 }
 
-#buddypress div#item-header span.activity:before {
-    content: "";
+#buddypress div#item-header span.activity {
     display: block;
 }
 /*****---------- 3.5 Better greeting ----------*****/
