@@ -1696,6 +1696,16 @@ div.item-cover div.item-avatar img.avatar {
     margin: 0 0 6px 0;
     color: inherit;
 }
+.certification-title {
+    background: linear-gradient(90deg,var(--indigo),var(--blue));
+    color: var(--white);
+    padding: 0.25em 0.5em;
+    display: inline-block;
+    margin: 0.4em 0.2em;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em rgba(255,255,255,0.5) inset, 0 0.2em 0.2em rgba(0,0,0,0.1);
+    position: relative;
+}
 /*****---------- 3.4 BuddyPress @ Mention name ----------*****/
 
 
