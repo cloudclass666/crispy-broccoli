@@ -1454,11 +1454,12 @@ select.bbr-resolutions-dropdown {
 }
 
 /* tupic tags */
-.bbp-topic-tags a[rel=tag] {
-    padding: 0.2em 0.2em 0.2em 0.4em;
+.bbp-topic-tags a[rel=tag],.tag-cloud-link {
+    padding: 0.2em;
     background:var(--gray-dark);
     color:var(--white);
     border-radius: 0.2em;
+    margin: 0 0.2em 0.2em 0;
 }
 .bbp-topic-tags a[rel=tag]:nth-child(9n), 
 .tag-cloud-link:nth-child(9n){
@@ -1502,11 +1503,6 @@ select.bbr-resolutions-dropdown {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-}
-.tag-cloud-link {
-    border:1px solid var(--gray);
-    padding: 0.2em;
-    margin: 0 0.2em 0.2em 0;
 }
 
 /* favorite button */
