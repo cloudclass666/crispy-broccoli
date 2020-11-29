@@ -14,7 +14,7 @@ Note: Only this child theme is licensed under the GNU General Public License, th
 :root {
     --red: #ff4757;
     --orange: #ffa502;
-    --yellow: #eccc68;
+    --yellow: #fed330;
     --green: #2ed573;
     --teal: #2bcbba;
     --cyan: #0fb9b1;
@@ -1492,6 +1492,7 @@ select.bbr-resolutions-dropdown {
 .bbp-topic-tags a[rel=tag]:nth-child(9n+7), 
 .tag-cloud-link:nth-child(9n+7){
     background-color: var(--yellow);
+    color:var(dark);
 }
 .bbp-topic-tags a[rel=tag]:nth-child(9n+8), 
 .tag-cloud-link:nth-child(9n+8){
