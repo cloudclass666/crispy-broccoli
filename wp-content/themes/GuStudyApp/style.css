@@ -1149,18 +1149,26 @@ body.bbpress.bbp-view-topics-freshness h2.entry-title{
 /*****---------- 2.4 new topic button ----------*****/
 
 .bbp-new-topic {
-    display: none;
-    position: absolute;
-    right: 1em;
-    top: 1em;
-}
-.bbp-new-topic a.button{
-    padding: 8px 18px 8px 15px;
-}
-#bbpress-forums #bbpress-forums .bbp-new-topic{
-    display: block;
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    z-index: 16;
+    transform: translateX(-50%);
 }
 
+.bbp-new-topic a.button {
+    padding: 1em;
+    border-radius: 4em;
+    box-shadow: 0 .4em .8em rgba(0,0,0,0.2);
+}
+
+.bbp-new-topic i.icon {
+    margin: 0;
+}
+#new-post:target .bbp-new-topic {
+    display: none;
+}
+/* */
 #bbpress-forums div.odd, #bbpress-forums ul.odd,
 #bbpress-forums div.even, #bbpress-forums ul.even  {
     background:transparent;
