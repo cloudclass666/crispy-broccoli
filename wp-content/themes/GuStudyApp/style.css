@@ -1495,7 +1495,7 @@ select.bbr-resolutions-dropdown {
 }
 .bbp-topic-tags a[rel=tag]:nth-child(9n+8), 
 .tag-cloud-link:nth-child(9n+8){
-    background-color: var(--gree);
+    background-color: var(--green);
 }
 
 #bbp-topic-hot-tags {
