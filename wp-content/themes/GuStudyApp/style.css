@@ -1720,7 +1720,7 @@ div.item-cover div.item-avatar img.avatar {
     font-size: 1.5em;
     opacity: 0.9;
     width: auto;
-    max-width: 33vw;
+    max-width: 50vw;
     background: rgba(255, 255, 255, 0.75);
     border-radius: 0.5rem;
     display: inline-block;
