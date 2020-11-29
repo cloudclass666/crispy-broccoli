@@ -1462,7 +1462,7 @@ select.bbr-resolutions-dropdown {
 }
 
 /* tupic tags */
-.bbp-topic-tags a[rel=tag],.tag-cloud-link {
+.bbp-topic-tags a[rel=tag],.tag-cloud-link,.tagcloud a {
     padding: 0.2em;
     background:var(--gray-dark);
     color:var(--white);
