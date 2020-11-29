@@ -1445,20 +1445,20 @@ select.bbr-resolutions-dropdown {
     border-radius: 1rem;
 }
 .bbr-resolution-sticker.bbr-resolution-idea-sticker {
-    color: #a026ff;
-    background-color: rgba(160,38,255,0.1);
+    color: var(--purple);
+    background-color: rgba(165, 94, 234, 0.1);
 }
 .bbr-resolution-sticker.bbr-resolution-question-sticker {
-    color: #fd7e14;
-    background-color: rgba(253,126,20,0.1);
+    color: var(--orange);
+    background-color: rgba(255,165,2,0.1);
 }
 .bbr-resolution-sticker.bbr-resolution-info-sticker {
-    color: #17a2b8;
-    background-color: rgba(23,162,184,0.1);
+    color: var(--teal);
+    background-color: rgba(43,203,186,0.1);
 }
 .bbr-resolution-sticker.bbr-resolution-exp-sticker {
-    color: #04bbf1;
-    background-color: rgba(4,187,241,0.1);
+    color: var(--blue);
+    background-color: rgba(30,144,255,0.1);
 }
 
 /* tupic tags */
