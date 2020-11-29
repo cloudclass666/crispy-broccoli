@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
     var _newNotificationsCount = 0;
 
     //set interval to 5s
-    wp.heartbeat.interval('fast');
+    wp.heartbeat.interval('standard');
 
     $(document).on('heartbeat-tick.bpln-data', function (event, data) {
 
