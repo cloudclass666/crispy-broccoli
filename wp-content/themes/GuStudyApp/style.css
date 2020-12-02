@@ -2269,7 +2269,7 @@ div#page-wrapper {
 }
 
 input#group-status-hidden, ul#hidden-group-description, label[for="group-status-hidden"] {
-    display: none;
+    display: none!important;
 }
 
 .radio input {
