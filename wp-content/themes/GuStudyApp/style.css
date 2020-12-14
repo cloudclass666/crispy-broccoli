@@ -1650,11 +1650,12 @@ div.activity-type-tabs{
     font-style: normal;
 }
 
-.bbp_topic_create.activity-item .activity-meta .acomment-reply, .bbp_reply_create.activity-item .activity-meta .acomment-reply {
-    display: none;
+.bbp_topic_create.activity-item .activity-meta .acomment-reply, 
+.bbp_reply_create.activity-item .activity-meta .acomment-reply {
+    display: none!important;
 }
 .mini.activity-item .activity-meta{
-    display:none;
+    display:none!important;
 }
 
 /* just posted activity */
