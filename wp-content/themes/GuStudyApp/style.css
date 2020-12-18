@@ -1033,6 +1033,8 @@ ul.gdpol-responses-list li:last-of-type ._down {
     position: absolute;
     font-size: 2em;
     opacity: 0.2;
+    left: 0;
+    top: -0.1em;
 }
 
 .bbp-signature p {
