@@ -724,6 +724,8 @@ body.single-topic li.bbp-body div.hentry {
     padding: 0.8em;
     border-radius: 4em;
     box-shadow: 0 .4em .8em rgba(0,0,0,0.2);
+    Background-color: var(--primary);
+    color: var(--white);
 }
 
 .bbp-new-topic i.icon {
