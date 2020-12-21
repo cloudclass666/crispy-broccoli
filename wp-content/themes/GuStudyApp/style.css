@@ -1054,9 +1054,11 @@ ul.gdpol-responses-list li:last-of-type ._down {
 }
 
 /* admin links */
+/*
 span.bbp-admin-links a {
     font-size: initial;
 }
+*/
 .bbp-author-ip {
     font-family: monospace;
 }
@@ -2099,7 +2101,7 @@ ul.mesage-item > li.read {
 /* bbP ranks and badge ======================================== */
 .bur_display, .bur_display ul, .bur_display li, .bur_display div {
     display:inline;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .bur_display ul {
