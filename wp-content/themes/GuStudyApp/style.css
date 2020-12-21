@@ -176,6 +176,7 @@ label {
 }
 
 /* Bigger button */
+/*
 a.button, button, input[type=submit], input[type=reset], input[type=button],
 .kleo-login-wrap .login-form-wrapper button.login-button, .kleo-login-wrap .login-form-wrapper input[type="submit"].login-button{
     font-size: 1rem;
@@ -206,7 +207,7 @@ a.button, button, input[type=submit], input[type=reset], input[type=button],
 .mfp-close:hover {
     background:transparent;
 }
-
+*/
 /* Login Model ======================================== */
 .login-button, .fancy-checkbox {
     font-size: 1.13em!important;
@@ -303,6 +304,7 @@ header#header {
 /* bbPress ======================================== */
 
 /* bigger font */
+/*
 #bbpress-forums ul.bbp-forums,
 #bbpress-forums ul.bbp-lead-topic,
 #bbpress-forums ul.bbp-replies,
@@ -318,7 +320,7 @@ header#header {
 #bbpress-forums h3 {
     font-size: 1.8em;
 }
-
+*/
 #buddypress #item-body :not(#bbpress-forums) h3,
 #bbpress-forums ul.bbp-replies .bbp-body .bbp-reply-author .bbp-author-avatar,
 .wp-editor-tabs {
