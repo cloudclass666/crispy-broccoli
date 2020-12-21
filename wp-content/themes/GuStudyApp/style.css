@@ -587,11 +587,11 @@ li.bbp-body div.topic {
 #bbpress-forums.status-closed {
     color: var(--gray-dark)!important;
 }
-
+/*
 #bbpress-forums .bbp-forums .bbp-body ul.topic li.bbp-topic-title .bbp-topic-meta .bbp-topic-started-by {
     font-size: 13px;
 }
-
+*/
 #bbpress-forums .bbp-pagination:after {
     display: table;
     clear: both;
@@ -1086,14 +1086,11 @@ span.bbp-admin-links a {
     font-family: "icomoon";
     font-size: 90%;
 }
-
-#bbpress-forums .bbp-forums .bbp-body ul.topic li.bbp-topic-title .bbp-topic-meta .bbp-topic-started-by {
-    font-size: 13px;
-}
+/*
 .page-numbers, .pagination-links {
     font-size: 1.17em !important;
 }
-
+*/
 /* custom views */
 .bbp-view-latest-topics .svq-page-header {
     text-align: center;
@@ -1451,14 +1448,15 @@ blockquote.d4pbbc-quote p {
 }
 
 /* larger font */
+/*
 .entry-content ol, .entry-content ul {
     font-size: 16px;
 }
-
+*/
 #buddypress div#item-nav {
     border-bottom: none;
 }
-
+/*
 #buddypress table tr td.thread-info p.thread-excerpt {
     font-size: 1.05em;
 }
@@ -1517,7 +1515,7 @@ blockquote.d4pbbc-quote p {
 #buddypress ul#activity-stream.activity-list > li .activity-content .activity-meta .button:before {
     top: 0.33em;
 }
-
+*/
 /* Group / Member cover */
 .item-cover.has-cover {
     background-color: #fafafa;
