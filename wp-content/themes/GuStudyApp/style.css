@@ -2496,7 +2496,8 @@ ul.mesage-item>li.read {
 }
 
 /* Nickname */
-#buddypress div#item-header h2 {
+#buddypress div#item-header .user-nickname,
+#buddypress div#item-header .user-nicename {
     font-size: 1.5em;
     opacity: 0.9;
     width: auto;
@@ -2506,6 +2507,12 @@ ul.mesage-item>li.read {
     padding: 0 0.25em;
     text-shadow: 0 0 0.2em var(--light);
     margin-left: -0.25em;
+}
+
+#buddypress div#item-header .user-nicename {
+    font-size: 1.35em;
+    opacity: 0.6;
+    margin-left: 0;
 }
 
 /* certification title */
