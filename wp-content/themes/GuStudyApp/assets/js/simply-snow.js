@@ -1,0 +1,1 @@
+snowStorm.followMouse = false;
