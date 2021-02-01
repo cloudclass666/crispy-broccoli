@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
             var formData = new FormData();
             formData.append('smfile', f);
             $.ajax({
-                url: '/index.php/wp-json/smms/api/v2/upload',
+                url: 'https://www.mimua.ml/wp-json/smms/api/v2/upload',
                 type: 'POST',
                 processData: false,
                 contentType: false,
@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
         pages = 2
         $("#img_list > li").remove()
         $.ajax({
-            url: '/index.php/wp-json/smms/api/v2/list',
+            url: 'https://www.mimua.ml/wp-json/smms/api/v2/list',
             type: 'GET',
             cache:false,
             dataType: 'json', 
@@ -45,7 +45,7 @@ jQuery(document).ready(function($) {
     $("#upload-btn").click(function(){
 
         $.ajax({
-            url: '/index.php/wp-json/smms/api/v2/list',
+            url: 'https://www.mimua.ml/wp-json/smms/api/v2/list',
             type: 'GET',
             cache: false,
             dataType: 'json',
