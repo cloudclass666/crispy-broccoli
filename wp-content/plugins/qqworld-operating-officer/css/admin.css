@@ -1,0 +1,848 @@
+.wrap {
+	clear: both;
+}
+#qqworld-operating-officer-container #banner {
+	border: 10px solid #fff;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.15);
+	margin-bottom: 10px;
+	max-width: 95%;
+	height: auto;
+}
+#toplevel_page_qqworld-operating-officer .wp-menu-image:before {
+	content: "\f183";
+}
+
+#qqworld-operating-officer-container .nav-section {
+	display: none;
+}
+
+#qqworld-operating-officer-container th.column-signin-method {
+	width: 100px;
+}
+#qqworld-operating-officer-container th.column-edit {
+	width: 80px;
+}
+
+/* Icon */
+.qoo-icon:before {
+	font-family: dashicons;
+	margin-right: 5px;
+}
+.qoo-icon.delete:before {
+	content: '\f182';
+}
+.qoo-icon.login:before {
+	content: '\f110';
+}
+.qoo-icon.events:before {
+	content: '\f488';
+}
+.qoo-icon.custom-menu:before {
+	content: '\f228';
+}
+.qoo-icon.synchronization:before {
+	content: '\f531';
+}
+.qoo-icon.modules:before {
+	content: '\f180';
+}
+.qoo-icon.settings:before {
+	content: '\f111';
+}
+.qoo-icon.download:before,
+.qoo-icon.import:before {
+	content: '\f316';
+}
+.qoo-icon.upload:before {
+	content: '\f317';
+}
+.qoo-icon.unlock:before {
+	content: '\f528';
+}
+.qoo-icon.cart:before {
+	content: '\f174';
+}
+.qoo-icon.search:before {
+	content: '\f179';
+}
+.qoo-icon.tree:before {
+	content: '\f527';
+}
+.qoo-icon.diff:before {
+	content: '\f459';
+}
+.qoo-icon.profile:before {
+	content: '\f337';
+}
+
+#qqworld-operating-officer-container ol.how-to-upgrade {
+	margin: 20px -30px 0;
+	list-style: none;
+	counter-reset: item;
+}
+	#qqworld-operating-officer-container ol.how-to-upgrade li {
+		width: 256px;
+		max-width: 90%;
+		counter-increment: item;
+		float: left;
+		margin: 5px 30px 20px;
+		text-align: center;
+		position: relative;
+	}
+	#qqworld-operating-officer-container ol.how-to-upgrade li img {
+		border: 3px solid #fff;
+	}
+	#qqworld-operating-officer-container ol.how-to-upgrade li:before {
+		content: counter(item);
+		margin-right: 10px;
+		background: #0073aa;
+		border-radius: 100%;
+		color: white;
+		font-size: 28px;
+		width: 42px;
+		height: 42px;
+		line-height: 42px;
+		text-align: center;
+		display: inline-block;
+		position: absolute;
+		left: -20px;
+		top: -20px;
+	}
+#qqworld-operating-officer-container #environment-list-table #the-environment tr.unsupported th.check-column {
+	border-left: 4px solid #d54e21;
+	background: #fdf9f8;
+	border-bottom: 1px solid #f3d6d6;
+}
+#qqworld-operating-officer-container #environment-list-table #the-environment tr.unsupported td {
+	background: #fdf9f8;
+	border-bottom: 1px solid #f3d6d6;
+}
+@media screen and (max-width: 782px) {
+	#qqworld-operating-officer-container #the-environment .column-primary {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	#qqworld-operating-officer-container .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.column-primary)::before {
+		position: static;
+		font-weight: bold;
+	}
+	#qqworld-operating-officer-container #environment-list-table .check-column {
+		display: none !important;
+	}
+}
+
+/* 激活列表 */
+@keyframes product-commercial {
+	0% {
+	}
+	50% {
+		box-shadow: 0 0 25px rgba(255, 0, 0, 0.7);
+	}
+	100% {
+	}
+}
+@keyframes product-shine {
+	0% {
+		left: -50%;
+	}
+	100% {
+		left: 200%;
+	}
+}
+#qqworld-operating-officer-container .product-list {
+	margin-top: 50px;
+}
+#qqworld-operating-officer-container .product-list > li {
+	width: 320px;
+	float: left;
+	margin: 0 20px 60px 0;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.15);
+	position: relative;
+	transform: perspective(600px) rotateY(25deg);
+    perspective-origin: 50% 50%;
+    transform-style: preserve-3d;
+	-webkit-transition: transform .25s, box-shadow .5s, color .25s;
+	-moz-transition: transform .25s, box-shadow .5s, color .25s;
+	-o-transition: transform .25s, box-shadow .5s, color .25s;
+	-ms-transition: transform .25s, box-shadow .5s, color .25s;
+	transition: transform .25s, box-shadow .5s, color .25s;
+}
+	#qqworld-operating-officer-container .product-list > li:hover {
+		transform: rotateY(0);
+	}
+#qqworld-operating-officer-container .product-list > li a.options {
+	position: absolute;
+	right: 10px;
+	top: 150px;
+	color: #fff;
+}
+#qqworld-operating-officer-container .product-list > li a.options:before {
+	font-family: 'dashicons';
+	content: '\f206';
+}
+#qqworld-operating-officer-container .product-list > li.free {
+}
+#qqworld-operating-officer-container .product-list > li.free:hover {
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+#qqworld-operating-officer-container .product-list > li.commercial {
+	animation-name: product-commercial;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	box-shadow: 0 0 1px rgba(255, 0, 0, 0.7);
+}
+#qqworld-operating-officer-container .product-list li .product-image {
+	position: relative;
+	margin: 0;
+	overflow: hidden;
+}
+	#qqworld-operating-officer-container .product-list li .product-image:before {
+		content: '';
+		position: absolute;
+		top: -25%;
+		left: -50%;
+		width: 30px;
+		height: 200%;
+		transform: rotate(30deg);
+		background: rgba(255,255,255,.5);
+		animation-name: product-shine;
+		animation-duration: 1.5s;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+		animation-direction: normal;
+	}
+	#qqworld-operating-officer-container .product-list li .product-image:after {
+		content: '';
+		clear: both;
+		display: block;
+	}
+#qqworld-operating-officer-container .product-list li img {
+	border-bottom: 0;
+	float: left;
+}
+#qqworld-operating-officer-container .product-list li .product-label,
+#qqworld-operating-officer-container .product-list li .product-description,
+#qqworld-operating-officer-container .product-list li .product-options {
+	-webkit-transition: transform .25s, height .25s, color .25s;
+	-moz-transition: transform .25s, height .25s, color .25s;
+	-o-transition: transform .25s, height .25s, color .25s;
+	-ms-transition: transform .25s, height .25s, color .25s;
+	transition: transform .25s, height .25s, color .25s;
+}
+#qqworld-operating-officer-container .product-list li .product-label {
+	margin: 0;
+	padding: 10px;
+	background: #fff;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	transform: perspective(600px) translateZ(30px);
+	border: 1px solid #ddd;
+	overflow: hidden;
+}
+#qqworld-operating-officer-container .product-list li .product-description {
+	margin: 0;
+	padding: 10px;
+	background: #f7f7f7;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	color: #666;
+	transform: perspective(600px) translateZ(30px);
+	border: 1px solid #ddd;
+}
+#qqworld-operating-officer-container .product-list li .product-options {
+	background: #fff;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	height: 0;
+	overflow: hidden;
+	transform: perspective(600px) translateZ(30px);
+	border: 1px solid #ddd;
+}
+#qqworld-operating-officer-container .product-list li:hover .product-label,
+#qqworld-operating-officer-container .product-list li:hover .product-description,
+#qqworld-operating-officer-container .product-list li:hover .product-options {
+	transform: perspective(600px) translateZ(0);
+	border: 0;
+}
+#qqworld-operating-officer-container .product-list li:hover .product-options {
+	height: 72px;
+}
+#qqworld-operating-officer-container .product-list li .product-options li {
+	margin: 0;
+	padding: 5px 10px;
+}
+#qqworld-operating-officer-container .product-list li .product-options li input[type="text"] {
+	width: 100%;
+	box-sizing: border-box;
+	height: 30px;
+}
+#qqworld-operating-officer-container .product-list li aside.attr {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 1;
+	padding: 5px 10px;
+	background: #fff;
+	border-radius: 5px;
+	background: #f7f7f7;
+	transition: background .3s;
+}
+#qqworld-operating-officer-container .product-list li aside.attr.free {
+	
+}
+#qqworld-operating-officer-container .product-list li aside.attr.pay {
+	background: #ff0;
+}
+#qqworld-operating-officer-container .product-list li aside.attr.pay:hover {
+	background: #fc0;
+}
+#qqworld-operating-officer-container .product-list li aside.attr.pay a {
+	text-decoration: none;
+	color: #b35700;
+	text-shadow: 1px 1px 2px rgba(255,255,255,.5);
+}
+#qqworld-operating-officer-container .product-list li aside.activate {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #fff;
+}
+#qqworld-operating-officer-container .product-list li aside.activated {
+	background: #74E074;
+}
+#qqworld-operating-officer-container .product-list li aside.failed {
+	background: #c00;
+	color: #fff;
+}
+#qqworld-operating-officer-container .submit-activation-request {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+/* 产品信息 */
+#qqworld-operating-officer-container #product-info thead th {
+	white-space: nowrap;
+}
+#qqworld-operating-officer-container #product-info .aligncenter {
+	text-align: center;
+}
+#qqworld-operating-officer-container #product-info .qc-svg {
+	padding-left: 120px;
+	background-size: 120px;
+	background-position: 0 center;
+	background-repeat: no-repeat;
+}
+	#qqworld-operating-officer-container #product-info .qc-svg.collection {
+		background-image: url(../images/svg/collection.svg);
+	}
+	#qqworld-operating-officer-container #product-info .qc-svg.attachments {
+		background-image: url(../images/svg/attachments.svg);
+	}
+	#qqworld-operating-officer-container #product-info .qc-svg.watermark {
+		background-image: url(../images/svg/footprint.svg);
+	}
+	#qqworld-operating-officer-container #product-info .qc-svg.translate {
+		background-image: url(../images/svg/chinese.svg);
+	}
+	#qqworld-operating-officer-container #product-info .qc-svg.cloud-storage {
+		background-image: url(../images/svg/cloud-storage.svg);
+	}
+	#qqworld-operating-officer-container #product-info .qc-svg.proxy {
+		background-image: url(../images/svg/agent.svg);
+	}
+	#qqworld-operating-officer-container #product-info .qc-svg.database {
+		background-image: url(../images/svg/database.svg);
+	}
+	#qqworld-operating-officer-container #product-info .qc-svg.anchor {
+		background-image: url(../images/svg/anchor.svg);
+	}
+	#qqworld-operating-officer-container #product-info .qc-svg.pseudo-original {
+		background-image: url(../images/svg/pseudo-original.svg);
+	}
+	#qqworld-operating-officer-container #product-info .qc-svg.cleaner {
+		background-image: url(../images/svg/cleaner.svg);
+	}
+#qqworld-operating-officer-container #product-info tbody td.column-mark {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 48px;
+}
+	#qqworld-operating-officer-container #product-info tbody td.green {
+		background-image: url(../images/svg/success.svg);
+	}
+	#qqworld-operating-officer-container #product-info tbody td.red {
+		background-image: url(../images/svg/error.svg);
+	}
+@media (max-width: 781px) {
+	#qqworld-operating-officer-container #product-info .column-mark {
+		background-position: left center;
+		height: 20px;
+	}
+}
+#qqworld-operating-officer-container #product-info tr.priceRowTop {
+	background: linear-gradient(#ededed, #ffffff);
+}
+#qqworld-operating-officer-container #product-info tr.priceRowBottom {
+	background: linear-gradient(#f9f9f9, #ffffff);
+}
+#qqworld-operating-officer-container #product-info .price {
+	font-size: 22px;
+	font-family: fantasy;
+}
+	#qqworld-operating-officer-container #product-info .price sup {
+		font-size: 12px;
+	}
+
+/* 联系列表 */
+#contact-list .qr-code {
+	width: 200px;
+	position: relative;
+	-webkit-transition: filter .5s;
+	-moz-transition: filter .5s;
+	-o-transition: filter .5s;
+	-ms-transition: filter .5s;
+	transition: filter .5s;
+}
+#contact-list .qr-code:hover {
+	filter: drop-shadow(0 0 10px rgba(0,0,0,.15));
+	z-index: 1;
+}
+	#contact-list .qr-code.qq,
+	#contact-list .qr-code.wechat {
+		width: 420px;
+	}
+
+/* 表單樣式 */
+.qqworld-operating-officer.onoffswitch {
+    position: relative; width: 50px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+.qqworld-operating-officer .onoffswitch-input,
+.qqworld-operating-officer .qc-onoffswitch-checkbox {
+    display: none !important;
+}
+.qqworld-operating-officer .onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 20px; padding: 0; line-height: 20px;
+    border: 2px solid #E3E3E3; border-radius: 20px;
+    background-color: #E0E0E0;
+    transition: background-color 0.25s ease-in;
+}
+.qqworld-operating-officer .onoffswitch-label:before {
+    content: "";
+    display: block; width: 20px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 28px;
+    border: 2px solid #E3E3E3; border-radius: 20px;
+    transition: all 0.2s cubic-bezier(0.215,0.610,0.355,1.000) 0s; 
+}
+.qqworld-operating-officer .qc-onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #0073AA;
+}
+.qqworld-operating-officer .qc-onoffswitch-checkbox:checked + .onoffswitch-label,
+.qqworld-operating-officer .qc-onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #0073AA;
+}
+.qqworld-operating-officer .qc-onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px; 
+}
+
+/*  select style  */
+.selectstyle {
+	padding: 0 45px 0 10px !important;
+	border-radius: 0;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	display: inline-block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAAAAAByaaZbAAAAfUlEQVR42u3UsQ2AMAwEQO+WFTyCJ8gCjJGenpVImZSMgBAiafzC7kDy139SbEuhwxkKECDAG2hZmgc0SQkIQn0kCPaBINzXhQJyGhETKMtI+cjhtvmk1QRkDs0mUHn0d9sMj9D6+tC3UPtgS5fQ+2itlbn67tB7/BoBfg9O4qkvCjlaVVAAAAAASUVORK5CYII=) no-repeat 100% 50%;
+	background-size: contain;
+	font-size: 12px;
+	box-shadow: 0 0 0 3px rgba(0,0,0,0.1) !important;
+	transition: box-shadow .25s;
+}
+.selectstyle:focus {
+	box-shadow: 0 0 3px rgba(30,140,190,.8) !important;
+}
+
+/* Icon uploader */
+.icon-uploader {
+	display: block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #ddd;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.05), 1px 1px 3px rgba(0,0,0,.05) inset;
+	transition: background .3s;
+	position: relative;
+}
+	.icon-uploader img {
+		vertical-align: middle;
+		width: 32px;
+		height: auto;
+	}
+	.icon-uploader:hover {
+		background: #f7f7f7;
+	}
+	.icon-uploader button {
+		position: absolute;
+		border: none;
+		background: #c00;
+		color: #fff;
+		border-radius: 50%;
+		width: 26px;
+		height: 26px;
+		line-height: 26px;
+		right: -20%;
+		top: -20%;
+		cursor: pointer;
+	}
+	.icon-uploader button:before {
+		content: '\f113';
+		font-family: dashicons;
+		font-size: 16px;
+	}
+
+/* Wechat */
+#manual-sync-post-to-wechat-platform .wp-media-buttons-icon:before {
+	content: 'W';
+	font: 400 25px/1 'QQWorld Synchronizer';
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	position: relative;
+	left: -5px;
+	top: -2px;
+}
+	#manual-sync-post-to-wechat-platform + .spinner.is-active {
+		float: none;
+		margin: 4px 10px 0 0;
+	}
+	.manual-sync-post-to-wechat-platform + .spinner.is-active {
+		float: none;
+	}
+#sync-post-column {
+	font: 400 22px/1 'QQWorld Synchronizer';
+	margin-right: 5px;
+}
+
+/* Wechat Custom Menu */
+#wechat-custom-menu-container {
+	margin-top: 20px;
+}
+#wechat-custom-menu-preview {
+	width: 320px;
+	height: 580px;
+	background: #fff url(../images/wechat/bg_mobile_head.png) no-repeat top center;
+	position: relative;
+	border: 1px solid #e7e7eb;
+	float: left;
+}
+	@media screen and ( max-width: 640px ) {
+		#wechat-custom-menu-preview {
+			float: none;
+			margin: auto;
+		}
+	}
+#wechat-custom-menu-footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #fff url(../images/wechat/bg_mobile_foot.png);
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #e7e7eb;
+}
+#wechat-custom-menu-list {
+	padding-left: 44px;
+	border-left: 1px solid #d5d5d5;
+	height: 50px;
+	margin: 0;
+}
+#wechat-custom-menu-list .root-item {
+	width: 90px;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-right: 1px solid #e7e7eb;
+	cursor: pointer;
+	position: relative;
+}
+#wechat-custom-menu-list .root-item.current > label {
+	background: #fff;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #0073aa;
+	box-sizing: border-box;
+}
+#wechat-custom-menu-list .root-item.show .sub-menu-list-container {
+	display: block;
+}
+#wechat-custom-menu-list .root-item.activated > label:before {
+	content: '';
+	background: url(../images/wechat/has-submenu-item.png);
+	width: 7px;
+	height: 7px;
+	display: inline-block;
+	margin-right: 3px;
+}
+#wechat-custom-menu-list .root-item:hover > label {
+	color: #999;
+}
+#wechat-custom-menu-list .root-item:last-child {
+	border: 0;
+}
+#wechat-custom-menu-list .sub-menu-list-container {
+	position: absolute;
+	width: 100%;
+	bottom: 65px;
+	background: #fafafa;
+	border: 1px solid #d0d0d0;
+	left: -1px;
+	display: none;
+}
+#wechat-custom-menu-list .sub-menu-list-container span.add-sub-menu-item {
+	height: 44px;
+	line-height: 44px;
+	display: block;
+	font-size: 26px;
+	font-weight: bold;
+	position: relative;
+}
+	#wechat-custom-menu-list .sub-menu-list-container span.add-sub-menu-item:hover {
+		background: #eee;
+		color: #0073aa;
+	}
+	#wechat-custom-menu-list .sub-menu-list-container span.add-sub-menu-item:before {
+		content: ' ';
+		bottom: -5px;
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border-width: 6px;
+		border-style: dashed;
+		border-color: transparent;
+		border-bottom-width: 0;
+		border-top-color: #fafafa;
+		border-top-style: solid;
+		position: absolute;
+		left: 50%;
+		margin-left: -6px;
+		z-index: 1;
+	}
+	#wechat-custom-menu-list .sub-menu-list-container span.add-sub-menu-item:after {
+		content: ' ';
+		bottom: -6px;
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border-width: 6px;
+		border-style: dashed;
+		border-color: transparent;
+		border-bottom-width: 0;
+		border-top-color: #d0d0d0;
+		border-top-style: solid;
+		position: absolute;
+		left: 50%;
+		margin-left: -6px;
+	}
+#wechat-custom-menu-list .sub-menu-item-list li {
+	height: 44px;
+	line-height: 44px;
+	border-bottom: 1px solid #d0d0d0;
+	margin: 0;
+}
+	#wechat-custom-menu-list .sub-menu-item-list li:hover {
+		background: #eee;
+	}
+	#wechat-custom-menu-list .sub-menu-item-list li.current label {
+		background: #fff;
+		display: block;
+		width: 100%;
+		height: 100%;
+		border: 2px solid #0073aa;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+
+#wechat-custom-menu-settings-panel-container {
+	width: 100%;
+	float: right;
+	height: 580px;
+	margin-left: -340px;
+}
+	@media screen and ( max-width: 640px ) {
+		#wechat-custom-menu-settings-panel-container {
+			float: none;
+			margin: 20px 0 0;
+		}
+	}
+#wechat-custom-menu-settings-panel-inner {
+	height: 580px;
+	margin-left: 340px;
+	background: #e1e1e1;
+	border: 1px solid #d1d1d1;
+	position: relative;
+}
+	@media screen and ( max-width: 640px ) {
+		#wechat-custom-menu-settings-panel-inner {
+			margin: 0;
+		}
+	}
+	#wechat-custom-menu-settings-panel-inner:before {
+		content: ' ';
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border-width: 12px;
+		border-style: dashed;
+		border-color: transparent;
+		border-left-width: 0;
+		border-right-color: #e1e1e1;
+		border-right-style: solid;
+		position: absolute;
+		left: -12px;
+		bottom: 12px;
+		z-index: 1;
+	}
+	#wechat-custom-menu-settings-panel-inner:after {
+		content: ' ';
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border-width: 14px;
+		border-style: dashed;
+		border-color: transparent;
+		border-left-width: 0;
+		border-right-color: #d1d1d1;
+		border-right-style: solid;
+		position: absolute;
+		left: -14px;
+		bottom: 10px;
+	}
+#wechat-custom-menu-settings-panel-title {
+	margin: 0 20px;
+	border-bottom: 1px solid #ccc;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	display: none;
+}
+#wechat-custom-menu-settings-panel-content {
+	padding: 20px;
+	display: none;
+}
+#already_added_submenu,
+#wechat-custom-menu-settings-panel-content .optional {
+	display: none;
+}
+#wechat-custom-menu-settings-panel-inner.has_submenu #already_added_submenu {
+	display: block;
+}
+#wechat-custom-menu-settings-panel-inner.has_submenu .type-selector,
+#wechat-custom-menu-settings-panel-inner.has_submenu .optional {
+	display: none !important;
+}
+#save-publish-wechat-menu-block {
+	padding-top: 20px;
+	text-align: center;
+	clear: both;
+}
+	#save-publish-wechat-menu-block button {
+		padding: 4px 16px 6px;
+		height: 38px;
+		font-size: 18px;
+	}
+#qqworld-operating-officer-container .spinner {
+	float: none;
+}
+
+/* Wechat post sync preview */
+#wechat-posts-preview {
+	width: 100%;
+	max-width: 480px;
+	padding: 0;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-bottom: 0;
+}
+#wechat-posts-preview li {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	clear: both;
+}
+	#wechat-posts-preview li.ui-sortable-helper {
+		box-shadow: 1px 1px 3px rgba(0,0,0,.15);
+		background: #f7f7f7;
+	}
+	#wechat-posts-preview li.ui-sortable-helper .delete {
+		display: none !important;
+	}
+#wechat-posts-preview li a {
+	display: block;
+	height: 80px;
+	line-height: 80px;
+	font-size: 25px;
+	text-decoration: none;
+	position: relative;
+	color: #333;
+	font-family: 'Microsoft Yahei';
+	overflow: hidden;
+}
+#wechat-posts-preview li a .delete {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+}
+	#wechat-posts-preview li a:hover .delete {
+		display: inline-block;
+	}
+#wechat-posts-preview li span.img {
+	width: 80px;
+	height: 80px;
+	float: right;
+	background-size: cover;
+	display: block;
+	background-position: center center;
+}
+#wechat-posts-preview li:first-child,
+#wechat-posts-preview li:first-child a {
+	height: 200px;
+}
+#wechat-posts-preview li:first-child span.img {
+	float: none;
+	width: 100%;
+	height: 200px;
+}
+#wechat-posts-preview li:first-child span.title {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 10px;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+}
