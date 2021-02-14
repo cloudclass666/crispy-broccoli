@@ -1623,6 +1623,19 @@ label[for=bbp_private_reply] {
     display: none;
 }
 
+#buddypress div.item-list-tabs ul li#group-create-nav a {
+    background-color: var(--primary);
+    color: var(--light);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 1em;
+    margin-left: -10px;
+}
+
+#buddypress div.item-list-tabs ul li#group-create-nav a:before {
+    content: "+ ";
+}
+
 /* larger font */
 /*
 .entry-content ol, .entry-content ul {
