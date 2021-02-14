@@ -704,7 +704,7 @@ li.bbp-body div.topic {
 }
 
 .bbp-reply-header-meta {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -1271,6 +1271,7 @@ body.bbpress.bbp-view-topics-freshness h2.entry-title {
 .bbp-topic-tags a[rel=tag],
 .tag-cloud-link,
 .tagcloud a {
+    display: inline-block;
     padding: 0.2em;
     background: var(--gray-dark);
     color: var(--white);
@@ -1610,6 +1611,10 @@ blockquote.d4pbbc-quote p {
 #bbpress-forums .status-closed,
 #bbpress-forums .status-closed a {
     color: #666;
+}
+
+label[for=bbp_private_reply] {
+    width: calc(2em + 6em);
 }
 
 /* BuddyPress ======================================== */
