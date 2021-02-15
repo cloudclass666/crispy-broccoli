@@ -1525,10 +1525,11 @@ select.bbr-resolutions-dropdown {
     margin-right: 0 !important;
     margin-bottom: 0.2em !important;
     margin-left: 0 !important;
-    padding: 4px 12px !important;
+    padding: 0.2em 0.6em !important;
     border: none !important;
     background: #fafafa !important;
     color: var(--dark);
+    font-size: 0.8rem!important;
 }
 
 #bbpress-forums .tmce-active button.switch-tmce,
