@@ -2254,6 +2254,7 @@ ul.mesage-item>li.read {
 
 #message-thread div.message-box .message-content p {
     margin: 0.25em 0 0 0;
+    word-break: break-all;
 }
 
 #message-thread .sent-by-me .message-star-actions {
