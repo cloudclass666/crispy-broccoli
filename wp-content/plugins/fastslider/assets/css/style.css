@@ -1,0 +1,1180 @@
+/* STYLE.CSS */
+ @font-face {
+     font-family: 'fastslider-icomoon';
+     src: url('fonts/icomoon.eot?iwnn8z');
+     src: url('fonts/icomoon.eot?iwnn8z#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?iwnn8z') format('truetype'), url('fonts/icomoon.woff?iwnn8z') format('woff'), url('fonts/icomoon.svg?iwnn8z#icomoon') format('svg');
+     font-weight: normal;
+     font-style: normal;
+}
+ .fastslider [class^="icon-"], .fastslider [class*=" icon-"], .fastslider [class*=" icon-"]:before, .fastslider [class*=" icon-"]:after, .sy-controls li a {
+     font-family: 'fastslider-icomoon' !important;
+     speak: none;
+     font-style: normal;
+     font-weight: normal;
+     font-variant: normal;
+     text-transform: none;
+     line-height: 1;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+}
+ .icon-arrow-left10:before {
+     content: "\e918";
+}
+ .icon-uniE91B:before {
+     content: "\e91b";
+}
+ .fastslider-container, .fastslider-slides-container {
+     position:relative;
+}
+ .fastslider-container .sy-slide > img {
+     min-height:12.5rem;
+     width:auto;
+     height: 100%;
+}
+ .adt-block {
+     display:block;
+}
+ .fastslider-slides-container h1, .fastslider-slides-container h2, .fastslider-slides-container h3, .fastslider-slides-container h4, .fastslider-slides-container h5, .fastslider-slides-container h6, .fastslider-slides-container span, .fastslider-slides-container button {
+     margin: 0 0 0.8rem 0;
+     padding:0;
+     line-height:1;
+     display:inline-block;
+}
+ .fastslider-slides-container span {
+     margin-top:1.25rem;
+}
+ .fastslider-slides-container h1 {
+     font-size: 3rem;
+     padding:0 0.1rem;
+     line-height:1.2;
+}
+ .fastslider-slides-container h2 {
+     font-size: 2rem;
+     padding:0 0.1rem;
+     line-height:1.2;
+}
+ .fastslider-slides-container h3 {
+     font-size: 1.6rem;
+     padding:0 0.1rem;
+     line-height:1.2;
+}
+ .fastslider-slides-container h4 {
+     font-size: 1.25rem;
+     padding:0 0.1rem;
+     line-height:1.2;
+}
+ .fastslider-slides-container h5 {
+     font-size: 1rem;
+     padding:0 0.1rem;
+     line-height:1.2;
+}
+ .fastslider-slides-container h6 {
+     font-size: 0.75rem;
+     padding:0 0.1rem;
+     line-height:1.5;
+}
+ .adt-fastslider-pattern {
+     position:absolute;
+     width:100%;
+     height:100%;
+}
+/*******************************************/
+/************ TEXT POSTIONS ****************/
+/*******************************************/
+ .adt-fastslider-positions {
+    /*padding:2rem;
+     */
+}
+/* TOP */
+ .adt-fastslider-top {
+     display: table;
+     position: absolute;
+     top: 2rem;
+     width:100%;
+     text-align:center;
+}
+ .adt-fastslider-top > h1, .adt-fastslider-top > h2, .adt-fastslider-top > h3, .adt-fastslider-top > h4, .adt-fastslider-top > h5, .adt-fastslider-top > h6, .adt-fastslider-top > span, .adt-fastslider-top > button {
+     text-align:center;
+}
+ .adt-fastslider-top-right {
+     position: absolute;
+     right: 4rem;
+     top:2rem;
+     text-align:right;
+}
+ .adt-fastslider-top-left {
+     position: absolute;
+     left: 4rem;
+     top:2rem;
+}
+/* MIDDLE */
+ .adt-fastslider-middle {
+     position:absolute;
+     margin:auto;
+     transform:translate(0%,-50%);
+     top:50%;
+     text-align:center;
+     width:100%;
+}
+ .adt-fastslider-middle-left {
+     position:absolute;
+     margin:auto;
+     transform:translate(0%,-50%);
+     top:50%;
+     text-align:left;
+     width:100%;
+     margin-left:4rem;
+     width:calc(100% - 8rem);
+}
+ .adt-fastslider-middle-right {
+     position:absolute;
+     margin:auto;
+     transform:translate(0%,-50%);
+     top:50%;
+     text-align:right;
+     width:100%;
+     margin-right:2rem;
+     width:calc(100% - 4rem);
+}
+/* BOTTOM */
+ .adt-fastslider-bottom {
+     position: absolute;
+     bottom: 2rem;
+     width:100%;
+     text-align:center;
+}
+ .adt-fastslider-bottom > h1, .adt-fastslider-bottom > h2, .adt-fastslider-bottom > h3, .adt-fastslider-bottom > h4, .adt-fastslider-bottom > h5, .adt-fastslider-bottom > h6, .adt-fastslider-bottom > span {
+     text-align:center;
+}
+ .adt-fastslider-bottom-right {
+     position: absolute;
+     right: 4rem;
+     bottom:2rem;
+     text-align:right;
+}
+ .adt-fastslider-bottom-left {
+     position: absolute;
+     left: 4rem;
+     bottom:2rem;
+}
+/* BUTTON */
+ .fastslider-slides-container .adt-fastslider-bottom span, .fastslider-slides-container .adt-fastslider-middle span, .fastslider-slides-container .adt-fastslider-top span {
+     margin:0.625rem;
+}
+ .fastslider-slides-container .adt-fastslider-bottom-right span, .fastslider-slides-container .adt-fastslider-middle-right span, .fastslider-slides-container .adt-fastslider-top-right span {
+     margin:0.625rem 0 0.625rem 1.25rem;
+}
+ .fastslider-slides-container .adt-fastslider-bottom-left span, .fastslider-slides-container .adt-fastslider-middle-left span, .fastslider-slides-container .adt-fastslider-top-left span {
+     margin: 0.2rem 0.4rem 0.2rem 0rem;
+}
+/* BUTTON STYLE 1 */
+ .fastslider-slides-container span#adt-fastslider-button-style1 a {
+     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+     border: 0.08rem solid #fff;
+     color: #fff;
+     display: inline-block !important;
+     padding: 0.5rem 1rem !important;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style1 a {
+     color: #fff;
+     font-size: 1rem;
+     font-weight: bold;
+     text-decoration: none;
+     transition: color 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style1:hover a {
+     color: #000000;
+     transition: color 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style1 a {
+     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+     border: 0.08rem solid #fff;
+     display: inline-block !important;
+     padding: 0.5rem 1rem !important;
+     transition: background 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style1 a:hover {
+     background: #ffffff;
+     transition: background 0.3s ease 0s;
+}
+/* BUTTON STYLE 2 */
+ .fastslider-slides-container span#adt-fastslider-button-style2 a {
+     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+     border: 0.08rem solid #fff;
+     color: #fff;
+     display: inline-block !important;
+     padding: 0.5rem 1rem;
+     border-radius:0.4rem
+}
+ .fastslider-slides-container span#adt-fastslider-button-style2 a {
+     color: #fff;
+     font-size: 1rem;
+     font-weight: bold;
+     text-decoration: none;
+     transition: color 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style2:hover a {
+     color: #000000;
+     transition: color 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style2 a {
+     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+     border: 0.08rem solid #fff;
+     display: inline-block !important;
+     padding: 0.5rem 1rem;
+     transition: background 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style2 a:hover {
+     background: #ffffff;
+     transition: background 0.3s ease 0s;
+}
+/* BUTTON STYLE 3 */
+ .fastslider-slides-container span#adt-fastslider-button-style3 a {
+     background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+     color: #fff;
+     display: inline-block !important;
+     padding: 0.5rem 1rem;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style3 a {
+     color: #fff;
+     font-size: 0.6rem;
+     font-weight: bold;
+     text-decoration: none;
+     transition: color 0.3s ease 0s;
+     border:none!important;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style3 a:hover {
+     color: #000000;
+     transition: color 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style3 a {
+     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+     border: 0.08rem solid #fff;
+     display: inline-block !important;
+     padding: 0.5rem 1rem;
+     transition: background 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style3 a:hover {
+     background: #ffffff;
+     transition: background 0.3s ease 0s;
+}
+/* BUTTON STYLE 4 */
+ .fastslider-slides-container span#adt-fastslider-button-style4 a {
+     background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+     border: 0.08rem solid #fff;
+     color: #fff;
+     display: inline-block !important;
+     padding: 0.5rem 1rem;
+     border-radius:0.4rem
+}
+ .fastslider-slides-container span#adt-fastslider-button-style4 a {
+     color: #fff;
+     font-size: 0.6rem;
+     font-weight: bold;
+     text-decoration: none;
+     transition: color 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style4 a:hover {
+     color: #000000;
+     transition: color 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style4 a {
+     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+     border: 0.08rem solid #fff;
+     display: inline-block !important;
+     padding: 0.5rem 1rem;
+     transition: background 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style4 a:hover {
+     background: #ffffff;
+     transition: background 0.3s ease 0s;
+}
+/* BUTTON STYLE 5 */
+ .fastslider-slides-container span#adt-fastslider-button-style5 a {
+     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+     border: 0.08rem solid #fff;
+     color: #fff;
+     display: inline-block !important;
+     padding: 1rem 2rem;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style5 a {
+     color: #fff;
+     font-size: 0.9rem;
+     font-weight: bold;
+     text-decoration: none;
+     transition: color 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style5 a:hover {
+     color: #000000;
+     transition: color 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style5 a {
+     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+     border: 0.08rem solid #fff;
+     display: inline-block !important;
+     padding: 1rem 2rem;
+     transition: background 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style5 a:hover {
+     background: #ffffff;
+     transition: background 0.3s ease 0s;
+}
+/* BUTTON STYLE 6 */
+ .fastslider-slides-container span#adt-fastslider-button-style6 a {
+     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+     border: 0.08rem solid #fff;
+     color: #fff;
+     display: inline-block !important;
+     padding: 1rem 2rem;
+     border-radius:0.4rem
+}
+ .fastslider-slides-container span#adt-fastslider-button-style6 a {
+     color: #fff;
+     font-size: 0.9rem;
+     font-weight: bold;
+     text-decoration: none;
+     transition: color 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style6 a:hover {
+     color: #000000;
+     transition: color 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style6 a {
+     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+     border: 0.08rem solid #fff;
+     display: inline-block !important;
+     padding: 1rem 2rem;
+     transition: background 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style6 a:hover {
+     background: #ffffff;
+     transition: background 0.3s ease 0s;
+}
+/* BUTTON STYLE 7 */
+ .fastslider-slides-container span#adt-fastslider-button-style7 a {
+     background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+     color: #fff;
+     display: inline-block !important;
+     padding: 1rem 2rem;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style7 a {
+     color: #fff;
+     font-size: 0.6rem;
+     font-weight: bold;
+     text-decoration: none;
+     transition: color 0.3s ease 0s;
+     border:none!important;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style7 a:hover {
+     color: #000000;
+     transition: color 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style7 a {
+     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+     border: 0.08rem solid #fff;
+     display: inline-block !important;
+     padding: 1rem 2rem;
+     transition: background 0.3s ease 0s;
+}
+ .fastslider-slides-container span#adt-fastslider-button-style7 a:hover {
+     background: #ffffff;
+     transition: background 0.3s ease 0s;
+}
+/* NAVIGATION */
+ .adt-fastslider-pagination-square .sy-controls li.sy-prev a:after, .adt-fastslider-pagination-square .sy-controls li.sy-next a:after, .adt-fastslider-pagination-square .sy-pager li a {
+     border-radius: 0%!important;
+}
+ .adt-fastslider-pagination-square .sy-controls li {
+     margin:0!important;
+}
+ .adt-fastslider-vertical .sy-controls li.sy-next {
+     top:0;
+     left:0;
+     right:inherit;
+}
+ .adt-fastslider-vertical .sy-controls li.sy-next a::after {
+     left:25%!important;
+     right:inherit!important;
+     transform: rotate(90deg);
+     margin-top:0;
+     top:4rem!important;
+}
+ .adt-fastslider-vertical .sy-controls li.sy-prev a::after {
+     top:1rem!important;
+     transform: rotate(90deg);
+     margin-top:0;
+}
+ .adt-fastslider-vertical .adt-fastslider-pattern {
+     height:101%;
+}
+/* PRELOAD */
+ .fastslider-container.fs-loading-preloader {
+     height:25rem;
+     overflow:hidden;
+}
+ .fs-preload {
+     background:white;
+     width:100%;
+     height:100%;
+     z-index:1048576;
+     position:absolute;
+     top:0;
+}
+ .fs-loaded > div {
+     position:relative;
+     z-index:-1!important;
+}
+ .fs-loaded {
+     display:none;
+}
+ .spinner-plane {
+     width: 1.25rem;
+     height: 1.25rem;
+     margin: 4rem auto;
+     -webkit-animation: rotateplane 1.2s infinite ease-in-out;
+     animation: rotateplane 1.2s infinite ease-in-out;
+     position:absolute;
+     z-index:1048578;
+     left:50%;
+     top:50%;
+     margin-left:-0.625rem;
+     margin-top:-0.625rem;
+     background:red;
+}
+ @-webkit-keyframes rotateplane {
+     0% {
+         -webkit-transform: perspective(5rem) 
+    }
+     50% {
+         -webkit-transform: perspective(5rem) rotateY(180deg) 
+    }
+     100% {
+         -webkit-transform: perspective(5rem) rotateY(180deg) rotateX(180deg) 
+    }
+}
+ @keyframes rotateplane {
+     0% {
+         transform: perspective(5rem) rotateX(0deg) rotateY(0deg);
+         -webkit-transform: perspective(5rem) rotateX(0deg) rotateY(0deg);
+    }
+     50% {
+         transform: perspective(5rem) rotateX(-180.1deg) rotateY(0deg);
+         -webkit-transform: perspective(5rem) rotateX(-180.1deg) rotateY(0deg);
+    }
+     100% {
+         transform: perspective(5rem) rotateX(-180deg) rotateY(-179.9deg);
+         -webkit-transform: perspective(5rem) rotateX(-180deg) rotateY(-179.9deg);
+    }
+}
+/* SPINNER WAVE */
+ .spinner-wave {
+     font-size: 0.4rem
+     height: 1.25rem;
+     left: 50%;
+     margin-top: -0.625rem;
+     margin-left: -1rem;
+     position: absolute;
+     text-align: center;
+     top: 50%;
+     width: 2rem;
+}
+ .spinner-wave > div {
+     height: 100%;
+     width: 0.25rem;
+     display: inline-block;
+     -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+     animation: stretchdelay 1.2s infinite ease-in-out;
+}
+ .spinner-wave .rect2 {
+     -webkit-animation-delay: -1.1s;
+     animation-delay: -1.1s;
+}
+ .spinner-wave .rect3 {
+     -webkit-animation-delay: -1.0s;
+     animation-delay: -1.0s;
+}
+ .spinner-wave .rect4 {
+     -webkit-animation-delay: -0.9s;
+     animation-delay: -0.9s;
+}
+ .spinner-wave .rect5 {
+     -webkit-animation-delay: -0.8s;
+     animation-delay: -0.8s;
+}
+ @-webkit-keyframes stretchdelay {
+     0%, 40%, 100% {
+         -webkit-transform: scaleY(0.4) 
+    }
+     20% {
+         -webkit-transform: scaleY(1.0) 
+    }
+}
+ @keyframes stretchdelay {
+     0%, 40%, 100% {
+         transform: scaleY(0.4);
+         -webkit-transform: scaleY(0.4);
+    }
+     20% {
+         transform: scaleY(1.0);
+         -webkit-transform: scaleY(1.0);
+    }
+}
+/* DOUBLE BOUNCE */
+ .spinner-bounce {
+     width: 1.6rem;
+     height: 1.6rem;
+     position: absolute;
+     left:50%;
+     top:50%;
+     margin-left:-0.8rem;
+     margin-top:-0.8rem;
+}
+ .spinner-bounce .double-bounce1, .spinner-bounce .double-bounce2 {
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     opacity: 0.6;
+     position: absolute;
+     top: 0;
+     left: 0;
+     -webkit-animation: bounce 2.0s infinite ease-in-out;
+     animation: bounce 2.0s infinite ease-in-out;
+}
+ .spinner-bounce .double-bounce2 {
+     -webkit-animation-delay: -1.0s;
+     animation-delay: -1.0s;
+}
+ @-webkit-keyframes bounce {
+     0%, 100% {
+         -webkit-transform: scale(0.0) 
+    }
+     50% {
+         -webkit-transform: scale(1.0) 
+    }
+}
+ @keyframes bounce {
+     0%, 100% {
+         transform: scale(0.0);
+         -webkit-transform: scale(0.0);
+    }
+     50% {
+         transform: scale(1.0);
+         -webkit-transform: scale(1.0);
+    }
+}
+/* SPINNER CUBES */
+ .spinner-cubes {
+     width: 1.3333333333333333rem;
+     height: 1.3333333333333333rem;
+     position: absolute;
+     left:50%;
+     top:50%;
+     margin-left:-0.6rem;
+     margin-top:-0.6rem;
+}
+ .spinner-cubes .cube1, .spinner-cubes .cube2 {
+     width: 0.4rem
+     height: 0.4rem
+     position: absolute;
+     left:50%;
+     top:50%;
+     margin-left:-0.2rem;
+     margin-top:-0.2rem;
+     -webkit-animation: cubemove 1.8s infinite ease-in-out;
+     animation: cubemove 1.8s infinite ease-in-out;
+}
+ .spinner-cubes .cube2 {
+     -webkit-animation-delay: -0.9s;
+     animation-delay: -0.9s;
+}
+ @-webkit-keyframes cubemove {
+     25% {
+         -webkit-transform: translateX(0.9rem) rotate(-90deg) scale(0.5) 
+    }
+     50% {
+         -webkit-transform: translateX(0.9rem) translateY(0.9rem) rotate(-180deg) 
+    }
+     75% {
+         -webkit-transform: translateX(0rem) translateY(0.9rem) rotate(-270deg) scale(0.5) 
+    }
+     100% {
+         -webkit-transform: rotate(-360deg) 
+    }
+}
+ @keyframes cubemove {
+     25% {
+         transform: translateX(1.75rem) rotate(-90deg) scale(0.5);
+         -webkit-transform: translateX(1.75rem) rotate(-90deg) scale(0.5);
+    }
+     50% {
+        /* Hack to make FF rotate in the right direction */
+         transform: translateX(1.75rem) translateY(1.75rem) rotate(-179deg);
+         -webkit-transform: translateX(1.75rem) translateY(1.75rem) rotate(-179deg);
+    }
+     50.1% {
+         transform: translateX(1.75rem) translateY(1.75rem) rotate(-180deg);
+         -webkit-transform: translateX(1.75rem) translateY(1.75rem) rotate(-180deg);
+    }
+     75% {
+         transform: translateX(0rem) translateY(1.75rem) rotate(-270deg) scale(0.5);
+         -webkit-transform: translateX(0rem) translateY(1.75rem) rotate(-270deg) scale(0.5);
+    }
+     100% {
+         transform: rotate(-360deg);
+         -webkit-transform: rotate(-360deg);
+    }
+}
+/* SPINNER PULSE */
+ .spinner-pulse {
+     width: 1.6rem;
+     height: 1.6rem;
+     position: absolute;
+     left:50%;
+     top:50%;
+     margin-left:-0.8rem;
+     margin-top:-0.8rem;
+     border-radius: 100%;
+     -webkit-animation: scaleout 1.0s infinite ease-in-out;
+     animation: scaleout 1.0s infinite ease-in-out;
+}
+ @-webkit-keyframes scaleout {
+     0% {
+         -webkit-transform: scale(0.0) 
+    }
+     100% {
+         -webkit-transform: scale(1.0);
+         opacity: 0;
+    }
+}
+ @keyframes scaleout {
+     0% {
+         transform: scale(0.0);
+         -webkit-transform: scale(0.0);
+    }
+     100% {
+         transform: scale(1.0);
+         -webkit-transform: scale(1.0);
+         opacity: 0;
+    }
+}
+/* SPINNER DOTS */
+ .spinner-dots {
+     width: 1.6rem;
+     height: 1.6rem;
+     position: absolute;
+     left:50%;
+     top:50%;
+     margin-left:-0.8rem;
+     margin-top:-0.8rem;
+     text-align: center;
+     -webkit-animation: rotate 2.0s infinite linear;
+     animation: rotate 2.0s infinite linear;
+}
+ .spinner-dots .dot1, .spinner-dots .dot2 {
+     width: 60%;
+     height: 60%;
+     display: inline-block;
+     position: absolute;
+     top: 0;
+     border-radius: 100%;
+     -webkit-animation: bounce 2.0s infinite ease-in-out;
+     animation: bounce 2.0s infinite ease-in-out;
+}
+ .spinner-dots .dot2 {
+     top: auto;
+     bottom: 0rem;
+     -webkit-animation-delay: -1.0s;
+     animation-delay: -1.0s;
+}
+ @-webkit-keyframes rotate {
+     100% {
+         -webkit-transform: rotate(360deg) 
+    }
+}
+ @keyframes rotate {
+     100% {
+         transform: rotate(360deg);
+         -webkit-transform: rotate(360deg);
+    }
+}
+ @-webkit-keyframes bounce {
+     0%, 100% {
+         -webkit-transform: scale(0.0) 
+    }
+     50% {
+         -webkit-transform: scale(1.0) 
+    }
+}
+ @keyframes bounce {
+     0%, 100% {
+         transform: scale(0.0);
+         -webkit-transform: scale(0.0);
+    }
+     50% {
+         transform: scale(1.0);
+         -webkit-transform: scale(1.0);
+    }
+}
+/* SPINNER THREE BOUNCE */
+ .spinner-three-bounce {
+     position: absolute;
+     left:50%;
+     top:50%;
+     margin-left:-1.45rem;
+     margin-top:-0.375rem;
+     width: 3rem;
+     text-align: center;
+}
+ .spinner-three-bounce > div {
+     width: 0.75rem;
+     height: 0.75rem;
+     border-radius: 100%;
+     display: inline-block;
+     -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+     animation: bouncedelay 1.4s infinite ease-in-out;
+     -webkit-animation-fill-mode: both;
+     animation-fill-mode: both;
+}
+ .spinner-three-bounce .bounce1 {
+     -webkit-animation-delay: -0.32s;
+     animation-delay: -0.32s;
+}
+ .spinner-three-bounce .bounce2 {
+     -webkit-animation-delay: -0.16s;
+     animation-delay: -0.16s;
+}
+ @-webkit-keyframes bouncedelay {
+     0%, 80%, 100% {
+         -webkit-transform: scale(0.0) 
+    }
+     40% {
+         -webkit-transform: scale(1.0) 
+    }
+}
+ @keyframes bouncedelay {
+     0%, 80%, 100% {
+         transform: scale(0.0);
+         -webkit-transform: scale(0.0);
+    }
+     40% {
+         transform: scale(1.0);
+         -webkit-transform: scale(1.0);
+    }
+}
+/* SPINNER CIRCLE */
+ .spinner-circle {
+     width: 0.8rem;
+     height: 0.8rem;
+     position: absolute;
+     left:50%;
+     top:50%;
+     margin-left:-0.4rem;
+     margin-top:-0.4rem;
+}
+ .spinner-circle .container1 > div, .spinner-circle .container2 > div, .spinner-circle .container3 > div {
+     width: 0.25rem;
+     height: 0.25rem;
+     border-radius: 100%;
+     position: absolute;
+     -webkit-animation: bouncedelay 1.2s infinite ease-in-out;
+     animation: bouncedelay 1.2s infinite ease-in-out;
+     -webkit-animation-fill-mode: both;
+     animation-fill-mode: both;
+}
+ .spinner-circle .spinner-container {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+}
+ .spinner-circle .container2 {
+     -webkit-transform: rotateZ(45deg);
+     transform: rotateZ(45deg);
+}
+ .spinner-circle .container3 {
+     -webkit-transform: rotateZ(90deg);
+     transform: rotateZ(90deg);
+}
+ .spinner-circle .circle1 {
+     top: 0;
+     left: 0;
+}
+ .spinner-circle .circle2 {
+     top: 0;
+     right: 0;
+}
+ .spinner-circle .circle3 {
+     right: 0;
+     bottom: 0;
+}
+ .spinner-circle .circle4 {
+     left: 0;
+     bottom: 0;
+}
+ .spinner-circle .container2 .circle1 {
+     -webkit-animation-delay: -1.1s;
+     animation-delay: -1.1s;
+}
+ .spinner-circle .container3 .circle1 {
+     -webkit-animation-delay: -1.0s;
+     animation-delay: -1.0s;
+}
+ .spinner-circle .container1 .circle2 {
+     -webkit-animation-delay: -0.9s;
+     animation-delay: -0.9s;
+}
+ .spinner-circle .container2 .circle2 {
+     -webkit-animation-delay: -0.8s;
+     animation-delay: -0.8s;
+}
+ .spinner-circle .container3 .circle2 {
+     -webkit-animation-delay: -0.7s;
+     animation-delay: -0.7s;
+}
+ .spinner-circle .container1 .circle3 {
+     -webkit-animation-delay: -0.6s;
+     animation-delay: -0.6s;
+}
+ .spinner-circle .container2 .circle3 {
+     -webkit-animation-delay: -0.5s;
+     animation-delay: -0.5s;
+}
+ .spinner-circle .container3 .circle3 {
+     -webkit-animation-delay: -0.4s;
+     animation-delay: -0.4s;
+}
+ .spinner-circle .container1 .circle4 {
+     -webkit-animation-delay: -0.3s;
+     animation-delay: -0.3s;
+}
+ .spinner-circle .container2 .circle4 {
+     -webkit-animation-delay: -0.2s;
+     animation-delay: -0.2s;
+}
+ .spinner-circle .container3 .circle4 {
+     -webkit-animation-delay: -0.1s;
+     animation-delay: -0.1s;
+}
+ @-webkit-keyframes bouncedelay {
+     0%, 80%, 100% {
+         -webkit-transform: scale(0.0) 
+    }
+     40% {
+         -webkit-transform: scale(1.0) 
+    }
+}
+ @keyframes bouncedelay {
+     0%, 80%, 100% {
+         transform: scale(0.0);
+         -webkit-transform: scale(0.0);
+    }
+     40% {
+         transform: scale(1.0);
+         -webkit-transform: scale(1.0);
+    }
+}
+/* MEDIA QUERY FOR RESPONSIVE */
+/**************************************/
+/*********** DESKTOP MEDIUM ***********/
+/**************************************/
+ @media only screen and (max-width : 900px) {
+     .adt-fastslider-positions {
+         position:absolute;
+         margin:auto;
+         transform:translate(0%,-50%);
+         top:50%;
+         text-align:center;
+         width:100%;
+    }
+     .adt-fastslider-positions > div {
+         display:block;
+    }
+    /* TOP */
+     .adt-fastslider-top {
+         position:relative;
+         margin:inherit;
+         transform:initial;
+         top:inherit;
+         text-align:center;
+         width:inherit;
+    }
+     .adt-fastslider-top > h1, .adt-fastslider-top > h2, .adt-fastslider-top > h3, .adt-fastslider-top > h4, .adt-fastslider-top > h5, .adt-fastslider-top > h6, .adt-fastslider-top > span, .adt-fastslider-top > button {
+         text-align:center;
+    }
+     .adt-fastslider-top-right {
+         position:relative;
+         margin:inherit;
+         transform:initial;
+         top:inherit;
+         text-align:center;
+         width:inherit;
+         right:inherit;
+    }
+     .adt-fastslider-top-left {
+         position:relative;
+         margin:inherit;
+         transform:initial;
+         top:inherit;
+         text-align:center;
+         width:inherit;
+         left:inherit;
+    }
+    /* MIDDLE */
+     .adt-fastslider-middle {
+         position:relative;
+         margin:inherit;
+         transform:initial;
+         top:inherit;
+         text-align:center;
+         width:inherit;
+    }
+     .adt-fastslider-middle-left {
+         position:relative;
+         margin:inherit;
+         transform:initial;
+         top:inherit;
+         text-align:center;
+         width:inherit;
+         left:inherit;
+    }
+     .adt-fastslider-middle-right {
+         position:relative;
+         margin:inherit;
+         transform:initial;
+         top:inherit%;
+         text-align:center;
+         width:inherit;
+         right:inherit;
+    }
+    /* BOTTOM */
+     .adt-fastslider-bottom {
+         position:relative;
+         margin:inherit;
+         transform:initial;
+         top:inherit;
+         text-align:center;
+         width:inherit;
+         bottom:inherit;
+    }
+     .adt-fastslider-bottom > h1, .adt-fastslider-bottom > h2, .adt-fastslider-bottom > h3, .adt-fastslider-bottom > h4, .adt-fastslider-bottom > h5, .adt-fastslider-bottom > h6, .adt-fastslider-bottom > span {
+         display:table-cell;
+         text-align:center;
+    }
+     .adt-fastslider-bottom-right {
+         position:relative;
+         margin:inherit;
+         transform:initial;
+         top:inherit;
+         text-align:center;
+         width:inherit;
+         right:inherit;
+         bottom:inherit;
+    }
+     .adt-fastslider-bottom-left {
+         position:relative;
+         margin:inherit;
+         transform:initial;
+         top:inherit;
+         text-align:center;
+         width:inherit;
+         left:inherit;
+         bottom:inherit;
+    }
+}
+@media only screen and (min-width : 640px) and (max-width : 1024px) {
+     .fastslider-container.fs-loading-preloader {
+         height:12.5rem;
+    }
+     .fastslider-container .sy-slide > img {
+         height: 100%;
+         object-fit:cover;
+         width:100%;
+         object-position: 50% 50%;
+    }
+     .fastslider-slides-container h1 {
+         font-size: 2rem;
+    }
+     .fastslider-slides-container h2 {
+         font-size: 1.7rem;
+    }
+     .fastslider-slides-container h3 {
+         font-size: 1.5rem;
+    }
+     .fastslider-slides-container h4 {
+         font-size: 1.3rem;
+    }
+     .fastslider-slides-container h5, .fastslider-slides-container span#adt-fastslider-button-style5 a, .fastslider-slides-container span#adt-fastslider-button-style6 a {
+         font-size: 1.1rem;
+    }
+     .fastslider-slides-container h6, .fastslider-slides-container span#adt-fastslider-button-style1 a, .fastslider-slides-container span#adt-fastslider-button-style2 a, .fastslider-slides-container span#adt-fastslider-button-style3 a, .fastslider-slides-container span#adt-fastslider-button-style4 a, .fastslider-slides-container span#adt-fastslider-button-style7 a {
+         font-size: 0.9rem 
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style1, .fastslider-slides-container span#adt-fastslider-button-style2, .fastslider-slides-container span#adt-fastslider-button-style3, .fastslider-slides-container span#adt-fastslider-button-style4, .fastslider-slides-container span#adt-fastslider-button-style7 {
+         padding:0.3rem 0.4rem!important;
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style5 , .fastslider-slides-container span#adt-fastslider-button-style6 {
+         padding:0.4rem 0.5rem;
+    }
+     .fastslider-slides-container span {
+         margin-top: 0.4rem;
+    }
+     .sy-controls li.sy-next a::after, .sy-controls li.sy-prev a::after {
+         height:1.25rem!important;
+         width:1.25rem!important;
+         line-height:1.25rem!important;
+         font-size:0.6rem!important;
+    }
+     .adt-fastslider-vertical .sy-controls li.sy-prev a::after {
+         top:2.5rem!important;
+    }
+}
+/**************************************/
+/*********** DESKTOP SMALL ************/
+/**************************************/
+@media only screen and (max-width : 639px) {
+     .fastslider-container.fs-loading-preloader {
+         height:12.5rem;
+    }
+     .fastslider-container .sy-slide > img {
+         height: 100%;
+         object-fit:cover;
+         width:100%;
+         object-position: 50% 50%;
+    }
+     .fastslider-slides-container h1 {
+         font-size: 2rem;
+    }
+     .fastslider-slides-container h2 {
+         font-size: 1.6rem;
+    }
+     .fastslider-slides-container h3 {
+         font-size: 1.5rem;
+    }
+     .fastslider-slides-container h4 {
+         font-size: 1.3em;
+    }
+     .fastslider-slides-container h5, .fastslider-slides-container span#adt-fastslider-button-style5 a, .fastslider-slides-container span#adt-fastslider-button-style6 a {
+         font-size: 1rem
+    }
+     .fastslider-slides-container h6, .fastslider-slides-container span#adt-fastslider-button-style1 a, .fastslider-slides-container span#adt-fastslider-button-style2 a, .fastslider-slides-container span#adt-fastslider-button-style3 a, .fastslider-slides-container span#adt-fastslider-button-style4 a, .fastslider-slides-container span#adt-fastslider-button-style7 a {
+         font-size: 0.8rem 
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style1, .fastslider-slides-container span#adt-fastslider-button-style2, .fastslider-slides-container span#adt-fastslider-button-style3, .fastslider-slides-container span#adt-fastslider-button-style4, .fastslider-slides-container span#adt-fastslider-button-style7 {
+         padding:0.3rem 0.4rem!important;
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style5 , .fastslider-slides-container span#adt-fastslider-button-style6 {
+         padding:0.4rem 0.5rem;
+    }
+     .fastslider-slides-container span {
+         margin-top:0.4rem
+    }
+     .sy-controls li.sy-next a::after, .sy-controls li.sy-prev a::after {
+         height:1.25rem!important;
+         width:1.25rem!important;
+         line-height:1.25rem!important;
+         font-size:0.6rem!important;
+    }
+     .adt-fastslider-vertical .sy-controls li.sy-prev a::after {
+         top:2.5rem!important;
+    }
+}
+/**************************************/
+/****** SMARTPHONE PORTRAIT ***********/
+/**************************************/
+@media only screen and (max-device-width : 667px) and (orientation : portrait) {
+     .fastslider-container.fs-loading-preloader {
+         height:12.5rem;
+    }
+     .fastslider-container .sy-slide > img {
+         height:12.5rem;
+         object-fit:cover;
+         width:100%;
+         object-position: 50% 50%;
+    }
+     .fastslider-slides-container h1 {
+         font-size: 1.6rem;
+    }
+     .fastslider-slides-container h2 {
+         font-size: 1.4rem;
+    }
+     .fastslider-slides-container h3 {
+         font-size: 1.125rem;
+    }
+     .fastslider-slides-container h4 {
+         font-size: 0.8rem;
+    }
+     .fastslider-slides-container h5, .fastslider-slides-container span#adt-fastslider-button-style5 a, .fastslider-slides-container span#adt-fastslider-button-style6 a {
+         font-size: 0.75rem;
+    }
+     .fastslider-slides-container h6, .fastslider-slides-container span#adt-fastslider-button-style1 a, .fastslider-slides-container span#adt-fastslider-button-style2 a, .fastslider-slides-container span#adt-fastslider-button-style3 a, .fastslider-slides-container span#adt-fastslider-button-style4 a, .fastslider-slides-container span#adt-fastslider-button-style7 a {
+         font-size: 0.5rem 
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style1, .fastslider-slides-container span#adt-fastslider-button-style2, .fastslider-slides-container span#adt-fastslider-button-style3, .fastslider-slides-container span#adt-fastslider-button-style4, .fastslider-slides-container span#adt-fastslider-button-style7 {
+         padding:0.3333333333333333rem 0.4rem!important;
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style5, .fastslider-slides-container span#adt-fastslider-button-style6 {
+         padding:0.4rem 0.5rem;
+    }
+     .fastslider-slides-container span {
+         margin-top:0.4rem
+    }
+     .sy-controls li.sy-next a::after, .sy-controls li.sy-prev a::after {
+         height:1.25rem!important;
+         width:1.25rem!important;
+         line-height:1.25rem!important;
+         font-size:0.6rem!important;
+    }
+     .adt-fastslider-vertical .sy-controls li.sy-prev a::after {
+         top:2.5rem!important;
+    }
+}
+/**************************************/
+/****** SMARTPHONE LANDSCAPE **********/
+/**************************************/
+@media only screen and (max-device-width : 667px) and (orientation : landscape) {
+     .fastslider-container.fs-loading-preloader {
+         height:12.5rem;
+    }
+     .fastslider-container .sy-slide > img {
+         height:12.5rem;
+         object-fit:cover;
+         width:100%;
+         object-position: 50% 50%;
+    }
+     .fastslider-slides-container h1 {
+         font-size: 1.8rem;
+    }
+     .fastslider-slides-container h2 {
+         font-size: 1.6rem;
+    }
+     .fastslider-slides-container h3 {
+         font-size: 1.4rem;
+    }
+     .fastslider-slides-container h4 {
+         font-size: 1.2rem;
+    }
+     .fastslider-slides-container h5, .fastslider-slides-container span#adt-fastslider-button-style5 a, .fastslider-slides-container span#adt-fastslider-button-style6 a {
+         font-size: 1rem;
+    }
+     .fastslider-slides-container h6, .fastslider-slides-container span#adt-fastslider-button-style1 a, .fastslider-slides-container span#adt-fastslider-button-style2 a, .fastslider-slides-container span#adt-fastslider-button-style3 a, .fastslider-slides-container span#adt-fastslider-button-style4 a, .fastslider-slides-container span#adt-fastslider-button-style7 a {
+         font-size: 0.8rem 
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style1, .fastslider-slides-container span#adt-fastslider-button-style2, .fastslider-slides-container span#adt-fastslider-button-style3, .fastslider-slides-container span#adt-fastslider-button-style4, .fastslider-slides-container span#adt-fastslider-button-style7 {
+         padding:0.3rem 0.4rem!important;
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style5, .fastslider-slides-container span#adt-fastslider-button-style6 {
+         padding:0.4rem 0.5rem;
+    }
+     .fastslider-slides-container span {
+         margin-top:0.4rem
+    }
+     .sy-controls li.sy-next a::after, .sy-controls li.sy-prev a::after {
+         height:1.25rem!important;
+         width:1.25rem!important;
+         line-height:1.25rem!important;
+         font-size:0.6rem!important;
+    }
+     .adt-fastslider-vertical .sy-controls li.sy-prev a::after {
+         top:2.5rem!important;
+    }
+}
+ 
