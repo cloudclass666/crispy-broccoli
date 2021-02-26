@@ -378,12 +378,26 @@ header#header {
 /* User bar */
 #sidemenu-wrapper .sidemenu-header {
     height: 75px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
 }
 #sidemenu-wrapper .pm-user-menu-container {
     height: 0;
     line-height: inherit;
 }
-
+#sidemenu-wrapper .sidemenu-header:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 78px;
+    z-index: 0;
+    pointer-events: none;
+    background-image: linear-gradient(180deg,transparent 75%,var(--light) 98%);
+}
 .pm-user-menu {
     position: absolute;
     top: calc(60px + 1em);
