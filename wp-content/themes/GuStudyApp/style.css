@@ -308,7 +308,7 @@ header#header {
     }
 }
 
-.second-menu-alert {
+#header .second-menu-alert {
     height: 0.8em;
     width: 0.8em;
     min-width: 0.8em;
