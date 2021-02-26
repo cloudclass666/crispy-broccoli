@@ -376,8 +376,11 @@ header#header {
 }
 
 /* User bar */
+#sidemenu-wrapper .sidemenu-header {
+    height: 75px;
+}
 #sidemenu-wrapper .pm-user-menu-container {
-    height: 1em;
+    height: 0;
     line-height: inherit;
 }
 
