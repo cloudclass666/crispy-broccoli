@@ -376,8 +376,6 @@ header#header {
 }
 
 /* User bar */
-
-
 #sidemenu-wrapper .pm-user-menu-container {
     height: 1em;
     line-height: inherit;
@@ -526,6 +524,14 @@ body.device-lg .second-menu-section .basic-menu,
 body.device-md .second-menu-section .basic-menu {
     display: none;
 }
+
+/**/
+
+.menu-list > li.current>a>span,
+.menu-list > li.current>a>i,
+.menu-list > li.current-menu-parent>a>i,
+.menu-list > li .submenu .current>a>span,
+.menu-list > li.current-menu-ancestor.current-menu-parent>a>span {font-weight: 500;opacity:1}
 
 /* bbPress ======================================== */
 
