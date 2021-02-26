@@ -423,10 +423,7 @@ body.sidemenu-is-open.device-xxs .pm-user-menu {
 }
 
 body.device-lg.sidemenu-is-open .pm-user-menu .menu-arrow,
-body.device-md.sidemenu-is-open .pm-user-menu .menu-arrow {
-    display: none;
-}
-
+body.device-md.sidemenu-is-open .pm-user-menu .menu-arrow,
 .pm-user-menu>li:not(.kleo-user_avatar-nav):not(.open)>.menu-arrow,
 ul.pm-user-menu>li:not(.open):not(.kleo-user_avatar-nav):not(.bp-login-nav):not(.bp-register-nav)>a span {
     opacity: 0;
