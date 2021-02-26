@@ -385,7 +385,7 @@ header#header {
 #sidemenu-wrapper .pm-user-menu-container {
     height: 0;
     line-height: inherit;
-}
+}/*
 #sidemenu-wrapper .sidemenu-header:after {
     content: "";
     display: block;
@@ -396,8 +396,8 @@ header#header {
     height: 78px;
     z-index: 0;
     pointer-events: none;
-    background-image: linear-gradient(180deg,transparent 75%,var(--light) 98%);
-}
+    background-image: linear-gradient(180deg,rgba(230, 232, 239, 0.5) 75%,var(--light) 98%)
+}*/
 .pm-user-menu {
     position: absolute;
     top: calc(60px + 1em);
