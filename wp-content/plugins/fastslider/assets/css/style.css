@@ -34,6 +34,9 @@
  .adt-block {
      display:block;
 }
+.sy-box {
+    height:60vmin;
+}
  .fastslider-slides-container h1, .fastslider-slides-container h2, .fastslider-slides-container h3, .fastslider-slides-container h4, .fastslider-slides-container h5, .fastslider-slides-container h6, .fastslider-slides-container span, .fastslider-slides-container button {
      margin: 0 0 0.8rem 0;
      padding:0;
@@ -872,6 +875,7 @@
          -webkit-transform: scale(1.0);
     }
 }
+
 /* MEDIA QUERY FOR RESPONSIVE */
 /**************************************/
 /*********** DESKTOP MEDIUM ***********/
@@ -981,8 +985,66 @@
     }
 }
 @media only screen and (min-width : 640px) and (max-width : 1024px) {
+     .sy-box {
+         height:50vmin
+     }
+
      .fastslider-container.fs-loading-preloader {
-         height:12.5rem;
+         height:50vmin;
+    }
+     .fastslider-container .sy-slide > img {
+         height: 100%;
+         object-fit:cover;
+         width:100%;
+         object-position: 50% 50%;
+    }
+     .fastslider-slides-container h1 {
+         font-size: 2.6rem;
+    }
+     .fastslider-slides-container h2 {
+         font-size: 1.8rem;
+    }
+     .fastslider-slides-container h3 {
+         font-size: 1.6rem;
+    }
+     .fastslider-slides-container h4 {
+         font-size: 1.4rem;
+    }
+     .fastslider-slides-container h5, .fastslider-slides-container span#adt-fastslider-button-style5 a, .fastslider-slides-container span#adt-fastslider-button-style6 a {
+         font-size: 1.2rem;
+    }
+     .fastslider-slides-container h6, .fastslider-slides-container span#adt-fastslider-button-style1 a, .fastslider-slides-container span#adt-fastslider-button-style2 a, .fastslider-slides-container span#adt-fastslider-button-style3 a, .fastslider-slides-container span#adt-fastslider-button-style4 a, .fastslider-slides-container span#adt-fastslider-button-style7 a {
+         font-size: 1rem 
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style1, .fastslider-slides-container span#adt-fastslider-button-style2, .fastslider-slides-container span#adt-fastslider-button-style3, .fastslider-slides-container span#adt-fastslider-button-style4, .fastslider-slides-container span#adt-fastslider-button-style7 {
+         padding:0.3rem 0.4rem!important;
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style5 , .fastslider-slides-container span#adt-fastslider-button-style6 {
+         padding:0.4rem 0.5rem;
+    }
+     .fastslider-slides-container span {
+         margin-top: 0.4rem;
+    }
+      .sy-controls li.sy-next a::after, .sy-controls li.sy-prev a::after {
+         height:2.5rem!important;
+         width:2.5rem!important;
+         line-height:2.5rem!important;
+         font-size:1rem!important;
+    }
+     .adt-fastslider-vertical .sy-controls li.sy-prev a::after {
+         top:2rem!important;
+    }
+}
+/**************************************/
+/*********** DESKTOP SMALL ************/
+/**************************************/
+@media only screen and (max-width : 639px) {
+
+         .sy-box {
+         height:45vmin
+     }
+     .fastslider-container.fs-loading-preloader {
+         height:45vmin;
     }
      .fastslider-container .sy-slide > img {
          height: 100%;
@@ -992,6 +1054,114 @@
     }
      .fastslider-slides-container h1 {
          font-size: 2rem;
+    }
+     .fastslider-slides-container h2 {
+         font-size: 1.8rem;
+    }
+     .fastslider-slides-container h3 {
+         font-size: 1.6rem;
+    }
+     .fastslider-slides-container h4 {
+         font-size: 1.4em;
+    }
+     .fastslider-slides-container h5, .fastslider-slides-container span#adt-fastslider-button-style5 a, .fastslider-slides-container span#adt-fastslider-button-style6 a {
+         font-size: 1.2rem
+    }
+     .fastslider-slides-container h6, .fastslider-slides-container span#adt-fastslider-button-style1 a, .fastslider-slides-container span#adt-fastslider-button-style2 a, .fastslider-slides-container span#adt-fastslider-button-style3 a, .fastslider-slides-container span#adt-fastslider-button-style4 a, .fastslider-slides-container span#adt-fastslider-button-style7 a {
+         font-size: 1rem 
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style1, .fastslider-slides-container span#adt-fastslider-button-style2, .fastslider-slides-container span#adt-fastslider-button-style3, .fastslider-slides-container span#adt-fastslider-button-style4, .fastslider-slides-container span#adt-fastslider-button-style7 {
+         padding:0.3rem 0.4rem!important;
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style5 , .fastslider-slides-container span#adt-fastslider-button-style6 {
+         padding:0.4rem 0.5rem;
+    }
+     .fastslider-slides-container span {
+         margin-top:0.4rem
+    }
+     .sy-controls li.sy-next a::after, .sy-controls li.sy-prev a::after {
+         height:2rem!important;
+         width:2rem!important;
+         line-height:2rem!important;
+         font-size:1rem!important;
+    }
+     .adt-fastslider-vertical .sy-controls li.sy-prev a::after {
+         top:2rem!important;
+    }
+}
+/**************************************/
+/****** SMARTPHONE PORTRAIT ***********/
+/**************************************/
+@media only screen and (max-device-width : 667px) and (orientation : portrait) {
+
+         .sy-box {
+         min-height:65vmin;
+     }
+     .fastslider-container.fs-loading-preloader {
+         height:65vmin;
+    }
+     .fastslider-container .sy-slide > img {
+         height:100%;
+         object-fit:cover;
+         width:100%;
+         object-position: 50% 50%;
+    }
+     .fastslider-slides-container h1 {
+         font-size: 2rem;
+    }
+     .fastslider-slides-container h2 {
+         font-size: 1.75rem;
+    }
+     .fastslider-slides-container h3 {
+         font-size: 1.6rem;
+    }
+     .fastslider-slides-container h4 {
+         font-size: 1.4rem;
+    }
+     .fastslider-slides-container h5, .fastslider-slides-container span#adt-fastslider-button-style5 a, .fastslider-slides-container span#adt-fastslider-button-style6 a {
+         font-size: 1.2rem;
+    }
+     .fastslider-slides-container h6, .fastslider-slides-container span#adt-fastslider-button-style1 a, .fastslider-slides-container span#adt-fastslider-button-style2 a, .fastslider-slides-container span#adt-fastslider-button-style3 a, .fastslider-slides-container span#adt-fastslider-button-style4 a, .fastslider-slides-container span#adt-fastslider-button-style7 a {
+         font-size: 1rem 
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style1, .fastslider-slides-container span#adt-fastslider-button-style2, .fastslider-slides-container span#adt-fastslider-button-style3, .fastslider-slides-container span#adt-fastslider-button-style4, .fastslider-slides-container span#adt-fastslider-button-style7 {
+         padding:0.3rem 0.4rem!important;
+    }
+     .fastslider-slides-container span#adt-fastslider-button-style5, .fastslider-slides-container span#adt-fastslider-button-style6 {
+         padding:0.4rem 0.5rem;
+    }
+     .fastslider-slides-container span {
+         margin-top:0.4rem
+    }
+     .sy-controls li.sy-next a::after, .sy-controls li.sy-prev a::after {
+         height:2rem!important;
+         width:2rem!important;
+         line-height:2rem!important;
+         font-size:1rem!important;
+    }
+     .adt-fastslider-vertical .sy-controls li.sy-prev a::after {
+         top:2rem!important;
+    }
+}
+/**************************************/
+/****** SMARTPHONE LANDSCAPE **********/
+/**************************************/
+@media only screen and (max-device-width : 667px) and (orientation : landscape) {
+     .sy-box {
+         min-height:60vmin
+     }
+
+     .fastslider-container.fs-loading-preloader {
+         height:60vmin;
+    }
+     .fastslider-container .sy-slide > img {
+         height:100%;
+         object-fit:cover;
+         width:100%;
+         object-position: 50% 50%;
+    }
+     .fastslider-slides-container h1 {
+         font-size: 1.9rem;
     }
      .fastslider-slides-container h2 {
          font-size: 1.7rem;
@@ -1006,157 +1176,7 @@
          font-size: 1.1rem;
     }
      .fastslider-slides-container h6, .fastslider-slides-container span#adt-fastslider-button-style1 a, .fastslider-slides-container span#adt-fastslider-button-style2 a, .fastslider-slides-container span#adt-fastslider-button-style3 a, .fastslider-slides-container span#adt-fastslider-button-style4 a, .fastslider-slides-container span#adt-fastslider-button-style7 a {
-         font-size: 0.9rem 
-    }
-     .fastslider-slides-container span#adt-fastslider-button-style1, .fastslider-slides-container span#adt-fastslider-button-style2, .fastslider-slides-container span#adt-fastslider-button-style3, .fastslider-slides-container span#adt-fastslider-button-style4, .fastslider-slides-container span#adt-fastslider-button-style7 {
-         padding:0.3rem 0.4rem!important;
-    }
-     .fastslider-slides-container span#adt-fastslider-button-style5 , .fastslider-slides-container span#adt-fastslider-button-style6 {
-         padding:0.4rem 0.5rem;
-    }
-     .fastslider-slides-container span {
-         margin-top: 0.4rem;
-    }
-     .sy-controls li.sy-next a::after, .sy-controls li.sy-prev a::after {
-         height:1.25rem!important;
-         width:1.25rem!important;
-         line-height:1.25rem!important;
-         font-size:0.6rem!important;
-    }
-     .adt-fastslider-vertical .sy-controls li.sy-prev a::after {
-         top:2.5rem!important;
-    }
-}
-/**************************************/
-/*********** DESKTOP SMALL ************/
-/**************************************/
-@media only screen and (max-width : 639px) {
-     .fastslider-container.fs-loading-preloader {
-         height:12.5rem;
-    }
-     .fastslider-container .sy-slide > img {
-         height: 100%;
-         object-fit:cover;
-         width:100%;
-         object-position: 50% 50%;
-    }
-     .fastslider-slides-container h1 {
-         font-size: 2rem;
-    }
-     .fastslider-slides-container h2 {
-         font-size: 1.6rem;
-    }
-     .fastslider-slides-container h3 {
-         font-size: 1.5rem;
-    }
-     .fastslider-slides-container h4 {
-         font-size: 1.3em;
-    }
-     .fastslider-slides-container h5, .fastslider-slides-container span#adt-fastslider-button-style5 a, .fastslider-slides-container span#adt-fastslider-button-style6 a {
-         font-size: 1rem
-    }
-     .fastslider-slides-container h6, .fastslider-slides-container span#adt-fastslider-button-style1 a, .fastslider-slides-container span#adt-fastslider-button-style2 a, .fastslider-slides-container span#adt-fastslider-button-style3 a, .fastslider-slides-container span#adt-fastslider-button-style4 a, .fastslider-slides-container span#adt-fastslider-button-style7 a {
-         font-size: 0.8rem 
-    }
-     .fastslider-slides-container span#adt-fastslider-button-style1, .fastslider-slides-container span#adt-fastslider-button-style2, .fastslider-slides-container span#adt-fastslider-button-style3, .fastslider-slides-container span#adt-fastslider-button-style4, .fastslider-slides-container span#adt-fastslider-button-style7 {
-         padding:0.3rem 0.4rem!important;
-    }
-     .fastslider-slides-container span#adt-fastslider-button-style5 , .fastslider-slides-container span#adt-fastslider-button-style6 {
-         padding:0.4rem 0.5rem;
-    }
-     .fastslider-slides-container span {
-         margin-top:0.4rem
-    }
-     .sy-controls li.sy-next a::after, .sy-controls li.sy-prev a::after {
-         height:1.25rem!important;
-         width:1.25rem!important;
-         line-height:1.25rem!important;
-         font-size:0.6rem!important;
-    }
-     .adt-fastslider-vertical .sy-controls li.sy-prev a::after {
-         top:2.5rem!important;
-    }
-}
-/**************************************/
-/****** SMARTPHONE PORTRAIT ***********/
-/**************************************/
-@media only screen and (max-device-width : 667px) and (orientation : portrait) {
-     .fastslider-container.fs-loading-preloader {
-         height:12.5rem;
-    }
-     .fastslider-container .sy-slide > img {
-         height:100%;
-         object-fit:cover;
-         width:100%;
-         object-position: 50% 50%;
-    }
-     .fastslider-slides-container h1 {
-         font-size: 1.6rem;
-    }
-     .fastslider-slides-container h2 {
-         font-size: 1.4rem;
-    }
-     .fastslider-slides-container h3 {
-         font-size: 1.125rem;
-    }
-     .fastslider-slides-container h4 {
-         font-size: 0.8rem;
-    }
-     .fastslider-slides-container h5, .fastslider-slides-container span#adt-fastslider-button-style5 a, .fastslider-slides-container span#adt-fastslider-button-style6 a {
-         font-size: 0.75rem;
-    }
-     .fastslider-slides-container h6, .fastslider-slides-container span#adt-fastslider-button-style1 a, .fastslider-slides-container span#adt-fastslider-button-style2 a, .fastslider-slides-container span#adt-fastslider-button-style3 a, .fastslider-slides-container span#adt-fastslider-button-style4 a, .fastslider-slides-container span#adt-fastslider-button-style7 a {
-         font-size: 0.5rem 
-    }
-     .fastslider-slides-container span#adt-fastslider-button-style1, .fastslider-slides-container span#adt-fastslider-button-style2, .fastslider-slides-container span#adt-fastslider-button-style3, .fastslider-slides-container span#adt-fastslider-button-style4, .fastslider-slides-container span#adt-fastslider-button-style7 {
-         padding:0.3333333333333333rem 0.4rem!important;
-    }
-     .fastslider-slides-container span#adt-fastslider-button-style5, .fastslider-slides-container span#adt-fastslider-button-style6 {
-         padding:0.4rem 0.5rem;
-    }
-     .fastslider-slides-container span {
-         margin-top:0.4rem
-    }
-     .sy-controls li.sy-next a::after, .sy-controls li.sy-prev a::after {
-         height:1.25rem!important;
-         width:1.25rem!important;
-         line-height:1.25rem!important;
-         font-size:0.6rem!important;
-    }
-     .adt-fastslider-vertical .sy-controls li.sy-prev a::after {
-         top:2.5rem!important;
-    }
-}
-/**************************************/
-/****** SMARTPHONE LANDSCAPE **********/
-/**************************************/
-@media only screen and (max-device-width : 667px) and (orientation : landscape) {
-     .fastslider-container.fs-loading-preloader {
-         height:12.5rem;
-    }
-     .fastslider-container .sy-slide > img {
-         height:100%;
-         object-fit:cover;
-         width:100%;
-         object-position: 50% 50%;
-    }
-     .fastslider-slides-container h1 {
-         font-size: 1.8rem;
-    }
-     .fastslider-slides-container h2 {
-         font-size: 1.6rem;
-    }
-     .fastslider-slides-container h3 {
-         font-size: 1.4rem;
-    }
-     .fastslider-slides-container h4 {
-         font-size: 1.2rem;
-    }
-     .fastslider-slides-container h5, .fastslider-slides-container span#adt-fastslider-button-style5 a, .fastslider-slides-container span#adt-fastslider-button-style6 a {
-         font-size: 1rem;
-    }
-     .fastslider-slides-container h6, .fastslider-slides-container span#adt-fastslider-button-style1 a, .fastslider-slides-container span#adt-fastslider-button-style2 a, .fastslider-slides-container span#adt-fastslider-button-style3 a, .fastslider-slides-container span#adt-fastslider-button-style4 a, .fastslider-slides-container span#adt-fastslider-button-style7 a {
-         font-size: 0.8rem 
+         font-size: 1rem 
     }
      .fastslider-slides-container span#adt-fastslider-button-style1, .fastslider-slides-container span#adt-fastslider-button-style2, .fastslider-slides-container span#adt-fastslider-button-style3, .fastslider-slides-container span#adt-fastslider-button-style4, .fastslider-slides-container span#adt-fastslider-button-style7 {
          padding:0.3rem 0.4rem!important;
@@ -1168,13 +1188,12 @@
          margin-top:0.4rem
     }
      .sy-controls li.sy-next a::after, .sy-controls li.sy-prev a::after {
-         height:1.25rem!important;
-         width:1.25rem!important;
-         line-height:1.25rem!important;
-         font-size:0.6rem!important;
+         height:2rem!important;
+         width:2rem!important;
+         line-height:2rem!important;
+         font-size:1rem!important;
     }
      .adt-fastslider-vertical .sy-controls li.sy-prev a::after {
-         top:2.5rem!important;
+         top:2rem!important;
     }
 }
- 
