@@ -1,0 +1,346 @@
+.flaggedc-validation-error {
+	color: red;
+}
+
+.flaggedc-form-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+/*
+ * WP modal sidebars: background color: #f3f3f3;
+ * WP modal header: background color: #fcfcfc;
+ * WP modal content area: background color: #fff;
+ *
+ * WP modal sidebar border (to stand out over): border-right-color: #ccc;
+ * WP modal content border: border-top: 1px solid #ddd;
+ *
+ * WP modal shadow: box-shadow: 0 5px 15px rgba(0,0,0,.7);
+ * WP modal shadow: -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.7);
+ */
+
+.flaggedc-form-inside {
+	/*border: 1px solid #ddd;*/
+	padding: 20px;
+	/*box-shadow: 1px 1px 2px #bbb;*/
+	background-color: #fff;
+	font-size: 14px;
+}
+
+
+.flaggedc-name-email-container,
+.flaggedc-reason-container,
+.flaggedc-description-container,
+.flaggedc-submit-container{
+	margin-top: 25px;
+}
+
+.flaggedc-reason-container {
+    width: 75%;
+}
+
+.flaggedc-form-fields select {
+    width: 100%;
+}
+
+
+.flaggedc-name-email-container .flaggedc-name-field {
+	width: 46%;
+	float: left;
+	margin-right: 4%;
+}
+
+.flaggedc-name-email-container .flaggedc-email-field {
+	width: 46%;
+	float: left;
+}
+
+
+.flaggedc-form-fields p {
+	margin-top: 1.5em;
+	margin-bottom: 0;
+}
+
+.flaggedc-form-fields input[type="text"] {
+  width: 100%;
+}
+
+.flaggedc-form-fields textarea {
+  resize: none;
+  width: 75%;
+  height: 150px;
+}
+
+.flaggedc-form-fields label {
+	display: inline-block;
+}
+
+/**
+ * 1.1.0 - Added !important to the display.
+ * Themes (or other plugins) added code to images and displayed the spinner.
+ */
+.flaggedc-form-fields .flaggedc-submit-spinner {
+	visibility: hidden;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.flaggedc-reveal-button, .flaggedc-submit-button {
+	text-transform: none;
+}
+
+.flaggedc-alert-box {
+	display: none;
+	padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.flaggedc-validation-errors-description {
+	color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.flaggedc-alert-box-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+
+.flaggedc-clear-floated-fields {
+	clear: both;
+}
+
+
+/**
+ * Button styles and color schemes
+ */
+
+.flaggedc-reveal-button .dashicons {
+	text-decoration: none;
+	margin-right: 3px;
+	vertical-align: text-bottom;
+}
+
+/**
+ * Style: Flat
+ * background: none;
+ * border: #333;
+ * color: #111
+ */
+.flaggedc-button-style-flat,
+.flaggedc-button-style-flat:hover,
+.flaggedc-button-style-flat:active,
+.flaggedc-button-style-flat:focus {
+	padding: 10px;
+	transition: all 0.3s ease 0s;
+	border: 0;
+	border-radius: 3px;
+	box-shadow: none;
+}
+
+/**
+ * Color: Black
+ */
+.flaggedc-button-color-black {
+	background: #323232;
+	color: #FDFDFD;
+}
+	.flaggedc-button-color-black:hover,
+	.flaggedc-button-color-black:active,
+	.flaggedc-button-color-black:focus {
+		background: #191919;
+		color: #FDFDFD;
+	}
+
+/**
+ * Gray
+ */
+.flaggedc-button-color-gray  {
+	background: #717174;
+	color: #FDFDFD;
+}
+	.flaggedc-button-color-gray:hover,
+	.flaggedc-button-color-gray:active,
+	.flaggedc-button-color-gray:focus {
+		background: #5A5A5C;
+		color: #FDFDFD;
+	}
+
+/**
+ * Green
+ */
+.flaggedc-button-color-green {
+	background: #007300;
+	color: #FDFDFD;
+	/*border-color: #007300;*/
+}
+	.flaggedc-button-color-green:hover,
+	.flaggedc-button-color-green:active,
+	.flaggedc-button-color-green:focus {
+		background: #005000;
+		color: #FDFDFD;
+	}
+
+/**
+ * Red
+ */
+.flaggedc-button-color-red {
+	background: #e74c3c;
+	color: #FDFDFD;
+}
+	.flaggedc-button-color-red:hover,
+	.flaggedc-button-color-red:active,
+	.flaggedc-button-color-red:focus {
+		background: #B83D30;
+		color: #FDFDFD;
+	}
+
+.flaggedc-button-color-custom {
+	transition: all 0.3s ease 0s;
+}
+
+@media only screen and (max-width : 480px) {
+
+	body .flaggedc-form-modal {
+		/*width: 95%;*/
+		padding: 8px;
+	}
+
+	body .flaggedc-form-fields input[type="text"] {
+	  width: 100%;
+	}
+
+	body .flaggedc-form-fields textarea {
+	  width: 100%;
+	}
+
+	body .flaggedc-form-fields .flaggedc-reason-container {
+	  width: 100%;
+	}
+    .flaggedc-form-fields select {
+        width: 100%;
+    }
+
+	body .flaggedc-name-email-container .flaggedc-name-field {
+		width: 100%;
+	    float: none;
+	    margin-right: 0;
+	}
+
+	body .flaggedc-name-email-container .flaggedc-email-field {
+		width: 100%;
+	    float: none;
+	    margin-right: 0;
+	}
+}
+
+
+
+/*
+ * Modal styles
+ */
+
+.flaggedc-form-modal {
+	position: relative;
+	background: #FFF;
+	padding: 20px;
+	width: auto;
+	max-width: 640px;
+	margin: 20px auto;
+	box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
+	border-radius: 3px;
+}
+
+.flaggedc-hide {
+	display: none;
+}
+
+/* prevent shifting of the content */
+html.flaggedc-scrollbar-visible {
+	overflow: auto;
+}
+
+/** magnific popup styles */
+.flaggedc-form .mfp-close:hover, .flaggedc-form .mfp-close:focus {
+	background: none;
+}
+/** Fade-move animation for second dialog */
+/* at start */
+.flaggedc-mfp-slide-bottom .flaggedc-zoom-anim-dialog {
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+
+	-webkit-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	-moz-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	-ms-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	-o-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+
+}
+/* animate in */
+.flaggedc-mfp-slide-bottom.mfp-ready .flaggedc-zoom-anim-dialog {
+	opacity: 1;
+	-webkit-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-moz-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-ms-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-o-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+}
+/* animate out */
+.flaggedc-mfp-slide-bottom.mfp-removing .flaggedc-zoom-anim-dialog {
+	opacity: 0;
+
+	-webkit-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-moz-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-ms-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-o-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+}
+/* Dark overlay, start state */
+.flaggedc-mfp-slide-bottom.mfp-bg {
+	opacity: 0;
+
+	-webkit-transition: opacity 0.3s ease-out; 
+	-moz-transition: opacity 0.3s ease-out; 
+	-o-transition: opacity 0.3s ease-out; 
+	transition: opacity 0.3s ease-out;
+}
+/* animate in */
+.flaggedc-mfp-slide-bottom.mfp-ready.mfp-bg {
+	opacity: 0.8;
+}
+/* animate out */
+.flaggedc-mfp-slide-bottom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+/** featherlight styles */
+/* added div for increased specificity */
+.flaggedc-featherlight .featherlight-content {
+	background: transparent;
+	/* width: 100%; */
+}
+.flaggedc-featherlight .featherlight-close-icon { 
+	top: 50px;
+    right: 30px;
+}
+
+.flaggedc-featherlight .flaggedc-form-modal {
+	width: 640px;
+}
+@media only screen and (max-width : 660px) {
+	.flaggedc-featherlight .flaggedc-form-modal {
+		width: 100%;
+	}
+	.flaggedc-featherlight .featherlight-content {
+		width: 100%;
+	}
+}
