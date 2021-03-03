@@ -926,6 +926,10 @@ li.bbp-body div.topic {
     flex-wrap: wrap;
 }
 
+.bbp-reply-header-meta .bbp-author-link {
+    display: block;
+}
+
 .bbp-reply-header-meta .bbp-reply-permalink {
     position: absolute;
     top: -2rem;
@@ -2701,6 +2705,109 @@ select#bp_mymood_mood {
     width: 2em;
 }
 */
+
+/* Report Inappropriate Content ======================================== */
+
+#bbpress-forums .topic .flaggedc-reveal-button,
+#bbpress-forums .reply .flaggedc-reveal-button {
+    position: absolute;
+    top: -2em;
+    right: 0;
+}
+
+.flaggedc-reveal-button {
+    color: var(--danger);
+    opacity: 0;
+    pointer-events: none;
+}
+
+#bbpress-forums .topic:hover .flaggedc-reveal-button,
+#bbpress-forums .reply:hover .flaggedc-reveal-button,
+.post:hover .flaggedc-reveal-button {
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.flaggedc-form-container {
+    position: relative;
+    margin: 1px;
+}
+
+.flaggedc-featherlight .flaggedc-form-modal,
+.flaggedc-reason-container {
+    width: auto;
+}
+
+.flaggedc-form-inside {
+    padding: 0;
+}
+
+.featherlight p {
+    margin: 0;
+}
+
+.flaggedc-validation-errors-description {
+    padding: 1ex 1em;
+    border-color: var(--danger);
+    background-color: transparent;
+    color: var(--danger);
+    text-align: center;
+}
+
+.flaggedc-form-fields textarea {
+    width: 100%;
+    height: auto;
+    min-height: 150px;
+}
+
+.flaggedc-name-email-container,
+.flaggedc-reason-container,
+.flaggedc-description-container,
+.flaggedc-submit-container {
+    margin-top: 0;
+}
+
+.flaggedc-submit-button {
+    width: 100%;
+}
+
+.flaggedc-form-fields .flaggedc-submit-spinner {
+    position: absolute;
+    top: .5em;
+    right: 1em;
+}
+
+.flaggedc-submit-container {
+    position: relative;
+}
+
+.featherlight form {
+    margin-bottom: 0;
+}
+
+.flaggedc-alert-box-success {
+    padding: 1ex 1em;
+    border-color: var(--success);
+    background: transparent;
+    color: var(--success);
+    text-align: center;
+}
+
+.featherlight small {
+    color: var(--danger);
+}
+
+.logged-in .flaggedc-name-email-container {
+    display: none;
+}
+
+.featherlight {
+    cursor: initial;
+}
+
+.featherlight:last-of-type {
+    background: rgba(0,0,0,.2);
+}
 
 /* bbP ranks and badge ======================================== */
 .bur_display,
