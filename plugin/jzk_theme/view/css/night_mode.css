@@ -1,0 +1,42 @@
+:root {
+    --iq-primary: #33aaff;
+    --iq-secondary: #a09e9e;
+    --iq-success: #11d4b4;
+    --iq-warning: #e67e00;
+    --iq-danger: #ff7d66;
+    --iq-info: #c466ff;
+    --iq-dark-title-text: #9ba0bf;
+    --light: var(--iq-dark-box);
+    --dark: var(--iq-dark-body-text);
+}
+
+.badge-light {
+    color: var(--iq-dark-body-text);
+}
+
+details {
+    background: var(--iq-dark-secondary);
+}
+
+.badge-secondary {
+    background-color: var(--iq-dark-secondary) !important;
+}
+
+.input-group .input-group-text {
+    color: var(--iq-dark-body-text);
+}
+
+.text-muted {
+    color: var(--iq-dark-title-text);
+}
+
+.custom-select {
+    border-color: var(--iq-border-dark);
+    background-color: var(--iq-dark-box);
+    color: var(--iq-dark-body-text);
+}
+
+#table_of_contents>ol li a::before,
+#table_of_contents>ol li ol li a::before {
+    color: var(--iq-dark-title-text);
+}

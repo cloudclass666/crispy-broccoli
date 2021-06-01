@@ -1,0 +1,43 @@
+﻿:root {
+    --iq-white: #f2f4ff;
+}
+::selection {
+    background: #1c67a2;
+    color: #ffffff;
+    text-shadow: none;
+}
+.form-control {
+    box-shadow: 16px 16px 16px rgba(29, 36, 56, 0.05) , -16px -16px 16px rgba(255, 255, 255, 0.5) , 6px 6px 6px rgba(29, 36, 56, 0.05) inset, -6px -6px 6px rgba(255, 255, 255, 0.5) inset;
+}
+
+
+.btn-group>.btn:not(:first-child) {
+    box-shadow: 20px 20px 20px rgba(29, 36, 56, 0.05),  6px 6px 6px rgba(29, 36, 56, 0.05);
+}
+
+
+
+.iq-top-navbar .btn {
+    box-shadow: none;
+}
+
+
+.iq-sidebar-menu .iq-menu li.active,.custom-select {box-shadow: 20px 20px 20px rgba(29, 36, 56, 0.05), -20px -20px 20px rgba(255, 255, 255, 0.5), 6px 6px 6px rgba(29, 36, 56, 0.05), -6px -6px 6px rgba(255, 255, 255, 0.5);}
+
+.iq-footer {
+    box-shadow:none
+}
+
+.nav-pills .nav-link.active {box-shadow: 2px 2px 3px rgba(29, 36, 56, 0.05) inset, -2px -2px 3px rgba(255, 255, 255, 0.5) inset, 8px 8px 8px rgba(29, 36, 56, 0.05) inset, -8px -8px 8px rgba(255, 255, 255, 0.5) inset;}
+
+.badge {
+    padding: .3em .6em;
+    font-weight: normal;
+    line-height: 1.3;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.07), -6px -6px 6px rgba(255, 255, 255, 0.7), 2px 2px 2px rgba(0, 0, 0, 0.09), -2px -2px 2px rgba(255, 255, 255, 0.9);
+}
+.breadcrumb.bg-primary .breadcrumb-item+.breadcrumb-item::before { color: #ffffff; }
+
+.nav-tabs .nav-link.active,div#nav_tag_list_div {
+    box-shadow: none;
+}

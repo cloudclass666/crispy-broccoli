@@ -1,0 +1,70 @@
+/*------------- Theme colors ------------*/
+:root {
+  --iq-title-text: #3f414d;
+  --iq-body-text: #777D74;
+  --iq-primary: #50b5ff;
+  --iq-secondary: #a09e9e;
+  --iq-success: #07dfbb;
+  --iq-warning: #ffba68;
+  --iq-danger: #ff9b8a;
+  --iq-info: #d592ff;
+  --iq-dark: #3f414d;
+  --iq-light: #fafafb;
+  --iq-white: #ffffff;
+  --iq-black: #000000;
+  --iq-grey: #e4e6eb;
+  --iq-light-primary: #f5fbff;
+  --iq-light-secondary: #f1f2f1;
+  --iq-light-success: #eefff2;
+  --iq-light-danger: #fff5f4;
+  --iq-light-warning: #fffcf3;
+  --iq-light-info: #eee6f5;
+  --iq-light-dark: #f0efef;
+  --iq-primary-hover: #2aa3fb;
+  --iq-border-light: #f1f1f1;
+  --iq-dark-primary: #29324f;
+  --iq-dark-secondary: rgba(160, 158, 158, 0.2);
+  --iq-dark-success: rgba(73, 240, 211, 0.2);
+  --iq-dark-danger: rgba(255, 155, 138, 0.2);
+  --iq-dark-warning: rgba(255, 186, 104, 0.2);
+  --iq-dark-info: rgba(213, 146, 255, 0.2);
+  --iq-dark-bg: #182039;
+  --iq-dark-box: #1e2745;
+  --iq-dark-body-text: #8c91b6;
+  --iq-dark-title-text: #8c91b6;
+  --iq-border-dark: #252e4b;
+}
+
+/*------------- Standard colors (Override) ------------*/
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: var(--iq-white);
+  --gray: var(--iq-grey);
+  --gray-dark: var(--iq-title-text);
+  --primary: var(--iq-primary);
+  --secondary: var(--iq-secondary);
+  --success: var(--iq-success);
+  --info: var(--iq-info);
+  --warning: var(--iq-warning);
+  --danger: var(--iq-danger);
+  --light: var(--iq-light);
+  --dark: var(--iq-dark);
+}
+
+/*------------- Found more colors ------------*/
+:root {
+  --iq-cyan: #14d2eb;
+  --iq-cobalt-blue: #4652f6;
+  --iq-spring-green: #00d169;
+  --iq-amber: #f58738;
+  --iq-pink: #ff87c5;
+}
